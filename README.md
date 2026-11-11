@@ -50,7 +50,17 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 .\scripts\setup.ps1
 ```
 
-La modification de stratégie ci-dessus ne concerne que la session PowerShell courante; elle ne change pas la stratégie permanente du système. Le script crée l’environnement Python, installe les dépendances, génère les icônes et les ressources locales, puis construit l’extension.
+La modification de stratégie ci-dessus ne concerne que la session PowerShell courante; elle ne change pas la stratégie permanente du système. Le script crée un environnement Python local et installe les dépendances du backend. **Il ne reconstruit pas l’extension** : le dossier précompilé `extension\dist` est inclus dans le projet et prêt à charger. Node.js n’est donc pas nécessaire pour une installation standard.
+
+Ne copiez pas le dossier `.venv` d’un ordinateur à un autre : les environnements virtuels Python sous Windows contiennent des chemins propres à la machine. Si le ZIP contient déjà `.venv`, supprimez ce dossier sur le PC de destination avant l’installation. Le script crée alors un environnement local neuf. Il n’est pas nécessaire d’activer l’environnement manuellement.
+
+Pour supprimer l’environnement copié à la racine du projet, depuis cette racine :
+
+```powershell
+Remove-Item -LiteralPath .venv -Recurse -Force
+```
+
+Cette commande supprime uniquement l’environnement virtuel local du projet. Rouvrez ensuite un terminal VS Code si celui-ci affichait encore l’ancien préfixe `(.venv)`.
 
 Dans une première fenêtre PowerShell (répétez la commande de stratégie si vous venez d’ouvrir cette fenêtre), démarrez l’API :
 
@@ -82,7 +92,7 @@ bash scripts/setup.sh
 bash scripts/run_backend.sh
 ```
 
-Chargez ensuite `extension/dist` dans Chrome via `chrome://extensions`, puis visitez `http://127.0.0.1:8000/demo/`.
+Le script d’installation n’a besoin ni de Node.js ni d’un nouveau build. Chargez `extension/dist` dans Chrome via `chrome://extensions`, puis visitez `http://127.0.0.1:8000/demo/`.
 
 ## Procédure de démonstration
 
@@ -188,7 +198,7 @@ npm run build
 Pop-Location
 ```
 
-Sous Bash, utilisez `PROD=1 bash scripts/build_extension.sh`. Le build de production du backend doit également désactiver les données de test (`DL_ENV=prod` et `DL_ALLOW_TEST_DATA=false`). Un fournisseur automatique externe n’est pas requis pour les traductions présentes dans la mémoire et le glossaire.
+Ou relancez l’installation avec le commutateur `.\scripts\setup.ps1 -BuildExtension`. Ces opérations exigent Node.js et npm. Sous Bash, utilisez `BUILD_EXTENSION=1 bash scripts/setup.sh`. Le build de production du backend doit également désactiver les données de test (`DL_ENV=prod` et `DL_ALLOW_TEST_DATA=false`). Un fournisseur automatique externe n’est pas requis pour les traductions présentes dans la mémoire et le glossaire.
 
 ## Configuration
 
@@ -246,7 +256,9 @@ demo/         Application de démonstration financière fictive
 scripts/      Installation, build, exécution, tests et génération des ressources
 ```
 
-`extension/dist/`, `node_modules/`, les environnements virtuels, l’état local du backend et les résultats de tests sont générés ou locaux; ils ne sont pas nécessaires dans une archive source. Exécutez le script d’installation pour les régénérer.
+`extension/dist/` est le build précompilé inclus pour permettre l’installation sans Node.js ni recompilation. `node_modules/`, les environnements virtuels, l’état local du backend et les résultats de tests sont locaux ou régénérables et ne doivent pas être transmis. Chaque coéquipier doit créer son propre `.venv` avec `.\scripts\setup.ps1`.
+
+Pour préparer une archive à transmettre, incluez le dossier `extension/dist/`, mais excluez `.venv/`, `extension/node_modules/`, `backend/state/`, `extension/test-results/`, les fichiers `.env` et le dossier `.git/`. Un dépôt GitHub inclut également `extension/dist/` afin qu’un téléchargement ou un clonage permette de charger l’extension sans la reconstruire.
 
 ## Limites de validation
 

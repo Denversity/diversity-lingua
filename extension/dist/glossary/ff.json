@@ -1,0 +1,4128 @@
+{
+ "language": "ff",
+ "version": "1.0.0",
+ "entries": [
+  {
+   "id": "ff:PH-0002-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Connectez-vous à votre compte",
+   "translation": "Nastude e konto ma",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0002-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Log in to your account",
+   "translation": "Nastude e konto ma",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0003-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Entrez votre numéro de téléphone",
+   "translation": "Waɗu lamba telefoon ma",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0003-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Enter your phone number",
+   "translation": "Waɗu lamba telefoon ma",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0004-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Entrez votre code PIN",
+   "translation": "Waɗu lamba sirru (PIN) ma",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0004-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Enter your PIN",
+   "translation": "Waɗu lamba sirru (PIN) ma",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0005-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Choisissez une opération",
+   "translation": "Suɓo gollal ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0005-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Choose a transaction",
+   "translation": "Suɓo gollal ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0006-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Envoyer de l'argent",
+   "translation": "Neldude ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0006-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Send money",
+   "translation": "Neldude ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0007-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Retirer de l'argent",
+   "translation": "Ittude ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0007-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Withdraw money",
+   "translation": "Ittude ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0008-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Déposer de l'argent",
+   "translation": "Nastinde ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0008-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Deposit money",
+   "translation": "Nastinde ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0009-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Consulter mon solde",
+   "translation": "Yeewtu luttanoogo ceede am",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0009-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Check my balance",
+   "translation": "Yeewtu luttanoogo ceede am",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0010-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Historique des transactions",
+   "translation": "Tariha golle ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0010-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Transaction history",
+   "translation": "Tariha golle ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0011-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Payer une facture",
+   "translation": "Yoɓude faktiir",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0011-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Pay a bill",
+   "translation": "Yoɓude faktiir",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0012-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Acheter du crédit téléphonique",
+   "translation": "Soodude ceede telefoon",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0012-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Buy airtime",
+   "translation": "Soodude ceede telefoon",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0013-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Mon profil",
+   "translation": "Suudu am e finnde am",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0013-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "My profile",
+   "translation": "Suudu am e finnde am",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0014-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Paramètres",
+   "translation": "Kallidaaɗum",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0014-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Settings",
+   "translation": "Kallidaaɗum",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0015-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Aide et assistance",
+   "translation": "Battoore e wallnde",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0015-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Help and support",
+   "translation": "Battoore e wallnde",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0016-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Confirmer",
+   "translation": "Tabintingol",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0016-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Confirm",
+   "translation": "Tabintingol",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0017-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Annuler",
+   "translation": "Haɗude",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0017-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Cancel",
+   "translation": "Haɗude",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0018-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Continuer",
+   "translation": "Yeeso",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0018-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Continue",
+   "translation": "Yeeso",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0019-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Retour",
+   "translation": "ɓaawo",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0019-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Back",
+   "translation": "ɓaawo",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0020-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Se déconnecter",
+   "translation": "Wurtade",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0020-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Log out",
+   "translation": "Wurtade",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0021-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Entrez le montant à envoyer.",
+   "translation": "Waɗu toɓɓere ceede ɗe njiɗɗa neldude.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0021-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Enter the amount to send.",
+   "translation": "Waɗu toɓɓere ceede ɗe njiɗɗa neldude.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0022-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Entrez le numéro du bénéficiaire.",
+   "translation": "Waɗu lamba telefoon heɓoowo.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0022-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Enter the recipient's number.",
+   "translation": "Waɗu lamba telefoon heɓoowo.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0024-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Confirmez-vous cette transaction ?",
+   "translation": "A ɗon tabintina gollal ngal na?",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0024-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Do you confirm this transaction?",
+   "translation": "A ɗon tabintina gollal ngal na?",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0025-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Choisissez l'agent le plus proche.",
+   "translation": "Suɓo agent ɓurɗo ɓadaade.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0025-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Choose the nearest agent.",
+   "translation": "Suɓo agent ɓurɗo ɓadaade.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0026-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Entrez le code marchand.",
+   "translation": "Waɗu limngal njuulaajo.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0026-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Enter the merchant code.",
+   "translation": "Waɗu limngal njuulaajo.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0028-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Entrez le numéro de la facture.",
+   "translation": "Waɗu lamba faktiir.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0028-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Enter the bill number.",
+   "translation": "Waɗu lamba faktiir.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0029-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Sélectionnez la durée du prêt.",
+   "translation": "Suɓo juutirka wakkati nyamaande.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0029-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Select the loan term.",
+   "translation": "Suɓo juutirka wakkati nyamaande.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0030-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Entrez le montant du prêt souhaité.",
+   "translation": "Waɗu toɓɓere ceede nyamaande ɗe njiɗɗa.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0030-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Enter the loan amount you want.",
+   "translation": "Waɗu toɓɓere ceede nyamaande ɗe njiɗɗa.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0031-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Votre demande de prêt a été envoyée.",
+   "translation": "Toragol nyamaande ma nelaama.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0031-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Your loan application has been submitted.",
+   "translation": "Toragol nyamaande ma nelaama.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0032-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Choisissez le montant à rembourser.",
+   "translation": "Suɓo toɓɓere ceede ɗe njiɗɗa yoɓtugo.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0032-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Choose the amount to repay.",
+   "translation": "Suɓo toɓɓere ceede ɗe njiɗɗa yoɓtugo.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0037-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Choisissez le compte à débiter.",
+   "translation": "Suɓo konto ɗo ittetee ceede.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0037-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Choose the account to debit.",
+   "translation": "Suɓo konto ɗo ittetee ceede.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0038-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Choisissez le compte à créditer.",
+   "translation": "Suɓo konto ɗo ɓeydetee ceede.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0038-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Choose the account to credit.",
+   "translation": "Suɓo konto ɗo ɓeydetee ceede.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0039-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Vérifiez les informations avant de confirmer.",
+   "translation": "Yeewtu kabaaru fuu ko a tabintina.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0039-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Check the details before confirming.",
+   "translation": "Yeewtu kabaaru fuu ko a tabintina.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0040-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Voulez-vous enregistrer ce bénéficiaire ?",
+   "translation": "A ɗon yiɗi resugo heɓoowo o na?",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0040-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Do you want to save this recipient?",
+   "translation": "A ɗon yiɗi resugo heɓoowo o na?",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0041-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Transaction réussie.",
+   "translation": "Gollal yaahi selli.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0041-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Transaction successful.",
+   "translation": "Gollal yaahi selli.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0048-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Votre demande de prêt a été acceptée.",
+   "translation": "Toragol nyamaande ma jaɓama.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0048-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Your loan application has been approved.",
+   "translation": "Toragol nyamaande ma jaɓama.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0049-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Votre demande de prêt a été refusée.",
+   "translation": "Toragol nyamaande ma salaama.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0049-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Your loan application has been declined.",
+   "translation": "Toragol nyamaande ma salaama.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0053-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Votre transaction est en attente.",
+   "translation": "Gollal ma ɗon e pade.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0053-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Your transaction is pending.",
+   "translation": "Gollal ma ɗon e pade.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0054-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Votre transaction a été annulée.",
+   "translation": "Gollal ma haɗaama.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0054-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Your transaction has been cancelled.",
+   "translation": "Gollal ma haɗaama.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0056-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Votre compte a été ouvert avec succès.",
+   "translation": "Konto ma maɓɓitaama no feewi.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0056-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Your account has been opened successfully.",
+   "translation": "Konto ma maɓɓitaama no feewi.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0057-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Votre code PIN a été modifié.",
+   "translation": "Lamba sirru ma waylaama.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0057-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Your PIN has been changed.",
+   "translation": "Lamba sirru ma waylaama.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0058-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Votre reçu est disponible.",
+   "translation": "Talkuru njoɓdi ma ɗon heɓoo.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0058-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Your receipt is available.",
+   "translation": "Talkuru njoɓdi ma ɗon heɓoo.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0061-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Solde insuffisant.",
+   "translation": "Ceede ma yonataa.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0061-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Insufficient balance.",
+   "translation": "Ceede ma yonataa.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0062-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Numéro de téléphone invalide.",
+   "translation": "Lamba telefoon ma wooɗaa.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0062-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Invalid phone number.",
+   "translation": "Lamba telefoon ma wooɗaa.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0064-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Le montant saisi est invalide.",
+   "translation": "Toɓɓere ceede ɗe mbinduɗa wooɗaa.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0064-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "The amount entered is invalid.",
+   "translation": "Toɓɓere ceede ɗe mbinduɗa wooɗaa.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0067-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "La transaction a échoué. Aucun montant n'a été débité.",
+   "translation": "Gollal woofi. Walaa toɓɓere ceede ittaaɗe.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0067-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "The transaction failed. No amount has been debited.",
+   "translation": "Gollal woofi. Walaa toɓɓere ceede ittaaɗe.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0068-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Le bénéficiaire est introuvable.",
+   "translation": "Heɓoowo heɓataake.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0068-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "The recipient could not be found.",
+   "translation": "Heɓoowo heɓataake.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0069-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Le service est temporairement indisponible. Réessayez plus tard.",
+   "translation": "Kuugal ɗon e ɗatal. Huutu caggal seɗɗa.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0069-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "The service is temporarily unavailable. Please try again later.",
+   "translation": "Kuugal ɗon e ɗatal. Huutu caggal seɗɗa.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0070-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Connexion perdue. Vérifiez votre réseau.",
+   "translation": "Jolal magge maayii. Yeewtu enternet ma.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0070-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Connection lost. Check your network.",
+   "translation": "Jolal magge maayii. Yeewtu enternet ma.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0071-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Votre session a expiré. Reconnectez-vous.",
+   "translation": "Waktu ma timmii. Naatu fahin.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0071-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Your session has expired. Please log in again.",
+   "translation": "Waktu ma timmii. Naatu fahin.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0072-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Le code saisi a expiré. Demandez un nouveau code.",
+   "translation": "Lamba ngal mbinduɗa timmii waktu. Ɗaɓɓu lamba kesum.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0072-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "The code you entered has expired. Request a new code.",
+   "translation": "Lamba ngal mbinduɗa timmii waktu. Ɗaɓɓu lamba kesum.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0073-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Votre compte est bloqué. Contactez le service client.",
+   "translation": "Konto ma maɓɓaama. Haala e suudu wallitooɓe.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0073-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Your account is blocked. Contact customer service.",
+   "translation": "Konto ma maɓɓaama. Haala e suudu wallitooɓe.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0074-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Une erreur s'est produite. Veuillez réessayer.",
+   "translation": "Woofere waɗii. Taanu fahin.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0074-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "An error occurred. Please try again.",
+   "translation": "Woofere waɗii. Taanu fahin.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0075-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Cette opération n'est pas autorisée.",
+   "translation": "Gollal ngal ɗon yaafaaka.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0075-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "This operation is not allowed.",
+   "translation": "Gollal ngal ɗon yaafaaka.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0077-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Cette opération est gratuite.",
+   "translation": "Gollal ngal walaa ceede kuugal (bilaasi).",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0077-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "This operation is free of charge.",
+   "translation": "Gollal ngal walaa ceede kuugal (bilaasi).",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0085-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Consultez le tarif complet avant de confirmer.",
+   "translation": "Yeewtu sanoore njoɓdi fuu ko a tabintina.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0085-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "See the full fee schedule before confirming.",
+   "translation": "Yeewtu sanoore njoɓdi fuu ko a tabintina.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0086-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Ne partagez jamais votre code PIN.",
+   "translation": "Taa hokka neɗɗo fuu lamba sirru (PIN) ma.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0086-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Never share your PIN.",
+   "translation": "Taa hokka neɗɗo fuu lamba sirru (PIN) ma.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0087-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Nos agents ne vous demanderont jamais votre code PIN.",
+   "translation": "Gollanɗo amin meeɗataa ɗaɓɓugo limngal sirru ma.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0087-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Our agents will never ask for your PIN.",
+   "translation": "Gollanɗo amin meeɗataa ɗaɓɓugo limngal sirru ma.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0088-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Ne communiquez à personne le code reçu par SMS.",
+   "translation": "Taa hokka neɗɗo fuu lamba ngal a heɓii e SMS.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0088-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Do not give the code received by SMS to anyone.",
+   "translation": "Taa hokka neɗɗo fuu lamba ngal a heɓii e SMS.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0090-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Entrez le code reçu par SMS.",
+   "translation": "Waɗu lamba ngal a heɓii e SMS.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0090-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Enter the code received by SMS.",
+   "translation": "Waɗu lamba ngal a heɓii e SMS.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0092-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Évitez les codes faciles comme 1234.",
+   "translation": "Selo lamba sirru koyngol bana 1234.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0092-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Avoid easy codes such as 1234.",
+   "translation": "Selo lamba sirru koyngol bana 1234.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0093-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Si vous n'êtes pas à l'origine de cette opération, contactez-nous immédiatement.",
+   "translation": "To naa an waɗi gollal ngal, anndinmin jonta-jonta.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0093-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "If you did not make this transaction, contact us immediately.",
+   "translation": "To naa an waɗi gollal ngal, anndinmin jonta-jonta.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0094-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Une connexion inhabituelle a été détectée sur votre compte.",
+   "translation": "Nastol konto gaaɗidiiŋgol tiŋgaama dow konto ma.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0094-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "An unusual login was detected on your account.",
+   "translation": "Nastol konto gaaɗidiiŋgol tiŋgaama dow konto ma.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0095-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Votre pièce d'identité est nécessaire pour vérifier votre identité.",
+   "translation": "Talkuru annditirdu ma ɗon ɗaɓɓee ngam tinndinde an woni moy.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0095-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Your ID document is required to verify your identity.",
+   "translation": "Talkuru annditirdu ma ɗon ɗaɓɓee ngam tinndinde an woni moy.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0097-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Si vous avez perdu votre téléphone ou votre carte SIM, bloquez votre compte immédiatement.",
+   "translation": "To a majjinii telefoon ma naa kaarte SIM ma, maɓɓu konto ma jonta.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0097-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "If you lost your phone or SIM card, block your account immediately.",
+   "translation": "To a majjinii telefoon ma naa kaarte SIM ma, maɓɓu konto ma jonta.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0098-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Vérifiez toujours le nom du bénéficiaire avant d'envoyer de l'argent.",
+   "translation": "Yeewtu innde heɓoowo nde fuu ko a nelda ceede.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0098-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Always check the recipient's name before sending money.",
+   "translation": "Yeewtu innde heɓoowo nde fuu ko a nelda ceede.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0099-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Attention : cette transaction est irréversible.",
+   "translation": "Reene : gollal ngal waawataa ruttiteede.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0099-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Warning: this transaction cannot be reversed.",
+   "translation": "Reene : gollal ngal waawataa ruttiteede.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0100-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Pour votre sécurité, déconnectez-vous après chaque utilisation.",
+   "translation": "Ngam reenaade, wurta e konto ma caggal huutorgol fuu.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0100-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "For your security, log out after each use.",
+   "translation": "Ngam reenaade, wurta e konto ma caggal huutorgol fuu.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0101-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Environnement de test — données fictives, aucune transaction réelle.",
+   "translation": "Nokkuure ndaargal — kabaaru meere, walaa gollal goonga.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0101-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Test environment — fictional data, no real transaction.",
+   "translation": "Nokkuure ndaargal — kabaaru meere, walaa gollal goonga.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0103-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Consultez votre solde et lancez un transfert en toute sécurité.",
+   "translation": "Yeewtu luttanoogo ceede ma e ewtina ceede nder jam.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0103-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Check your balance and start a secure transfer.",
+   "translation": "Yeewtu luttanoogo ceede ma e ewtina ceede nder jam.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0104-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Numéro de compte :",
+   "translation": "Lamba konto :",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0104-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Account number :",
+   "translation": "Lamba konto :",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0105-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Vérifiez toujours le nom et le numéro du bénéficiaire avant de confirmer un transfert.",
+   "translation": "Ndaaru innde e lamba heɓoowo nde fuu ko a tabintina neldugol.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0105-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Always verify the beneficiary name and number before confirming a transfer.",
+   "translation": "Ndaaru innde e lamba heɓoowo nde fuu ko a tabintina neldugol.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0106-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Choisissez le type de transfert et le montant. Les frais sont calculés automatiquement.",
+   "translation": "Suɓo sifa gollal e toɓɓere ceede. Ceede  ɓeydaari ɗon ɗimbee kanko e hoore makko.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0106-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Choose the transfer type and amount. Fees are calculated automatically.",
+   "translation": "Suɓo sifa gollal e toɓɓere ceede. Ceede  ɓeydaari ɗon ɗimbee kanko e hoore makko.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0107-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Transfert instantané et gratuit",
+   "translation": "Neldol jonta-jonta e bilaasi",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0107-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Instant, free transfer",
+   "translation": "Neldol jonta-jonta e bilaasi",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0108-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Renseignez les informations du destinataire. Vérifiez toujours le numéro avant de valider.",
+   "translation": "Windu kabaaru heɓoowo. Ndaaru lamba makko nde fuu ko a tabintina.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0108-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Enter the recipient details. Always verify the number before confirming.",
+   "translation": "Windu kabaaru heɓoowo. Ndaaru lamba makko nde fuu ko a tabintina.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0109-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Ce bénéficiaire n'a jamais été utilisé sur ce compte. Vérifiez le numéro avant de continuer.",
+   "translation": "Heɓoowo o meeɗaa huutoreego dow konto ngo. Ndaaru lamba makko ko a yeesa.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0109-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "This beneficiary has never been used on this account. Verify the number before continuing.",
+   "translation": "Heɓoowo o meeɗaa huutoreego dow konto ngo. Ndaaru lamba makko ko a yeesa.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0110-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "J'ai vérifié le nom et le numéro du bénéficiaire.",
+   "translation": "Mi ndaarii innde e lamba heɓoowo o.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0110-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "I have verified the beneficiary name and phone number.",
+   "translation": "Mi ndaarii innde e lamba heɓoowo o.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0111-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Alerte de sécurité : vérifiez le numéro du bénéficiaire avant de continuer.",
+   "translation": "Jeentingu : ndaaru lamba heɓoowo ko a yeesa.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0111-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Security warning: verify the beneficiary phone number before continuing.",
+   "translation": "Jeentingu : ndaaru lamba heɓoowo ko a yeesa.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0112-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Vérifiez les informations avant de confirmer le transfert.",
+   "translation": "Ndaaru kabaaruji fuu gila a tabintina neldol ceede ɗee.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0112-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Check the details before confirming the transfer.",
+   "translation": "Ndaaru kabaaruji fuu gila a tabintina neldol ceede ɗee.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0113-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Je confirme que les informations ci-dessus sont correctes.",
+   "translation": "Mi ɗon tabintina kabaaru ɗo dow sellaama.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0113-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "I confirm the information above is correct.",
+   "translation": "Mi ɗon tabintina kabaaru ɗo dow sellaama.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0114-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Une erreur est survenue",
+   "translation": "Woofere waɗii",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0114-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "An error occurred",
+   "translation": "Woofere waɗii",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0115-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Vous devez confirmer les informations avant de valider le transfert.",
+   "translation": "A semtii tabintina kabaaru fuu ko a hokka laawol neldol ceede.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0115-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "You must confirm the details before validating the transfer.",
+   "translation": "A semtii tabintina kabaaru fuu ko a hokka laawol neldol ceede.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0116-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Safinum Pay — environnement de démonstration. Ne saisissez aucune donnée personnelle réelle.",
+   "translation": "Safinum Pay — nokkuure hollugo meere. Taa windu kabaaru ma goongaajo ɗoo.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0116-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Safinum Pay — demonstration environment. Do not enter real personal data.",
+   "translation": "Safinum Pay — nokkuure hollugo meere. Taa windu kabaaru ma goongaajo ɗoo.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0117-ff-fr|fr|0",
+   "source_lang": "fr",
+   "source_text": "Votre transfert a été envoyé avec succès.",
+   "translation": "Neldol ceede ma saali djam.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:PH-0117-ff-en|en|0",
+   "source_lang": "en",
+   "source_text": "Your transfer has been sent successfully.",
+   "translation": "Neldol ceede ma saali djam.",
+   "contexts": [],
+   "test_data": false,
+   "origin": "memory"
+  },
+  {
+   "id": "ff:FIN-0001|fr|0",
+   "source_lang": "fr",
+   "source_text": "argent",
+   "translation": "ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0001|en|0",
+   "source_lang": "en",
+   "source_text": "money",
+   "translation": "ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0002|fr|0",
+   "source_lang": "fr",
+   "source_text": "franc CFA (FCFA)",
+   "translation": "FCFA",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0002|en|0",
+   "source_lang": "en",
+   "source_text": "CFA franc (XAF)",
+   "translation": "FCFA",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0003|fr|0",
+   "source_lang": "fr",
+   "source_text": "devise",
+   "translation": "sifa ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0003|en|0",
+   "source_lang": "en",
+   "source_text": "currency",
+   "translation": "sifa ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0004|fr|0",
+   "source_lang": "fr",
+   "source_text": "taux de change",
+   "translation": "santo ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0004|en|0",
+   "source_lang": "en",
+   "source_text": "exchange rate",
+   "translation": "santo ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0005|fr|0",
+   "source_lang": "fr",
+   "source_text": "banque",
+   "translation": "banki",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0005|en|0",
+   "source_lang": "en",
+   "source_text": "bank",
+   "translation": "banki",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0006|fr|0",
+   "source_lang": "fr",
+   "source_text": "agence bancaire",
+   "translation": "suudu banki",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0006|en|0",
+   "source_lang": "en",
+   "source_text": "bank branch",
+   "translation": "suudu banki",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0007|fr|0",
+   "source_lang": "fr",
+   "source_text": "compte",
+   "translation": "konto",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0007|en|0",
+   "source_lang": "en",
+   "source_text": "account",
+   "translation": "konto",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0008|fr|0",
+   "source_lang": "fr",
+   "source_text": "compte courant",
+   "translation": "konto jahol",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0008|en|0",
+   "source_lang": "en",
+   "source_text": "current account",
+   "translation": "konto jahol",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0009|fr|0",
+   "source_lang": "fr",
+   "source_text": "compte d'épargne",
+   "translation": "konto resorde",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0009|en|0",
+   "source_lang": "en",
+   "source_text": "savings account",
+   "translation": "konto resorde",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0010|fr|0",
+   "source_lang": "fr",
+   "source_text": "solde",
+   "translation": "luttanoogo ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0010|en|0",
+   "source_lang": "en",
+   "source_text": "balance",
+   "translation": "luttanoogo ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0011|fr|0",
+   "source_lang": "fr",
+   "source_text": "dépôt",
+   "translation": "nastinde ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0011|en|0",
+   "source_lang": "en",
+   "source_text": "deposit",
+   "translation": "nastinde ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0012|fr|0",
+   "source_lang": "fr",
+   "source_text": "retrait",
+   "translation": "ittude ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0012|en|0",
+   "source_lang": "en",
+   "source_text": "withdrawal",
+   "translation": "ittude ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0013|fr|0",
+   "source_lang": "fr",
+   "source_text": "virement",
+   "translation": "liltugo ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0013|en|0",
+   "source_lang": "en",
+   "source_text": "bank transfer",
+   "translation": "liltugo ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0014|fr|0",
+   "source_lang": "fr",
+   "source_text": "relevé de compte",
+   "translation": "talkuru konto",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0014|en|0",
+   "source_lang": "en",
+   "source_text": "account statement",
+   "translation": "talkuru konto",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0015|fr|0",
+   "source_lang": "fr",
+   "source_text": "carte bancaire",
+   "translation": "kaarte banki",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0015|en|0",
+   "source_lang": "en",
+   "source_text": "bank card",
+   "translation": "kaarte banki",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0016|fr|0",
+   "source_lang": "fr",
+   "source_text": "guichet automatique",
+   "translation": "masin ittirɗo ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0016|en|0",
+   "source_lang": "en",
+   "source_text": "ATM",
+   "translation": "masin ittirɗo ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0017|fr|0",
+   "source_lang": "fr",
+   "source_text": "chèque",
+   "translation": "ceke",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0017|en|0",
+   "source_lang": "en",
+   "source_text": "cheque",
+   "translation": "ceke",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0018|fr|0",
+   "source_lang": "fr",
+   "source_text": "client",
+   "translation": "sooɗoowo",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0018|en|0",
+   "source_lang": "en",
+   "source_text": "customer",
+   "translation": "sooɗoowo",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0019|fr|0",
+   "source_lang": "fr",
+   "source_text": "titulaire du compte",
+   "translation": "jeyɗo konto",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0019|en|0",
+   "source_lang": "en",
+   "source_text": "account holder",
+   "translation": "jeyɗo konto",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0020|fr|0",
+   "source_lang": "fr",
+   "source_text": "Numéro de compte",
+   "translation": "limngal konto",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0020|en|0",
+   "source_lang": "en",
+   "source_text": "Account number",
+   "translation": "limngal konto",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0021|fr|0",
+   "source_lang": "fr",
+   "source_text": "épargne",
+   "translation": "reenude ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0021|en|0",
+   "source_lang": "en",
+   "source_text": "savings",
+   "translation": "reenude ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0022|fr|0",
+   "source_lang": "fr",
+   "source_text": "ouvrir un compte",
+   "translation": "maɓɓitude konto",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0022|en|0",
+   "source_lang": "en",
+   "source_text": "open an account",
+   "translation": "maɓɓitude konto",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0023|fr|0",
+   "source_lang": "fr",
+   "source_text": "fermer un compte",
+   "translation": "uddude konto",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0023|en|0",
+   "source_lang": "en",
+   "source_text": "close an account",
+   "translation": "uddude konto",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0024|fr|0",
+   "source_lang": "fr",
+   "source_text": "conseiller clientèle",
+   "translation": "balloowo kliyanɓe",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0024|en|0",
+   "source_lang": "en",
+   "source_text": "customer advisor",
+   "translation": "balloowo kliyanɓe",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0025|fr|0",
+   "source_lang": "fr",
+   "source_text": "Mobile Money",
+   "translation": "Mobile Money",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0025|en|0",
+   "source_lang": "en",
+   "source_text": "Mobile Money",
+   "translation": "Mobile Money",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0026|fr|0",
+   "source_lang": "fr",
+   "source_text": "portefeuille mobile",
+   "translation": "bootooru ceede telefon",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0026|en|0",
+   "source_lang": "en",
+   "source_text": "mobile wallet",
+   "translation": "bootooru ceede telefon",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0027|fr|0",
+   "source_lang": "fr",
+   "source_text": "agent Mobile Money",
+   "translation": "jahoowo cedee Mobile Money",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0027|en|0",
+   "source_lang": "en",
+   "source_text": "Mobile Money agent",
+   "translation": "jahoowo cedee Mobile Money",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0028|fr|0",
+   "source_lang": "fr",
+   "source_text": "dépôt d'espèces chez un agent",
+   "translation": "nastinde ceede to agent",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0028|en|0",
+   "source_lang": "en",
+   "source_text": "cash-in",
+   "translation": "nastinde ceede to agent",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0029|fr|0",
+   "source_lang": "fr",
+   "source_text": "retrait d'espèces chez un agent",
+   "translation": "ittude ceede to agent",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0029|en|0",
+   "source_lang": "en",
+   "source_text": "cash-out",
+   "translation": "ittude ceede to agent",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0031|fr|0",
+   "source_lang": "fr",
+   "source_text": "recevoir de l'argent",
+   "translation": "jaɓugo ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0031|en|0",
+   "source_lang": "en",
+   "source_text": "receive money",
+   "translation": "jaɓugo ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0032|fr|0",
+   "source_lang": "fr",
+   "source_text": "transfert d'argent",
+   "translation": "neldugo ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0032|en|0",
+   "source_lang": "en",
+   "source_text": "money transfer",
+   "translation": "neldugo ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0033|fr|0",
+   "source_lang": "fr",
+   "source_text": "crédit téléphonique",
+   "translation": "kiredi",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0033|en|0",
+   "source_lang": "en",
+   "source_text": "airtime",
+   "translation": "kiredi",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0034|fr|0",
+   "source_lang": "fr",
+   "source_text": "forfait internet",
+   "translation": "koneksiyon",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0034|en|0",
+   "source_lang": "en",
+   "source_text": "data bundle",
+   "translation": "koneksiyon",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0035|fr|0",
+   "source_lang": "fr",
+   "source_text": "paiement de facture",
+   "translation": "yoɓude faktiir",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0035|en|0",
+   "source_lang": "en",
+   "source_text": "bill payment",
+   "translation": "yoɓude faktiir",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0036|fr|0",
+   "source_lang": "fr",
+   "source_text": "paiement chez un commerçant",
+   "translation": "yoɓude to njuulaajo",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0036|fr|1",
+   "source_lang": "fr",
+   "source_text": "Paiement marchand",
+   "translation": "yoɓude to njuulaajo",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0036|en|0",
+   "source_lang": "en",
+   "source_text": "Merchant payment",
+   "translation": "yoɓude to njuulaajo",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0037|fr|0",
+   "source_lang": "fr",
+   "source_text": "code marchand",
+   "translation": "limngal njuulaajo",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0037|en|0",
+   "source_lang": "en",
+   "source_text": "merchant code",
+   "translation": "limngal njuulaajo",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0038|fr|0",
+   "source_lang": "fr",
+   "source_text": "numéro de téléphone",
+   "translation": "lamba telefoon",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0038|en|0",
+   "source_lang": "en",
+   "source_text": "phone number",
+   "translation": "lamba telefoon",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0039|fr|0",
+   "source_lang": "fr",
+   "source_text": "Bénéficiaire",
+   "translation": "heɓoowo",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0039|en|0",
+   "source_lang": "en",
+   "source_text": "Beneficiary",
+   "translation": "heɓoowo",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0040|fr|0",
+   "source_lang": "fr",
+   "source_text": "expéditeur",
+   "translation": "neldoowo",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0040|en|0",
+   "source_lang": "en",
+   "source_text": "sender",
+   "translation": "neldoowo",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0041|fr|0",
+   "source_lang": "fr",
+   "source_text": "code USSD",
+   "translation": "USSD",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0041|en|0",
+   "source_lang": "en",
+   "source_text": "USSD code",
+   "translation": "USSD",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0042|fr|0",
+   "source_lang": "fr",
+   "source_text": "limite par transaction",
+   "translation": "keerol gollal",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0042|en|0",
+   "source_lang": "en",
+   "source_text": "per-transaction limit",
+   "translation": "keerol gollal",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0043|fr|0",
+   "source_lang": "fr",
+   "source_text": "plafond journalier",
+   "translation": "keerol nyalooma",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0043|en|0",
+   "source_lang": "en",
+   "source_text": "daily limit",
+   "translation": "keerol nyalooma",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0044|fr|0",
+   "source_lang": "fr",
+   "source_text": "solde du portefeuille",
+   "translation": "bootooru ceede telefon",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0044|en|0",
+   "source_lang": "en",
+   "source_text": "wallet balance",
+   "translation": "bootooru ceede telefon",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0045|fr|0",
+   "source_lang": "fr",
+   "source_text": "transaction",
+   "translation": "gollal ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0045|fr|1",
+   "source_lang": "fr",
+   "source_text": "Opération",
+   "translation": "gollal ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0045|en|0",
+   "source_lang": "en",
+   "source_text": "Operation",
+   "translation": "gollal ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0046|fr|0",
+   "source_lang": "fr",
+   "source_text": "montant",
+   "translation": "toɓɓere ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0046|en|0",
+   "source_lang": "en",
+   "source_text": "amount",
+   "translation": "toɓɓere ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0047|fr|0",
+   "source_lang": "fr",
+   "source_text": "référence de transaction",
+   "translation": "limngal ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0047|en|0",
+   "source_lang": "en",
+   "source_text": "transaction reference",
+   "translation": "limngal ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0048|fr|0",
+   "source_lang": "fr",
+   "source_text": "date et heure",
+   "translation": "nyalaade e wakkati",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0048|en|0",
+   "source_lang": "en",
+   "source_text": "date and time",
+   "translation": "nyalaade e wakkati",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0049|fr|0",
+   "source_lang": "fr",
+   "source_text": "reçu",
+   "translation": "talkuru njoɓdi",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0049|en|0",
+   "source_lang": "en",
+   "source_text": "receipt",
+   "translation": "talkuru njoɓdi",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0050|fr|0",
+   "source_lang": "fr",
+   "source_text": "confirmation",
+   "translation": "tabbitinde",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0050|en|0",
+   "source_lang": "en",
+   "source_text": "confirmation",
+   "translation": "tabbitinde",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0051|fr|0",
+   "source_lang": "fr",
+   "source_text": "annulation",
+   "translation": "haɗude",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0051|en|0",
+   "source_lang": "en",
+   "source_text": "cancellation",
+   "translation": "haɗude",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0052|fr|0",
+   "source_lang": "fr",
+   "source_text": "transaction réussie",
+   "translation": "gollal yaahi selli",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0052|en|0",
+   "source_lang": "en",
+   "source_text": "successful transaction",
+   "translation": "gollal yaahi selli",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0053|fr|0",
+   "source_lang": "fr",
+   "source_text": "transaction échouée",
+   "translation": "gollal woofi",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0053|en|0",
+   "source_lang": "en",
+   "source_text": "failed transaction",
+   "translation": "gollal woofi",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0054|fr|0",
+   "source_lang": "fr",
+   "source_text": "transaction en attente",
+   "translation": "gollal ɗon e pade",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0054|en|0",
+   "source_lang": "en",
+   "source_text": "pending transaction",
+   "translation": "gollal ɗon e pade",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0055|fr|0",
+   "source_lang": "fr",
+   "source_text": "remboursement (annulation d'un paiement)",
+   "translation": "yoɓitude ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0055|en|0",
+   "source_lang": "en",
+   "source_text": "refund",
+   "translation": "yoɓitude ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0056|fr|0",
+   "source_lang": "fr",
+   "source_text": "paiement",
+   "translation": "njoɓdi",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0056|en|0",
+   "source_lang": "en",
+   "source_text": "payment",
+   "translation": "njoɓdi",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0057|fr|0",
+   "source_lang": "fr",
+   "source_text": "achat",
+   "translation": "soodugol",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0057|en|0",
+   "source_lang": "en",
+   "source_text": "purchase",
+   "translation": "soodugol",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0058|fr|0",
+   "source_lang": "fr",
+   "source_text": "vente",
+   "translation": "yeeyugol",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0058|en|0",
+   "source_lang": "en",
+   "source_text": "sale",
+   "translation": "yeeyugol",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0060|fr|0",
+   "source_lang": "fr",
+   "source_text": "débit",
+   "translation": "ittol ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0060|en|0",
+   "source_lang": "en",
+   "source_text": "debit",
+   "translation": "ittol ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0061|fr|0",
+   "source_lang": "fr",
+   "source_text": "crédit (d'un compte)",
+   "translation": "ɓeydol ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0061|en|0",
+   "source_lang": "en",
+   "source_text": "credit (to an account)",
+   "translation": "ɓeydol ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0062|fr|0",
+   "source_lang": "fr",
+   "source_text": "acheter",
+   "translation": "soodude",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0062|en|0",
+   "source_lang": "en",
+   "source_text": "to buy",
+   "translation": "soodude",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0063|fr|0",
+   "source_lang": "fr",
+   "source_text": "vendre",
+   "translation": "yeeyude",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0063|en|0",
+   "source_lang": "en",
+   "source_text": "to sell",
+   "translation": "yeeyude",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0064|fr|0",
+   "source_lang": "fr",
+   "source_text": "payer",
+   "translation": "yoɓude",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0064|en|0",
+   "source_lang": "en",
+   "source_text": "to pay",
+   "translation": "yoɓude",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0065|fr|0",
+   "source_lang": "fr",
+   "source_text": "recevoir",
+   "translation": "heɓde ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0065|en|0",
+   "source_lang": "en",
+   "source_text": "to receive",
+   "translation": "heɓde ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0066|fr|0",
+   "source_lang": "fr",
+   "source_text": "envoyer",
+   "translation": "neldude ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0066|en|0",
+   "source_lang": "en",
+   "source_text": "to send",
+   "translation": "neldude ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0067|fr|0",
+   "source_lang": "fr",
+   "source_text": "retirer",
+   "translation": "ittude",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0067|en|0",
+   "source_lang": "en",
+   "source_text": "to withdraw",
+   "translation": "ittude",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0068|fr|0",
+   "source_lang": "fr",
+   "source_text": "déposer",
+   "translation": "nastinde",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0068|en|0",
+   "source_lang": "en",
+   "source_text": "to deposit",
+   "translation": "nastinde",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0069|fr|0",
+   "source_lang": "fr",
+   "source_text": "frais",
+   "translation": "ceede ɓeydaari",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0069|en|0",
+   "source_lang": "en",
+   "source_text": "fee",
+   "translation": "ceede ɓeydaari",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0069|en|1",
+   "source_lang": "en",
+   "source_text": "Fees",
+   "translation": "ceede ɓeydaari",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0070|fr|0",
+   "source_lang": "fr",
+   "source_text": "frais de transaction",
+   "translation": "ceede neldol",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0070|en|0",
+   "source_lang": "en",
+   "source_text": "transaction fee",
+   "translation": "ceede neldol",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0071|fr|0",
+   "source_lang": "fr",
+   "source_text": "frais de retrait",
+   "translation": "ceede ittol",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0071|en|0",
+   "source_lang": "en",
+   "source_text": "withdrawal fee",
+   "translation": "ceede ittol",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0072|fr|0",
+   "source_lang": "fr",
+   "source_text": "frais de tenue de compte",
+   "translation": "ceede marol konto",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0072|en|0",
+   "source_lang": "en",
+   "source_text": "account maintenance fee",
+   "translation": "ceede marol konto",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0073|fr|0",
+   "source_lang": "fr",
+   "source_text": "commission",
+   "translation": "riiba gollil",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0073|en|0",
+   "source_lang": "en",
+   "source_text": "commission",
+   "translation": "riiba gollil",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0074|fr|0",
+   "source_lang": "fr",
+   "source_text": "taxe",
+   "translation": "haraaji",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0074|en|0",
+   "source_lang": "en",
+   "source_text": "tax",
+   "translation": "haraaji",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0075|fr|0",
+   "source_lang": "fr",
+   "source_text": "gratuit",
+   "translation": "bilaasi",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0075|en|0",
+   "source_lang": "en",
+   "source_text": "free",
+   "translation": "bilaasi",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0076|fr|0",
+   "source_lang": "fr",
+   "source_text": "total à payer",
+   "translation": "moɓgal yoɓeteeɗum",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0076|en|0",
+   "source_lang": "en",
+   "source_text": "total to pay",
+   "translation": "moɓgal yoɓeteeɗum",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0077|fr|0",
+   "source_lang": "fr",
+   "source_text": "montant net",
+   "translation": "toɓɓere laaɓnde",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0077|en|0",
+   "source_lang": "en",
+   "source_text": "net amount",
+   "translation": "toɓɓere laaɓnde",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0078|fr|0",
+   "source_lang": "fr",
+   "source_text": "tarif",
+   "translation": "sanoore njoɓdi",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0078|en|0",
+   "source_lang": "en",
+   "source_text": "fee schedule",
+   "translation": "sanoore njoɓdi",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0079|fr|0",
+   "source_lang": "fr",
+   "source_text": "pénalité de retard",
+   "translation": "ceede leetugo",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0079|en|0",
+   "source_lang": "en",
+   "source_text": "late fee",
+   "translation": "ceede leetugo",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0080|fr|0",
+   "source_lang": "fr",
+   "source_text": "prêt",
+   "translation": "nyamaande",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0080|en|0",
+   "source_lang": "en",
+   "source_text": "loan",
+   "translation": "nyamaande",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0081|fr|0",
+   "source_lang": "fr",
+   "source_text": "emprunt",
+   "translation": "nyamaande",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0081|en|0",
+   "source_lang": "en",
+   "source_text": "borrowing",
+   "translation": "nyamaande",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0082|fr|0",
+   "source_lang": "fr",
+   "source_text": "emprunteur",
+   "translation": "nyamoowo",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0082|en|0",
+   "source_lang": "en",
+   "source_text": "borrower",
+   "translation": "nyamoowo",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0083|fr|0",
+   "source_lang": "fr",
+   "source_text": "prêteur",
+   "translation": "nyamnoowo",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0083|en|0",
+   "source_lang": "en",
+   "source_text": "lender",
+   "translation": "nyamnoowo",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0084|fr|0",
+   "source_lang": "fr",
+   "source_text": "intérêt",
+   "translation": "ribaa",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0084|en|0",
+   "source_lang": "en",
+   "source_text": "interest",
+   "translation": "ribaa",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0085|fr|0",
+   "source_lang": "fr",
+   "source_text": "taux d'intérêt",
+   "translation": "toɓɓere ribaa",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0085|en|0",
+   "source_lang": "en",
+   "source_text": "interest rate",
+   "translation": "toɓɓere ribaa",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0086|fr|0",
+   "source_lang": "fr",
+   "source_text": "échéance",
+   "translation": "nyalaade yoɓde",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0086|en|0",
+   "source_lang": "en",
+   "source_text": "due date",
+   "translation": "nyalaade yoɓde",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0087|fr|0",
+   "source_lang": "fr",
+   "source_text": "remboursement (d'un prêt)",
+   "translation": "yoɓitude ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0087|en|0",
+   "source_lang": "en",
+   "source_text": "loan repayment",
+   "translation": "yoɓitude ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0088|fr|0",
+   "source_lang": "fr",
+   "source_text": "mensualité",
+   "translation": "yoɓde kala lewru",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0088|en|0",
+   "source_lang": "en",
+   "source_text": "monthly instalment",
+   "translation": "yoɓde kala lewru",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0089|fr|0",
+   "source_lang": "fr",
+   "source_text": "dette",
+   "translation": "nyamaande",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0089|en|0",
+   "source_lang": "en",
+   "source_text": "debt",
+   "translation": "nyamaande",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0090|fr|0",
+   "source_lang": "fr",
+   "source_text": "retard de paiement",
+   "translation": "leetagol yoɓol",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0090|en|0",
+   "source_lang": "en",
+   "source_text": "late payment",
+   "translation": "leetagol yoɓol",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0091|fr|0",
+   "source_lang": "fr",
+   "source_text": "garantie",
+   "translation": "ranjoraaɗum",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0091|en|0",
+   "source_lang": "en",
+   "source_text": "collateral",
+   "translation": "ranjoraaɗum",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0092|fr|0",
+   "source_lang": "fr",
+   "source_text": "garant",
+   "translation": "daraniido nyamaande",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0092|en|0",
+   "source_lang": "en",
+   "source_text": "guarantor",
+   "translation": "daraniido nyamaande",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0093|fr|0",
+   "source_lang": "fr",
+   "source_text": "durée du prêt",
+   "translation": "juutirka nyamaande",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0093|en|0",
+   "source_lang": "en",
+   "source_text": "loan term",
+   "translation": "juutirka nyamaande",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0094|fr|0",
+   "source_lang": "fr",
+   "source_text": "demande de prêt",
+   "translation": "ɗaɓɓol nyamaande",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0094|en|0",
+   "source_lang": "en",
+   "source_text": "loan application",
+   "translation": "ɗaɓɓol nyamaande",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0095|fr|0",
+   "source_lang": "fr",
+   "source_text": "microcrédit",
+   "translation": "nyamaande pamarde",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0095|en|0",
+   "source_lang": "en",
+   "source_text": "microcredit",
+   "translation": "nyamaande pamarde",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0096|fr|0",
+   "source_lang": "fr",
+   "source_text": "découvert",
+   "translation": "nyamaande konto",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0096|en|0",
+   "source_lang": "en",
+   "source_text": "overdraft",
+   "translation": "nyamaande konto",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0097|fr|0",
+   "source_lang": "fr",
+   "source_text": "tontine",
+   "translation": "adaase",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0097|en|0",
+   "source_lang": "en",
+   "source_text": "tontine (rotating savings group)",
+   "translation": "adaase",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0098|fr|0",
+   "source_lang": "fr",
+   "source_text": "code PIN",
+   "translation": "lambawol sirru",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0098|en|0",
+   "source_lang": "en",
+   "source_text": "PIN",
+   "translation": "lambawol sirru",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0099|fr|0",
+   "source_lang": "fr",
+   "source_text": "mot de passe",
+   "translation": "haala sirru",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0099|en|0",
+   "source_lang": "en",
+   "source_text": "password",
+   "translation": "haala sirru",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0100|fr|0",
+   "source_lang": "fr",
+   "source_text": "code de confirmation à usage unique",
+   "translation": "lamba tabintingol",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0100|en|0",
+   "source_lang": "en",
+   "source_text": "one-time password (OTP)",
+   "translation": "lamba tabintingol",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0101|fr|0",
+   "source_lang": "fr",
+   "source_text": "vérification d'identité",
+   "translation": "tinndingol baawɗo",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0101|en|0",
+   "source_lang": "en",
+   "source_text": "identity verification",
+   "translation": "tinndingol baawɗo",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0102|fr|0",
+   "source_lang": "fr",
+   "source_text": "pièce d'identité",
+   "translation": "talkuru annditirdu",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0102|en|0",
+   "source_lang": "en",
+   "source_text": "ID document",
+   "translation": "talkuru annditirdu",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0103|fr|0",
+   "source_lang": "fr",
+   "source_text": "fraude",
+   "translation": "fenaande",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0103|en|0",
+   "source_lang": "en",
+   "source_text": "fraud",
+   "translation": "fenaande",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0104|fr|0",
+   "source_lang": "fr",
+   "source_text": "arnaque",
+   "translation": "janfa",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0104|en|0",
+   "source_lang": "en",
+   "source_text": "scam",
+   "translation": "janfa",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0105|fr|0",
+   "source_lang": "fr",
+   "source_text": "compte bloqué",
+   "translation": "konto maɓɓaangol",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0105|en|0",
+   "source_lang": "en",
+   "source_text": "blocked account",
+   "translation": "konto maɓɓaangol",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0106|fr|0",
+   "source_lang": "fr",
+   "source_text": "carte SIM perdue ou volée",
+   "translation": "kaarte SIM majjuɗum",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0106|en|0",
+   "source_lang": "en",
+   "source_text": "lost or stolen SIM card",
+   "translation": "kaarte SIM majjuɗum",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0107|fr|0",
+   "source_lang": "fr",
+   "source_text": "signaler un problème",
+   "translation": "anndinde fitina",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0107|en|0",
+   "source_lang": "en",
+   "source_text": "report a problem",
+   "translation": "anndinde fitina",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0108|fr|0",
+   "source_lang": "fr",
+   "source_text": "service client",
+   "translation": "suudu wallitooɓe",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0108|en|0",
+   "source_lang": "en",
+   "source_text": "customer service",
+   "translation": "suudu wallitooɓe",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0109|fr|0",
+   "source_lang": "fr",
+   "source_text": "notification",
+   "translation": "habaru",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0109|en|0",
+   "source_lang": "en",
+   "source_text": "notification",
+   "translation": "habaru",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0110|fr|0",
+   "source_lang": "fr",
+   "source_text": "session expirée",
+   "translation": "waktu timmii",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0110|en|0",
+   "source_lang": "en",
+   "source_text": "session expired",
+   "translation": "waktu timmii",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0111|fr|0",
+   "source_lang": "fr",
+   "source_text": "connexion",
+   "translation": "naatude",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0111|en|0",
+   "source_lang": "en",
+   "source_text": "log in",
+   "translation": "naatude",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0112|fr|0",
+   "source_lang": "fr",
+   "source_text": "déconnexion",
+   "translation": "wurtude",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0113|fr|0",
+   "source_lang": "fr",
+   "source_text": "Protocole de test",
+   "translation": "Daawe ndaargal",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0113|en|0",
+   "source_lang": "en",
+   "source_text": "Test protocol",
+   "translation": "Daawe ndaargal",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0114|fr|0",
+   "source_lang": "fr",
+   "source_text": "Retour au hackathon",
+   "translation": "Ruttugo to hackathon",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0114|en|0",
+   "source_lang": "en",
+   "source_text": "Back to hackathon",
+   "translation": "Ruttugo to hackathon",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0115|fr|0",
+   "source_lang": "fr",
+   "source_text": "Banque en ligne",
+   "translation": "Banki dow enternet",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0115|en|0",
+   "source_lang": "en",
+   "source_text": "Online banking",
+   "translation": "Banki dow enternet",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0116|fr|0",
+   "source_lang": "fr",
+   "source_text": "Récapitulatif",
+   "translation": "Mboortol golle",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0116|en|0",
+   "source_lang": "en",
+   "source_text": "Summary",
+   "translation": "Mboortol golle",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0117|fr|0",
+   "source_lang": "fr",
+   "source_text": "VOTRE COMPTE",
+   "translation": "KONTO MA",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0117|en|0",
+   "source_lang": "en",
+   "source_text": "YOUR ACCOUNT",
+   "translation": "KONTO MA",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0118|fr|0",
+   "source_lang": "fr",
+   "source_text": "SOLDE DISPONIBLE",
+   "translation": "CEEDEE LUTTIIƊE",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0118|en|0",
+   "source_lang": "en",
+   "source_text": "AVAILABLE BALANCE",
+   "translation": "CEEDEE LUTTIIƊE",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0119|fr|0",
+   "source_lang": "fr",
+   "source_text": "Effectuer un transfert",
+   "translation": "Neldude ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0119|en|0",
+   "source_lang": "en",
+   "source_text": "Make a transfer",
+   "translation": "Neldude ceede",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0120|fr|0",
+   "source_lang": "fr",
+   "source_text": "Consulter les frais",
+   "translation": "Ndaara njoɓdi ndii",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0120|en|0",
+   "source_lang": "en",
+   "source_text": "View fees",
+   "translation": "Ndaara njoɓdi ndii",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0121|fr|0",
+   "source_lang": "fr",
+   "source_text": "TRANSACTIONS RÉCENTES",
+   "translation": "GOLLE CEEDE KESI",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0121|en|0",
+   "source_lang": "en",
+   "source_text": "RECENT TRANSACTIONS",
+   "translation": "GOLLE CEEDE KESI",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0123|fr|0",
+   "source_lang": "fr",
+   "source_text": "Salaire reçu",
+   "translation": "Njoɓdi lewru heɓaama",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0123|en|0",
+   "source_lang": "en",
+   "source_text": "Salary received",
+   "translation": "Njoɓdi lewru heɓaama",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0124|fr|0",
+   "source_lang": "fr",
+   "source_text": "Transfert reçu",
+   "translation": "Ceede nelaaɗe heɓaama",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0124|en|0",
+   "source_lang": "en",
+   "source_text": "Transfer received",
+   "translation": "Ceede nelaaɗe heɓaama",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0125|fr|0",
+   "source_lang": "fr",
+   "source_text": "Facture électricité",
+   "translation": "Faktiir kuran",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0125|en|0",
+   "source_lang": "en",
+   "source_text": "Electricity bill",
+   "translation": "Faktiir kuran",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0126|fr|0",
+   "source_lang": "fr",
+   "source_text": "Sécurité",
+   "translation": "Jam / Suutoore",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0126|en|0",
+   "source_lang": "en",
+   "source_text": "Security",
+   "translation": "Jam / Suutoore",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0127|fr|0",
+   "source_lang": "fr",
+   "source_text": "Connexion sécurisée",
+   "translation": "Nastol kisngol",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0127|en|0",
+   "source_lang": "en",
+   "source_text": "Secure connection",
+   "translation": "Nastol kisngol",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0128|fr|0",
+   "source_lang": "fr",
+   "source_text": "FRAIS DE TRANSFERT",
+   "translation": "CEEDE NELDOL",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0128|en|0",
+   "source_lang": "en",
+   "source_text": "TRANSFER FEES",
+   "translation": "CEEDE NELDOL",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0129|fr|0",
+   "source_lang": "fr",
+   "source_text": "TYPE D'OPÉRATION",
+   "translation": "SIFA GOLLAL",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0129|en|0",
+   "source_lang": "en",
+   "source_text": "OPERATION TYPE",
+   "translation": "SIFA GOLLAL",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0130|fr|0",
+   "source_lang": "fr",
+   "source_text": "Compte Safinum",
+   "translation": "Konto Safinum",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0130|en|0",
+   "source_lang": "en",
+   "source_text": "Safinum account",
+   "translation": "Konto Safinum",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0131|fr|0",
+   "source_lang": "fr",
+   "source_text": "MONTANT À ENVOYER",
+   "translation": "CEEDE NELDETEEƊE",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0131|en|0",
+   "source_lang": "en",
+   "source_text": "AMOUNT TO SEND",
+   "translation": "CEEDE NELDETEEƊE",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0132|fr|0",
+   "source_lang": "fr",
+   "source_text": "Total à débiter",
+   "translation": "Kawtal itteteeɗum",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0132|en|0",
+   "source_lang": "en",
+   "source_text": "Total to debit",
+   "translation": "Kawtal itteteeɗum",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0133|fr|0",
+   "source_lang": "fr",
+   "source_text": "Solde après opération",
+   "translation": "ceede keddiɗe",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0133|en|0",
+   "source_lang": "en",
+   "source_text": "Balance after transfer",
+   "translation": "ceede keddiɗe",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0134|fr|0",
+   "source_lang": "fr",
+   "source_text": "NOM DU BÉNÉFICIAIRE",
+   "translation": "INNDE HEƁOOWO",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0134|en|0",
+   "source_lang": "en",
+   "source_text": "BENEFICIARY NAME",
+   "translation": "INNDE HEƁOOWO",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0135|fr|0",
+   "source_lang": "fr",
+   "source_text": "MOTIF DU TRANSFERT",
+   "translation": "SABAABU NELDOL",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0135|en|0",
+   "source_lang": "en",
+   "source_text": "TRANSFER REASON",
+   "translation": "SABAABU NELDOL",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0136|fr|0",
+   "source_lang": "fr",
+   "source_text": "Paiement de services",
+   "translation": "Njoɓdi kuugal",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0136|en|0",
+   "source_lang": "en",
+   "source_text": "Service payment",
+   "translation": "Njoɓdi kuugal",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0137|fr|0",
+   "source_lang": "fr",
+   "source_text": "NOTE (OPTIONNEL)",
+   "translation": "KONNGOL (TO A YIƊI)",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0137|en|0",
+   "source_lang": "en",
+   "source_text": "NOTE (OPTIONAL)",
+   "translation": "KONNGOL (TO A YIƊI)",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0138|fr|0",
+   "source_lang": "fr",
+   "source_text": "Alerte de sécurité",
+   "translation": "Jeentingu",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0138|en|0",
+   "source_lang": "en",
+   "source_text": "Security warning",
+   "translation": "Jeentingu",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0140|fr|0",
+   "source_lang": "fr",
+   "source_text": "Total débité",
+   "translation": "Kawtal ittaangal",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0140|en|0",
+   "source_lang": "en",
+   "source_text": "Total debited",
+   "translation": "Kawtal ittaangal",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0141|fr|0",
+   "source_lang": "fr",
+   "source_text": "Téléphone",
+   "translation": "Telefon",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0141|en|0",
+   "source_lang": "en",
+   "source_text": "Phone",
+   "translation": "Telefon",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0142|fr|0",
+   "source_lang": "fr",
+   "source_text": "Référence",
+   "translation": "Lamba annditirgal",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0142|en|0",
+   "source_lang": "en",
+   "source_text": "Reference",
+   "translation": "Lamba annditirgal",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0144|fr|0",
+   "source_lang": "fr",
+   "source_text": "Modifier",
+   "translation": "Waylutugo",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0144|en|0",
+   "source_lang": "en",
+   "source_text": "Edit",
+   "translation": "Waylutugo",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0145|fr|0",
+   "source_lang": "fr",
+   "source_text": "Confirmer le transfert",
+   "translation": "Tabintina neldol",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0145|en|0",
+   "source_lang": "en",
+   "source_text": "Confirm transfer",
+   "translation": "Tabintina neldol",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0146|fr|0",
+   "source_lang": "fr",
+   "source_text": "Transfert effectué",
+   "translation": "Neldol ceede timmii",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0146|en|0",
+   "source_lang": "en",
+   "source_text": "Transfer completed",
+   "translation": "Neldol ceede timmii",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0147|fr|0",
+   "source_lang": "fr",
+   "source_text": "Statut",
+   "translation": "Sifa gollal",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0147|en|0",
+   "source_lang": "en",
+   "source_text": "Status",
+   "translation": "Sifa gollal",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0148|fr|0",
+   "source_lang": "fr",
+   "source_text": "Succès",
+   "translation": "Saali",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0148|en|0",
+   "source_lang": "en",
+   "source_text": "Success",
+   "translation": "Saali",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0149|fr|0",
+   "source_lang": "fr",
+   "source_text": "Nouveau transfert",
+   "translation": "Neldol kesol",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0149|en|0",
+   "source_lang": "en",
+   "source_text": "New transfer",
+   "translation": "Neldol kesol",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0150|fr|0",
+   "source_lang": "fr",
+   "source_text": "Autre banque",
+   "translation": "Banki feere",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0150|en|0",
+   "source_lang": "en",
+   "source_text": "Other bank",
+   "translation": "Banki feere",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  }
+ ]
+}

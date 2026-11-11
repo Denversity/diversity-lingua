@@ -5,7 +5,6 @@ __pycache__/
 .venv/
 node_modules/
 extension/test-results/
-extension/dist/
 backend/state/
 *.pem
 *.key

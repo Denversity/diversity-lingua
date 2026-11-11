@@ -1,0 +1,19 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Diversity Lingua — Paramètres</title><link rel="stylesheet" href="options.css"></head>
+<body class="options dl-root"><main class="opt">
+<header><h1>Paramètres</h1><p class="lead">Diversity Lingua — les services financiers, compris par tous.</p></header>
+<section class="dl-card"><h2>Serveur de traduction</h2>
+  <label class="lbl" for="url">Adresse du serveur</label><input id="url" class="dl-field" type="url" autocomplete="off">
+  <p class="help">HTTPS obligatoire hors localhost.</p>
+  <label class="lbl" for="token">Jeton d'accès (facultatif)</label><input id="token" class="dl-field" type="password" autocomplete="off">
+  <p class="help">Jeton d'accès à NOTRE serveur. Les clés des moteurs de traduction restent sur le serveur, jamais dans l'extension.</p></section>
+<section class="dl-card"><h2>Affichage</h2>
+  <label class="lbl" for="marks">Repères de fiabilité dans la page</label>
+  <select id="marks" class="dl-field"><option value="unvalidated">Souligner les traductions non vérifiées (recommandé)</option><option value="all">Souligner aussi les traductions vérifiées</option><option value="none">Aucun repère</option></select>
+  <p class="help">Les repères n'ajoutent aucun style ni attribut aux éléments du site.</p>
+  <label class="check"><input id="badge" type="checkbox"> Afficher la puce Diversity Lingua sur la page</label>
+  <label class="check"><input id="attrs" type="checkbox"> Traduire aussi les aides de saisie et libellés d'accessibilité (placeholder, title, aria-label, alt)</label>
+  <label class="check"><input id="local" type="checkbox"> Utiliser le glossaire local (fonctionne hors ligne)</label></section>
+<div class="actions"><button id="save" class="dl-btn dl-btn--primary">Enregistrer</button><button id="test" class="dl-btn dl-btn--secondary">Tester la connexion</button></div>
+<div id="msg" role="status"></div>
+</main><script src="options.js"></script></body></html>
