@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fixture — ressources linguistiques réelles</title>
+<style>
+  body { font-family: Georgia, "Times New Roman", serif; margin: 0; background: #f4efe6; color: #1c2a33; }
+  main { max-width: 760px; margin: 24px auto; padding: 0 16px; }
+  h1 { font-size: 26px; color: #0a4d8c; letter-spacing: .3px; }
+  .card { background: #fff; border: 2px solid #0a4d8c; border-radius: 14px; padding: 18px; margin: 14px 0; box-shadow: 0 3px 0 #0a4d8c33; }
+  button { font: 600 15px Arial, sans-serif; color: #fff; background: #c2410c; border: 0; border-radius: 22px; padding: 10px 20px; margin: 4px 6px 4px 0; cursor: pointer; }
+  button.secondary { background: #475569; }
+  label { display: block; font: 14px Arial, sans-serif; margin: 10px 0 4px; }
+  input { font: 15px monospace; padding: 8px 10px; border: 1px solid #94a3b8; border-radius: 6px; width: 60%; }
+  .warn { color: #9a3412; border-left: 5px solid #ea580c; padding: 6px 10px; background: #fff7ed; }
+  .amount { font: 700 22px Arial, sans-serif; color: #166534; }
+  #notifications { min-height: 24px; }
+  .toast { background: #14532d; color: #fff; padding: 8px 12px; border-radius: 8px; margin: 6px 0; font: 14px Arial, sans-serif; }
+</style>
+</head>
+<body>
+<main>
+  <h1 id="title">Choisissez une opération</h1>
+  <p id="welcome">Bienvenue, Amina</p>
+
+  <section class="card" id="menu">
+    <button id="b-send" type="button">Envoyer de l'argent</button>
+    <button id="b-balance" type="button">Consulter mon solde</button>
+    <button id="b-history" class="secondary" type="button">Historique des transactions</button>
+    <button id="b-count" class="secondary" type="button" onclick="document.body.dataset.clicks = String(+(document.body.dataset.clicks||0) + 1)">Continuer</button>
+  </section>
+
+  <section class="card" id="form">
+    <label for="amt" id="l-amt">Entrez le montant à envoyer.</label>
+    <input id="amt" type="text" value="5000" placeholder="Entrez le numéro du bénéficiaire.">
+    <label for="pin" id="l-pin">Entrez votre code PIN</label>
+    <input id="pin" type="password" value="4821">
+    <p class="warn" id="warn">Ne partagez jamais votre code PIN.</p>
+  </section>
+
+  <section class="card" id="summary">
+    <p id="sum-send">Vous allez envoyer 5 000 FCFA à 677 12 34 56.</p>
+    <p class="amount" id="sum-total">Total débité : 5 150 FCFA</p>
+    <p id="sum-unknown">Texte totalement inconnu qui ne figure dans aucune ressource.</p>
+    <button id="b-ok" type="button">Confirmer</button>
+    <button id="b-cancel" class="secondary" type="button">Annuler</button>
+  </section>
+
+  <section class="card" id="en" lang="en">
+    <p id="en-send">Send money</p>
+    <p id="en-sum">You are about to send 12,500 FCFA to 677123456.</p>
+  </section>
+
+  <div id="notifications" aria-live="polite"></div>
+</main>
+</body>
+</html>

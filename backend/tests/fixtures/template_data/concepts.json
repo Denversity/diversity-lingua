@@ -1,0 +1,908 @@
+{
+  "schema_version": 1,
+  "note": "Explications rédigées en langage simple dans les langues SOURCES (fr/en). Statut: brouillon, à relire par un expert en services financiers. Elles ne contiennent aucune traduction en langue camerounaise. Les exemples utilisent des montants fictifs.",
+  "concepts": [
+    {
+      "id": "balance",
+      "topics": [
+        "balance"
+      ],
+      "terms": {
+        "fr": [
+          "solde",
+          "solde disponible"
+        ],
+        "en": [
+          "balance",
+          "available balance"
+        ]
+      },
+      "definition": {
+        "fr": "Le solde est l'argent qu'il vous reste sur votre compte et que vous pouvez utiliser maintenant.",
+        "en": "The balance is the money left in your account that you can use right now."
+      },
+      "reviewed": false,
+      "example": {
+        "fr": "Si votre solde disponible est de 25 000 FCFA, vous pouvez dépenser jusqu'à 25 000 FCFA, frais compris.",
+        "en": "If your available balance is 25,000 FCFA, you can spend up to 25,000 FCFA, fees included."
+      }
+    },
+    {
+      "id": "transfer",
+      "topics": [
+        "transfer"
+      ],
+      "terms": {
+        "fr": [
+          "transfert d'argent",
+          "envoi d'argent",
+          "transfert"
+        ],
+        "en": [
+          "money transfer",
+          "send money",
+          "transfer"
+        ]
+      },
+      "definition": {
+        "fr": "Un transfert, c'est envoyer de l'argent de votre compte vers le compte ou le numéro d'une autre personne.",
+        "en": "A transfer means sending money from your account to another person's account or number."
+      },
+      "reviewed": false,
+      "example": {
+        "fr": "Vous envoyez 10 000 FCFA à votre frère : l'argent quitte votre compte et arrive sur le sien.",
+        "en": "You send 10,000 FCFA to your brother: the money leaves your account and reaches his."
+      }
+    },
+    {
+      "id": "fees",
+      "topics": [
+        "fees"
+      ],
+      "terms": {
+        "fr": [
+          "frais",
+          "frais de transaction",
+          "commission"
+        ],
+        "en": [
+          "fees",
+          "transaction fee",
+          "commission"
+        ]
+      },
+      "definition": {
+        "fr": "Les frais sont la somme que le service garde pour faire l'opération. Ils s'ajoutent souvent au montant que vous envoyez.",
+        "en": "Fees are the amount the service keeps for carrying out the operation. They are often added to the amount you send."
+      },
+      "reviewed": false,
+      "example": {
+        "fr": "Pour envoyer 10 000 FCFA, les frais sont de 100 FCFA : votre compte est débité de 10 100 FCFA.",
+        "en": "To send 10,000 FCFA, the fee is 100 FCFA: your account is debited 10,100 FCFA."
+      }
+    },
+    {
+      "id": "recipient",
+      "topics": [
+        "transfer"
+      ],
+      "terms": {
+        "fr": [
+          "destinataire",
+          "bénéficiaire"
+        ],
+        "en": [
+          "recipient",
+          "beneficiary"
+        ]
+      },
+      "definition": {
+        "fr": "Le destinataire est la personne qui doit recevoir l'argent.",
+        "en": "The recipient is the person who is supposed to receive the money."
+      },
+      "reviewed": false,
+      "example": {
+        "fr": "Avant de confirmer, vérifiez que le numéro du destinataire est bien celui de votre proche.",
+        "en": "Before confirming, check that the recipient's number is really your relative's."
+      }
+    },
+    {
+      "id": "sender",
+      "topics": [
+        "receive"
+      ],
+      "terms": {
+        "fr": [
+          "expéditeur"
+        ],
+        "en": [
+          "sender"
+        ]
+      },
+      "definition": {
+        "fr": "L'expéditeur est la personne qui envoie l'argent.",
+        "en": "The sender is the person who sends the money."
+      },
+      "reviewed": false,
+      "example": {
+        "fr": "Quand vous recevez de l'argent, le nom de l'expéditeur s'affiche dans la notification.",
+        "en": "When you receive money, the sender's name appears in the notification."
+      }
+    },
+    {
+      "id": "pin",
+      "topics": [
+        "security"
+      ],
+      "terms": {
+        "fr": [
+          "code pin",
+          "code secret",
+          "pin"
+        ],
+        "en": [
+          "pin",
+          "pin code",
+          "secret code"
+        ]
+      },
+      "definition": {
+        "fr": "Le code PIN est votre code secret personnel. Ne le dites jamais à personne, même à un agent ou à un employé du service.",
+        "en": "Your PIN is your personal secret code. Never tell it to anyone, not even an agent or a service employee."
+      },
+      "reviewed": false,
+      "example": {
+        "fr": "Un agent vous demande votre code PIN « pour vérifier » : refusez. Personne n'a le droit de le demander.",
+        "en": "An agent asks for your PIN \"to check\": refuse. Nobody is allowed to ask for it."
+      }
+    },
+    {
+      "id": "otp",
+      "topics": [
+        "security"
+      ],
+      "terms": {
+        "fr": [
+          "code de vérification",
+          "code otp",
+          "otp"
+        ],
+        "en": [
+          "verification code",
+          "otp",
+          "one-time password"
+        ]
+      },
+      "definition": {
+        "fr": "L'OTP est un code qui ne marche qu'une seule fois pour confirmer que c'est bien vous. Ne le partagez jamais.",
+        "en": "An OTP is a code that works only once to confirm that it is really you. Never share it."
+      },
+      "reviewed": false,
+      "example": {
+        "fr": "Vous recevez un code par SMS pour confirmer un paiement : saisissez-le seulement sur l'écran du service.",
+        "en": "You get a code by SMS to confirm a payment: type it only on the service's own screen."
+      }
+    },
+    {
+      "id": "transaction",
+      "topics": [
+        "history"
+      ],
+      "terms": {
+        "fr": [
+          "transaction",
+          "opération"
+        ],
+        "en": [
+          "transaction",
+          "operation"
+        ]
+      },
+      "definition": {
+        "fr": "Une transaction est une opération d'argent : envoi, réception, paiement, dépôt ou retrait.",
+        "en": "A transaction is any money operation: sending, receiving, paying, depositing or withdrawing."
+      },
+      "reviewed": false,
+      "example": {
+        "fr": "Envoyer 5 000 FCFA, payer une facture ou retirer de l'argent sont trois transactions.",
+        "en": "Sending 5,000 FCFA, paying a bill or withdrawing cash are three transactions."
+      }
+    },
+    {
+      "id": "failed_transaction",
+      "topics": [
+        "error"
+      ],
+      "terms": {
+        "fr": [
+          "transaction échouée",
+          "échec de la transaction",
+          "opération échouée"
+        ],
+        "en": [
+          "failed transaction",
+          "transaction failed"
+        ]
+      },
+      "definition": {
+        "fr": "Une transaction échouée veut dire que l'opération n'a pas été terminée. Vérifiez votre solde et votre historique avant de recommencer, pour éviter de payer deux fois.",
+        "en": "A failed transaction means the operation was not completed. Check your balance and history before trying again, to avoid paying twice."
+      },
+      "reviewed": false,
+      "example": {
+        "fr": "Votre paiement affiche « échec » : regardez d'abord l'historique pour voir si l'argent a été débité.",
+        "en": "Your payment shows \"failed\": first look at the history to see whether the money was debited."
+      }
+    },
+    {
+      "id": "insufficient_balance",
+      "topics": [
+        "error",
+        "balance"
+      ],
+      "terms": {
+        "fr": [
+          "solde insuffisant"
+        ],
+        "en": [
+          "insufficient balance",
+          "insufficient funds"
+        ]
+      },
+      "definition": {
+        "fr": "Solde insuffisant veut dire qu'il n'y a pas assez d'argent sur le compte pour faire cette opération et payer les frais.",
+        "en": "Insufficient balance means there is not enough money in the account to make this operation and pay the fees."
+      },
+      "reviewed": false,
+      "example": {
+        "fr": "Votre solde est de 5 000 FCFA et vous envoyez 5 000 FCFA avec 100 FCFA de frais : il manque 100 FCFA.",
+        "en": "Your balance is 5,000 FCFA and you send 5,000 FCFA with a 100 FCFA fee: you are 100 FCFA short."
+      }
+    },
+    {
+      "id": "deposit",
+      "topics": [
+        "deposit"
+      ],
+      "terms": {
+        "fr": [
+          "dépôt",
+          "dépôt d'argent"
+        ],
+        "en": [
+          "deposit",
+          "cash in"
+        ]
+      },
+      "definition": {
+        "fr": "Un dépôt, c'est mettre de l'argent sur votre compte, par exemple chez un agent.",
+        "en": "A deposit means putting money into your account, for example at an agent."
+      },
+      "reviewed": false,
+      "example": {
+        "fr": "Vous donnez 20 000 FCFA en espèces à un agent : ils sont ajoutés à votre solde.",
+        "en": "You give an agent 20,000 FCFA in cash: it is added to your balance."
+      }
+    },
+    {
+      "id": "withdrawal",
+      "topics": [
+        "withdrawal"
+      ],
+      "terms": {
+        "fr": [
+          "retrait",
+          "retrait d'argent"
+        ],
+        "en": [
+          "withdrawal",
+          "cash out"
+        ]
+      },
+      "definition": {
+        "fr": "Un retrait, c'est reprendre de l'argent de votre compte pour le recevoir en espèces.",
+        "en": "A withdrawal means taking money out of your account to receive it in cash."
+      },
+      "reviewed": false,
+      "example": {
+        "fr": "Vous retirez 15 000 FCFA chez un agent : votre solde diminue de 15 000 FCFA, plus les frais éventuels.",
+        "en": "You withdraw 15,000 FCFA at an agent: your balance goes down by 15,000 FCFA, plus any fees."
+      }
+    },
+    {
+      "id": "merchant_payment",
+      "topics": [
+        "payment"
+      ],
+      "terms": {
+        "fr": [
+          "paiement marchand",
+          "payer un marchand"
+        ],
+        "en": [
+          "merchant payment",
+          "pay a merchant"
+        ]
+      },
+      "definition": {
+        "fr": "Le paiement marchand sert à payer un commerçant directement avec votre compte, sans espèces.",
+        "en": "A merchant payment is used to pay a shopkeeper directly from your account, without cash."
+      },
+      "reviewed": false,
+      "example": {
+        "fr": "À la pharmacie, vous payez 3 500 FCFA avec le numéro marchand affiché, sans sortir d'espèces.",
+        "en": "At the pharmacy you pay 3,500 FCFA using the displayed merchant number, with no cash."
+      }
+    },
+    {
+      "id": "agent",
+      "topics": [
+        "deposit",
+        "withdrawal"
+      ],
+      "terms": {
+        "fr": [
+          "agent",
+          "point de service"
+        ],
+        "en": [
+          "agent",
+          "service point"
+        ]
+      },
+      "definition": {
+        "fr": "Un agent est une personne ou une boutique autorisée par le service pour faire des dépôts et des retraits.",
+        "en": "An agent is a person or shop authorised by the service to handle deposits and withdrawals."
+      },
+      "reviewed": false,
+      "example": {
+        "fr": "Pour déposer de l'argent, allez chez un agent agréé reconnaissable à son affichage officiel.",
+        "en": "To deposit money, go to an authorised agent recognisable by official signage."
+      }
+    },
+    {
+      "id": "account",
+      "topics": [
+        "balance"
+      ],
+      "terms": {
+        "fr": [
+          "compte",
+          "numéro de compte"
+        ],
+        "en": [
+          "account",
+          "account number"
+        ]
+      },
+      "definition": {
+        "fr": "Le compte est l'endroit où votre argent est gardé et suivi par le service.",
+        "en": "The account is where your money is kept and tracked by the service."
+      },
+      "reviewed": false,
+      "example": {
+        "fr": "Votre compte garde votre argent : chaque envoi ou paiement le fait varier.",
+        "en": "Your account keeps your money: every transfer or payment changes it."
+      }
+    },
+    {
+      "id": "reference",
+      "topics": [
+        "history"
+      ],
+      "terms": {
+        "fr": [
+          "référence",
+          "numéro de référence",
+          "identifiant de transaction"
+        ],
+        "en": [
+          "reference",
+          "reference number",
+          "transaction id"
+        ]
+      },
+      "definition": {
+        "fr": "La référence est le numéro unique d'une opération. Gardez-le pour retrouver l'opération ou pour une réclamation.",
+        "en": "The reference is the unique number of an operation. Keep it to find the operation or to make a complaint."
+      },
+      "reviewed": false,
+      "example": {
+        "fr": "Notez la référence de l'opération : elle permet de retrouver un paiement en cas de problème.",
+        "en": "Write down the operation's reference: it lets you trace a payment if something goes wrong."
+      }
+    },
+    {
+      "id": "limit",
+      "topics": [
+        "transfer"
+      ],
+      "terms": {
+        "fr": [
+          "plafond",
+          "limite journalière",
+          "limite"
+        ],
+        "en": [
+          "limit",
+          "daily limit"
+        ]
+      },
+      "definition": {
+        "fr": "Le plafond est le montant maximum que vous pouvez envoyer ou retirer sur une période, par exemple par jour.",
+        "en": "The limit is the maximum amount you can send or withdraw over a period, for example per day."
+      },
+      "reviewed": false,
+      "example": {
+        "fr": "Si la limite journalière est de 200 000 FCFA, vous ne pouvez pas envoyer davantage aujourd'hui.",
+        "en": "If the daily limit is 200,000 FCFA, you cannot send more today."
+      }
+    },
+    {
+      "id": "exchange_rate",
+      "topics": [
+        "transfer"
+      ],
+      "terms": {
+        "fr": [
+          "taux de change"
+        ],
+        "en": [
+          "exchange rate"
+        ]
+      },
+      "definition": {
+        "fr": "Le taux de change dit combien vaut une monnaie par rapport à une autre quand on change de l'argent.",
+        "en": "The exchange rate tells how much one currency is worth compared with another when money is converted."
+      },
+      "reviewed": false,
+      "example": {
+        "fr": "Si 1 € vaut 655 FCFA, 10 € changés vous donnent 6 550 FCFA.",
+        "en": "If 1 € is worth 655 FCFA, changing 10 € gives you 6,550 FCFA."
+      }
+    },
+    {
+      "id": "interest",
+      "topics": [
+        "loan"
+      ],
+      "terms": {
+        "fr": [
+          "intérêt",
+          "intérêts",
+          "taux d'intérêt"
+        ],
+        "en": [
+          "interest",
+          "interest rate"
+        ]
+      },
+      "definition": {
+        "fr": "L'intérêt est la somme qu'on paie en plus pour un crédit, ou qu'on gagne en plus sur une épargne.",
+        "en": "Interest is the extra amount paid on a loan, or earned on savings."
+      },
+      "reviewed": false,
+      "example": {
+        "fr": "Pour un crédit de 100 000 FCFA à 2 % par mois, l'intérêt du premier mois est de 2 000 FCFA.",
+        "en": "For a 100,000 FCFA loan at 2% a month, the first month's interest is 2,000 FCFA."
+      }
+    },
+    {
+      "id": "loan",
+      "topics": [
+        "loan"
+      ],
+      "terms": {
+        "fr": [
+          "crédit",
+          "prêt",
+          "microcrédit"
+        ],
+        "en": [
+          "loan",
+          "credit",
+          "microloan"
+        ]
+      },
+      "definition": {
+        "fr": "Un crédit est de l'argent prêté que vous devez rendre plus tard, avec des frais ou des intérêts.",
+        "en": "A loan is money lent to you that you must pay back later, with fees or interest."
+      },
+      "reviewed": false,
+      "example": {
+        "fr": "Vous empruntez 50 000 FCFA aujourd'hui et vous les rendez, avec les frais, dans les semaines qui suivent.",
+        "en": "You borrow 50,000 FCFA today and pay it back, with fees, over the following weeks."
+      }
+    },
+    {
+      "id": "repayment",
+      "topics": [
+        "loan"
+      ],
+      "terms": {
+        "fr": [
+          "remboursement",
+          "échéance"
+        ],
+        "en": [
+          "repayment",
+          "due date",
+          "instalment"
+        ]
+      },
+      "definition": {
+        "fr": "Le remboursement est l'argent que vous rendez pour un crédit, à des dates fixées.",
+        "en": "Repayment is the money you give back for a loan, on set dates."
+      },
+      "reviewed": false,
+      "example": {
+        "fr": "Si l'échéance est le 5 du mois, le remboursement doit être fait au plus tard ce jour-là.",
+        "en": "If the due date is the 5th, the repayment must be made by that day at the latest."
+      }
+    },
+    {
+      "id": "savings",
+      "topics": [
+        "loan"
+      ],
+      "terms": {
+        "fr": [
+          "épargne",
+          "compte d'épargne"
+        ],
+        "en": [
+          "savings",
+          "savings account"
+        ]
+      },
+      "definition": {
+        "fr": "L'épargne est l'argent que vous mettez de côté pour plus tard.",
+        "en": "Savings is money you set aside for later."
+      },
+      "reviewed": false,
+      "example": {
+        "fr": "Mettre 2 000 FCFA de côté chaque semaine, c'est de l'épargne.",
+        "en": "Putting 2,000 FCFA aside every week is savings."
+      }
+    },
+    {
+      "id": "confirmation",
+      "topics": [
+        "transfer"
+      ],
+      "terms": {
+        "fr": [
+          "confirmation",
+          "confirmer"
+        ],
+        "en": [
+          "confirmation",
+          "confirm"
+        ]
+      },
+      "definition": {
+        "fr": "Confirmer veut dire « oui, je suis d'accord » : après cela, l'opération part et il peut être difficile de l'annuler.",
+        "en": "Confirming means saying \"yes, I agree\": after that the operation goes through and may be hard to cancel."
+      },
+      "reviewed": false,
+      "example": {
+        "fr": "Avant de confirmer un envoi, relisez le montant, les frais et le numéro : ensuite c'est difficile d'annuler.",
+        "en": "Before confirming a transfer, re-read the amount, fees and number: afterwards it is hard to cancel."
+      }
+    },
+    {
+      "id": "pending",
+      "topics": [
+        "history"
+      ],
+      "terms": {
+        "fr": [
+          "en attente",
+          "opération en cours"
+        ],
+        "en": [
+          "pending",
+          "in progress"
+        ]
+      },
+      "definition": {
+        "fr": "En attente veut dire que l'opération n'est pas encore terminée. Attendez avant de recommencer.",
+        "en": "Pending means the operation is not finished yet. Wait before trying again."
+      },
+      "reviewed": false,
+      "example": {
+        "fr": "Un envoi « en attente » n'est pas terminé : patientez avant de recommencer.",
+        "en": "A \"pending\" transfer is not finished: wait before trying again."
+      }
+    },
+    {
+      "id": "reversal",
+      "topics": [
+        "error"
+      ],
+      "terms": {
+        "fr": [
+          "annulation",
+          "remboursement automatique",
+          "remboursée"
+        ],
+        "en": [
+          "reversal",
+          "refund",
+          "refunded"
+        ]
+      },
+      "definition": {
+        "fr": "Quand une opération échoue, l'argent débité peut vous être rendu automatiquement : c'est une annulation ou un remboursement.",
+        "en": "When an operation fails, the money taken from you can be returned automatically: this is a reversal or refund."
+      },
+      "reviewed": false,
+      "example": {
+        "fr": "Un envoi échoué débité à tort peut être remboursé automatiquement sous 24 heures.",
+        "en": "A failed transfer wrongly debited can be refunded automatically within 24 hours."
+      }
+    },
+    {
+      "id": "scam_warning",
+      "topics": [
+        "security"
+      ],
+      "terms": {
+        "fr": [
+          "arnaque",
+          "fraude"
+        ],
+        "en": [
+          "scam",
+          "fraud"
+        ]
+      },
+      "definition": {
+        "fr": "Une arnaque, c'est quand quelqu'un vous trompe pour prendre votre argent ou votre code secret. Le service ne vous demandera jamais votre PIN.",
+        "en": "A scam is when someone tricks you to take your money or secret code. The service will never ask for your PIN."
+      },
+      "reviewed": false,
+      "example": {
+        "fr": "Un message promet un gain si vous envoyez d'abord 5 000 FCFA : c'est une arnaque.",
+        "en": "A message promises a prize if you first send 5,000 FCFA: it is a scam."
+      }
+    },
+    {
+      "id": "notification",
+      "topics": [
+        "history"
+      ],
+      "terms": {
+        "fr": [
+          "notification",
+          "alerte"
+        ],
+        "en": [
+          "notification",
+          "alert"
+        ]
+      },
+      "definition": {
+        "fr": "Une notification est un message qui vous informe d'une opération sur votre compte.",
+        "en": "A notification is a message that informs you of an operation on your account."
+      },
+      "reviewed": false,
+      "example": {
+        "fr": "Après chaque paiement, une notification vous indique le montant et la référence.",
+        "en": "After each payment, a notification tells you the amount and the reference."
+      }
+    }
+  ],
+  "ui_phrases": [
+    {
+      "fr": "Envoyer de l'argent",
+      "en": "Send money",
+      "contexts": [
+        "button",
+        "transfer"
+      ]
+    },
+    {
+      "fr": "Recevoir de l'argent",
+      "en": "Receive money",
+      "contexts": [
+        "button",
+        "receive"
+      ]
+    },
+    {
+      "fr": "Payer un marchand",
+      "en": "Pay a merchant",
+      "contexts": [
+        "button",
+        "payment"
+      ]
+    },
+    {
+      "fr": "Tableau de bord",
+      "en": "Dashboard",
+      "contexts": [
+        "menu",
+        "heading"
+      ]
+    },
+    {
+      "fr": "Historique",
+      "en": "History",
+      "contexts": [
+        "menu",
+        "heading",
+        "history"
+      ]
+    },
+    {
+      "fr": "Notifications",
+      "en": "Notifications",
+      "contexts": [
+        "menu",
+        "heading"
+      ]
+    },
+    {
+      "fr": "Solde disponible",
+      "en": "Available balance",
+      "contexts": [
+        "label",
+        "balance"
+      ]
+    },
+    {
+      "fr": "Montant",
+      "en": "Amount",
+      "contexts": [
+        "label"
+      ]
+    },
+    {
+      "fr": "Numéro du destinataire",
+      "en": "Recipient number",
+      "contexts": [
+        "label",
+        "transfer"
+      ]
+    },
+    {
+      "fr": "Code PIN",
+      "en": "PIN code",
+      "contexts": [
+        "label",
+        "security"
+      ]
+    },
+    {
+      "fr": "Confirmer",
+      "en": "Confirm",
+      "contexts": [
+        "button"
+      ]
+    },
+    {
+      "fr": "Annuler",
+      "en": "Cancel",
+      "contexts": [
+        "button"
+      ]
+    },
+    {
+      "fr": "Retour",
+      "en": "Back",
+      "contexts": [
+        "button"
+      ]
+    },
+    {
+      "fr": "Valider",
+      "en": "Submit",
+      "contexts": [
+        "button"
+      ]
+    },
+    {
+      "fr": "Frais de transaction",
+      "en": "Transaction fee",
+      "contexts": [
+        "label",
+        "fees"
+      ]
+    },
+    {
+      "fr": "Total à débiter",
+      "en": "Total to be debited",
+      "contexts": [
+        "label",
+        "fees"
+      ]
+    },
+    {
+      "fr": "Transaction réussie",
+      "en": "Transaction successful",
+      "contexts": [
+        "notification"
+      ]
+    },
+    {
+      "fr": "Transaction échouée",
+      "en": "Transaction failed",
+      "contexts": [
+        "notification",
+        "error"
+      ]
+    },
+    {
+      "fr": "Solde insuffisant",
+      "en": "Insufficient balance",
+      "contexts": [
+        "notification",
+        "error"
+      ]
+    },
+    {
+      "fr": "Réessayer",
+      "en": "Try again",
+      "contexts": [
+        "button"
+      ]
+    },
+    {
+      "fr": "Déconnexion",
+      "en": "Log out",
+      "contexts": [
+        "menu"
+      ]
+    },
+    {
+      "fr": "Aide",
+      "en": "Help",
+      "contexts": [
+        "menu"
+      ]
+    },
+    {
+      "fr": "Date",
+      "en": "Date",
+      "contexts": [
+        "table_header"
+      ]
+    },
+    {
+      "fr": "Statut",
+      "en": "Status",
+      "contexts": [
+        "table_header"
+      ]
+    },
+    {
+      "fr": "Référence",
+      "en": "Reference",
+      "contexts": [
+        "table_header"
+      ]
+    },
+    {
+      "fr": "Réussie",
+      "en": "Successful",
+      "contexts": [
+        "table_cell"
+      ]
+    },
+    {
+      "fr": "Échouée",
+      "en": "Failed",
+      "contexts": [
+        "table_cell"
+      ]
+    },
+    {
+      "fr": "En attente",
+      "en": "Pending",
+      "contexts": [
+        "table_cell"
+      ]
+    }
+  ]
+}

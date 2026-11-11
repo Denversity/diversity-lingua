@@ -1,0 +1,48 @@
+{
+  "schema": "diversity-lingua/language-profile",
+  "schema_version": "1.0.0",
+  "meta": {
+    "language": "ff",
+    "variety": "adamawa",
+    "source_languages": [
+      "fr",
+      "en"
+    ],
+    "dataset_version": "AAAA.MM.N",
+    "fixture": false,
+    "provenance": {
+      "author": "Nom du responsable linguistique",
+      "organization": "Organisation",
+      "method": "native_speaker",
+      "date": "AAAA-MM-JJ"
+    }
+  },
+  "language": {
+    "code": "ff",
+    "name": "Fulfulde",
+    "native_name": null,
+    "variety": "adamawa",
+    "iso639_3": null,
+    "script": "Latn",
+    "orthography": {
+      "description": null,
+      "alphabet": [],
+      "special_characters": [],
+      "rules": []
+    },
+    "language_register": null,
+    "number_format": {
+      "decimal_separator": null,
+      "thousands_separator": null,
+      "currency_position": null
+    },
+    "style_guide": {
+      "title": null,
+      "version": null,
+      "document_path": null
+    },
+    "availability": "awaiting_validation",
+    "machine_translation": "allowed",
+    "notes": null
+  }
+}

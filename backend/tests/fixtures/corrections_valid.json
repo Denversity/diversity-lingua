@@ -1,0 +1,36 @@
+{
+  "schema": "diversity-lingua/corrections",
+  "schema_version": "1.0.0",
+  "meta": {
+    "language": "ff",
+    "variety": "adamawa",
+    "source_languages": [
+      "fr",
+      "en"
+    ],
+    "dataset_version": "fx-1",
+    "fixture": true,
+    "provenance": {
+      "organization": "FIXTURE TECHNIQUE",
+      "method": "technical_fixture",
+      "notes": "Données fictives : aucune valeur linguistique"
+    }
+  },
+  "corrections": [
+    {
+      "correction_id": "fxr.0001",
+      "target_ref": {
+        "kind": "glossary",
+        "concept_id": "fx.alpha",
+        "target_id": "fx.alpha~t1"
+      },
+      "previous": "[FIXTURE] alpha",
+      "corrected": "[FIXTURE] alpha-corrigé",
+      "category": "orthography",
+      "reason": "fixture",
+      "decided_by": "fixture-validator",
+      "decided_at": "2026-02-01T00:00:00+00:00",
+      "status": "accepted"
+    }
+  ]
+}

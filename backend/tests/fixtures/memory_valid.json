@@ -1,0 +1,64 @@
+{
+  "schema": "diversity-lingua/translation-memory",
+  "schema_version": "1.0.0",
+  "meta": {
+    "language": "ff",
+    "variety": "adamawa",
+    "source_languages": [
+      "fr",
+      "en"
+    ],
+    "dataset_version": "fx-1",
+    "fixture": true,
+    "provenance": {
+      "organization": "FIXTURE TECHNIQUE",
+      "method": "technical_fixture",
+      "notes": "Données fictives : aucune valeur linguistique"
+    }
+  },
+  "segments": [
+    {
+      "segment_id": "fxm.0001",
+      "concept_id": "fx.alpha",
+      "source": {
+        "lang": "fr",
+        "text": "Montant {{P0}} reçu"
+      },
+      "contexts": [
+        "paragraph"
+      ],
+      "targets": [
+        {
+          "contexts": [],
+          "preferred": "[FIXTURE] reçu {{P0}}",
+          "accepted": [],
+          "status": "approved",
+          "version": 1,
+          "target_id": "fxm.0001~t1",
+          "validation": {
+            "validator_id": "fixture-validator",
+            "validated_at": "2026-01-01T00:00:00+00:00",
+            "method": "technical_fixture"
+          }
+        }
+      ]
+    },
+    {
+      "segment_id": "fxm.0002",
+      "source": {
+        "lang": "en",
+        "text": "Amount {{P0}} received"
+      },
+      "targets": [
+        {
+          "contexts": [],
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation",
+          "version": 1,
+          "target_id": "fxm.0002~t1"
+        }
+      ]
+    }
+  ]
+}

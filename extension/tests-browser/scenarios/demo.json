@@ -1,0 +1,18 @@
+{
+  "note": "Scénario de la démo FICTIVE du dépôt (demo/) — sert à éprouver la sonde, ce n'est PAS Safinum Pay.",
+  "dir": "../../../demo", "page": "index.html",
+  "steps": [
+    {"label": "FR · solde", "clicks": [["#l-fr"], ["[data-view=dash]"]]},
+    {"label": "FR · historique", "clicks": [["#l-fr"], ["[data-view=history]"]]},
+    {"label": "FR · envoi", "clicks": [["#l-fr"], ["[data-view=send]"]]},
+    {"label": "FR · paiement", "clicks": [["#l-fr"], ["[data-view=pay]"]]},
+    {"label": "FR · réception", "clicks": [["#l-fr"], ["[data-view=receive]"]]},
+    {"label": "FR · notifications", "clicks": [["#l-fr"], ["[data-view=notifs]"]]},
+    {"label": "EN · balance", "clicks": [["#l-en"], ["[data-view=dash]"]]},
+    {"label": "EN · history", "clicks": [["#l-en"], ["[data-view=history]"]]},
+    {"label": "EN · send", "clicks": [["#l-en"], ["[data-view=send]"]]},
+    {"label": "EN · pay", "clicks": [["#l-en"], ["[data-view=pay]"]]},
+    {"label": "EN · receive", "clicks": [["#l-en"], ["[data-view=receive]"]]},
+    {"label": "EN · notifications", "clicks": [["#l-en"], ["[data-view=notifs]"]]}
+  ]
+}

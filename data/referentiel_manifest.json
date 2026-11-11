@@ -1,0 +1,30 @@
+{
+  "imports": [
+    {
+      "import_id": "20261109T092821-d02400",
+      "label": "import glossary safinum_glossary_v1.json",
+      "at": "2026-11-09T09:28:21+00:00",
+      "doc_type": "glossary",
+      "dataset_version": "1.0.0",
+      "language": "ff",
+      "added": 146,
+      "updated": 0,
+      "protected": 0,
+      "conflicts": 0,
+      "mode": "strict"
+    },
+    {
+      "import_id": "20261109T092821-4bc2fb",
+      "label": "import translation-memory safinum_translation_memory_v1.json",
+      "at": "2026-11-09T09:28:21+00:00",
+      "doc_type": "translation-memory",
+      "dataset_version": "1.0.0",
+      "language": "ff",
+      "added": 234,
+      "updated": 0,
+      "protected": 0,
+      "conflicts": 0,
+      "mode": "strict"
+    }
+  ]
+}

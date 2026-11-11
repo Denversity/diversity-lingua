@@ -1,0 +1,21 @@
+{
+  "schema": "diversity-lingua/translation-memory",
+  "schema_version": "1.0.0",
+  "meta": {
+    "language": "ff",
+    "variety": "adamawa",
+    "source_languages": [
+      "fr",
+      "en"
+    ],
+    "dataset_version": "0.2.0-template",
+    "fixture": false,
+    "provenance": {
+      "organization": "TEAM DIVERSITY (équipe technique)",
+      "method": "import",
+      "notes": "Gabarit : termes sources uniquement. Aucune traduction fournie par l'équipe technique."
+    },
+    "notes": "À remplacer/compléter par le glossaire du responsable linguistique (voir README.md)."
+  },
+  "segments": []
+}

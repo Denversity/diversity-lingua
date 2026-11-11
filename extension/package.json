@@ -1,0 +1,26 @@
+{
+  "name": "diversity-lingua-extension",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:browser": "node tests-browser/preservation.mjs && node tests-browser/dynamic.mjs && node tests-browser/ui-screens.mjs",
+    "screens": "node tests-browser/popup-screens.mjs && node tests-browser/preservation.mjs test-results/screenshots && node tests-browser/ui-screens.mjs",
+    "build:prod": "node build.mjs"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.270",
+    "@types/node": "^26.6.6",
+    "esbuild": "^0.24.0",
+    "jsdom": "^25.0.0",
+    "puppeteer-core": "^25.16.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  },
+  "optionalDependencies": {
+    "@sparticuz/chromium": "^153.0.0"
+  }
+}

@@ -1,0 +1,762 @@
+{
+  "file": "/home/claude/work/res/adapted/safinum_glossary_v1.json",
+  "doc_type": "glossary",
+  "accepted": true,
+  "dry_run": false,
+  "mode": "strict",
+  "import_id": "20261109T092821-d02400",
+  "dataset_version": "1.0.0",
+  "language": "ff",
+  "counts": {
+    "items_in_file": 146,
+    "items_valid": 146,
+    "kept_absent_from_file": 45
+  },
+  "status_counts": {
+    "approved": 146,
+    "pending_validation": 3
+  },
+  "added": [
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0001",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0002",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0003",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0004",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0005",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0006",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0007",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0008",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0009",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0010",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0011",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0012",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0013",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0014",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0015",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0016",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0017",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0018",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0019",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0020",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0021",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0022",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0023",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0024",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0025",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0026",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0027",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0028",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0029",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0030",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0031",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0032",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0033",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0034",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0035",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0036",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0037",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0038",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0039",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0040",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0041",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0042",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0043",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0044",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0045",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0046",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0047",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0048",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0049",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0050",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0051",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0052",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0053",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0054",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0055",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0056",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0057",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0058",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0059",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0060",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0061",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0062",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0063",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0064",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0065",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0066",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0067",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0068",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0069",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0070",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0071",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0072",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0073",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0074",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0075",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0076",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0077",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0078",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0079",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0080",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0081",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0082",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0083",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0084",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0085",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0086",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0087",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0088",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0089",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0090",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0091",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0092",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0093",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0094",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0095",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0096",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0097",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0098",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0099",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0100",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0101",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0102",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0103",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0104",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0105",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0106",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0107",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0108",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0109",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0110",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0111",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0112",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0113",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0114",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0115",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0116",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0117",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0118",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0119",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0120",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0121",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0123",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0124",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0125",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0126",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0127",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0128",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0129",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0130",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0131",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0132",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0133",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0134",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0135",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0136",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0137",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0138",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0140",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0141",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0142",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0144",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0145",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0146",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0147",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0148",
+      "code": "new_item"
+    },
+    {
+      "kind": "glossary",
+      "id": "fin_fin_0149",
+      "code": "new_item"
+    }
+  ],
+  "updated": [],
+  "unchanged": 0,
+  "protected": [],
+  "conflicts": [],
+  "skipped": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "written_files": [
+    "glossary/ff.json"
+  ]
+}

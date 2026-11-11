@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "source_languages": [
+    {
+      "code": "fr",
+      "name": "Français"
+    },
+    {
+      "code": "en",
+      "name": "English"
+    }
+  ],
+  "target_languages": [
+    {
+      "code": "ff",
+      "name": "Fulfulde",
+      "native_name": "Fulfulde",
+      "iso639_3": "fub",
+      "variety": "Fulfulde de l'Adamaoua (Cameroun)",
+      "script": "Latn",
+      "orthography": "À fournir par le profil linguistique (conventions d'écriture, caractères spéciaux)",
+      "availability": "partial",
+      "machine_translation": "allowed",
+      "low_resource": true,
+      "nllb_code": null,
+      "notes": "Couverture partielle : glossaire (146 concepts approuvés, 3 variantes en attente d arbitrage) et mémoire de traduction (234 segments approuvés, 117 phrases fr/en) fournis par l expert linguistique (2026-11-06). Tout texte hors de ces ressources reste indisponible ; les sorties automatiques éventuelles sont toujours marquées NON VALIDÉES. Code ISO 639-3 (fub) et orthographe à confirmer par le profil linguistique (non livré).",
+      "variety_code": "adamawa"
+    },
+    {
+      "code": "xx-test",
+      "name": "Langue de test (pseudo-localisation)",
+      "native_name": "TEST",
+      "iso639_3": null,
+      "variety": "Aucune — ce n'est PAS une langue réelle",
+      "script": "Latn",
+      "orthography": "Préfixe [TEST] ajouté au texte source — sert uniquement à vérifier la chaîne technique",
+      "availability": "test_only",
+      "machine_translation": "allowed",
+      "low_resource": false,
+      "nllb_code": null,
+      "notes": "Langue technique pour démos et tests. Ne contient aucune traduction linguistique."
+    }
+  ]
+}

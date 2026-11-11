@@ -1,0 +1,42 @@
+{
+  "schema": "diversity-lingua/corpus",
+  "schema_version": "1.0.0",
+  "meta": {
+    "language": "ff",
+    "variety": "adamawa",
+    "source_languages": [
+      "fr",
+      "en"
+    ],
+    "dataset_version": "AAAA.MM.N",
+    "fixture": false,
+    "provenance": {
+      "author": "Nom du responsable linguistique",
+      "organization": "Organisation",
+      "method": "native_speaker",
+      "date": "AAAA-MM-JJ"
+    }
+  },
+  "corpus_id": "corpus-financier-v1",
+  "items": [
+    {
+      "item_id": "c.0001",
+      "source": {
+        "lang": "fr",
+        "text": "Votre transaction de {{P0}} a échoué."
+      },
+      "contexts": [
+        "error",
+        "notification"
+      ],
+      "concept_ids": [],
+      "language_register": "neutre",
+      "split": "dev",
+      "reference": {
+        "text": null,
+        "accepted": [],
+        "status": "pending_validation"
+      }
+    }
+  ]
+}

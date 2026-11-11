@@ -1,0 +1,54 @@
+{
+  "schema": "diversity-lingua/benchmark",
+  "schema_version": "1.0.0",
+  "meta": {
+    "language": "ff",
+    "variety": "adamawa",
+    "source_languages": [
+      "fr",
+      "en"
+    ],
+    "dataset_version": "AAAA.MM.N",
+    "fixture": false,
+    "provenance": {
+      "author": "Nom du responsable linguistique",
+      "organization": "Organisation",
+      "method": "native_speaker",
+      "date": "AAAA-MM-JJ"
+    }
+  },
+  "benchmark_id": "bench-financier-v1",
+  "scoring": {
+    "metrics": [
+      "coverage",
+      "exact_match",
+      "chrf",
+      "preservation",
+      "status_match"
+    ],
+    "pass_threshold": 0.8
+  },
+  "items": [
+    {
+      "item_id": "b.0001",
+      "source": {
+        "lang": "fr",
+        "text": "Vous avez envoyé 5 000 FCFA au 677 12 34 56."
+      },
+      "category": "amount",
+      "difficulty": "easy",
+      "must_preserve": [
+        "5 000 FCFA",
+        "677 12 34 56"
+      ],
+      "expected_status": "approved",
+      "references": [
+        {
+          "text": null,
+          "accepted": [],
+          "status": "pending_validation"
+        }
+      ]
+    }
+  ]
+}

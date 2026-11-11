@@ -1,0 +1,459 @@
+{
+  "$defs": {
+    "BenchmarkItem": {
+      "additionalProperties": false,
+      "properties": {
+        "category": {
+          "description": "amount, fees, error, security, menu…",
+          "minLength": 1,
+          "title": "Category",
+          "type": "string"
+        },
+        "concept_ids": {
+          "default": [],
+          "items": {
+            "maxLength": 120,
+            "pattern": "^[a-z][a-z0-9_]*(?:[.\\-][a-z0-9_]+)*$",
+            "type": "string"
+          },
+          "title": "Concept Ids",
+          "type": "array"
+        },
+        "contexts": {
+          "default": [],
+          "items": {
+            "type": "string"
+          },
+          "title": "Contexts",
+          "type": "array"
+        },
+        "difficulty": {
+          "anyOf": [
+            {
+              "enum": [
+                "easy",
+                "medium",
+                "hard"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Difficulty"
+        },
+        "expected_status": {
+          "anyOf": [
+            {
+              "enum": [
+                "approved",
+                "automatic",
+                "unavailable"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Expected Status"
+        },
+        "item_id": {
+          "maxLength": 160,
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:~|\\-]*$",
+          "title": "Item Id",
+          "type": "string"
+        },
+        "must_preserve": {
+          "default": [],
+          "description": "Chaînes qui doivent apparaître telles quelles dans la sortie (montants, numéros…)",
+          "items": {
+            "maxLength": 2000,
+            "minLength": 1,
+            "type": "string"
+          },
+          "title": "Must Preserve",
+          "type": "array"
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Notes"
+        },
+        "references": {
+          "default": [],
+          "items": {
+            "$ref": "#/$defs/Reference"
+          },
+          "title": "References",
+          "type": "array"
+        },
+        "source": {
+          "$ref": "#/$defs/SourceText"
+        }
+      },
+      "required": [
+        "item_id",
+        "source",
+        "category"
+      ],
+      "title": "BenchmarkItem",
+      "type": "object"
+    },
+    "Meta": {
+      "additionalProperties": false,
+      "properties": {
+        "created_at": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Created At"
+        },
+        "dataset_version": {
+          "description": "ex. 2026.11.0",
+          "maxLength": 40,
+          "minLength": 1,
+          "title": "Dataset Version",
+          "type": "string"
+        },
+        "fixture": {
+          "default": false,
+          "description": "True = données techniques fictives, refusées en production",
+          "title": "Fixture",
+          "type": "boolean"
+        },
+        "language": {
+          "description": "Langue cible (ff)",
+          "pattern": "^[a-z]{2,3}(?:-[a-z0-9]+)?$",
+          "title": "Language",
+          "type": "string"
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Notes"
+        },
+        "provenance": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Provenance"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "source_languages": {
+          "default": [
+            "fr",
+            "en"
+          ],
+          "items": {
+            "enum": [
+              "fr",
+              "en"
+            ],
+            "type": "string"
+          },
+          "title": "Source Languages",
+          "type": "array"
+        },
+        "variety": {
+          "description": "adamawa pour ff",
+          "minLength": 1,
+          "title": "Variety",
+          "type": "string"
+        }
+      },
+      "required": [
+        "language",
+        "variety",
+        "dataset_version"
+      ],
+      "title": "Meta",
+      "type": "object"
+    },
+    "Provenance": {
+      "additionalProperties": false,
+      "properties": {
+        "author": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Author"
+        },
+        "date": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "ISO 8601 (AAAA-MM-JJ)",
+          "title": "Date"
+        },
+        "license": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "License"
+        },
+        "method": {
+          "anyOf": [
+            {
+              "enum": [
+                "native_speaker",
+                "panel",
+                "community_review",
+                "import",
+                "technical_fixture"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Method"
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Notes"
+        },
+        "organization": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Organization"
+        },
+        "source_document": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Document"
+        }
+      },
+      "title": "Provenance",
+      "type": "object"
+    },
+    "Reference": {
+      "additionalProperties": false,
+      "properties": {
+        "accepted": {
+          "default": [],
+          "items": {
+            "maxLength": 2000,
+            "minLength": 1,
+            "type": "string"
+          },
+          "title": "Accepted",
+          "type": "array"
+        },
+        "status": {
+          "default": "pending_validation",
+          "enum": [
+            "pending_validation",
+            "approved",
+            "rejected",
+            "deprecated"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "text": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Text"
+        }
+      },
+      "title": "Reference",
+      "type": "object"
+    },
+    "Scoring": {
+      "additionalProperties": false,
+      "properties": {
+        "metrics": {
+          "default": [
+            "coverage",
+            "exact_match",
+            "chrf",
+            "preservation"
+          ],
+          "items": {
+            "enum": [
+              "coverage",
+              "exact_match",
+              "chrf",
+              "preservation",
+              "status_match"
+            ],
+            "type": "string"
+          },
+          "title": "Metrics",
+          "type": "array"
+        },
+        "pass_threshold": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Pass Threshold"
+        }
+      },
+      "title": "Scoring",
+      "type": "object"
+    },
+    "SourceText": {
+      "additionalProperties": false,
+      "properties": {
+        "lang": {
+          "enum": [
+            "fr",
+            "en"
+          ],
+          "title": "Lang",
+          "type": "string"
+        },
+        "text": {
+          "maxLength": 2000,
+          "minLength": 1,
+          "title": "Text",
+          "type": "string"
+        }
+      },
+      "required": [
+        "lang",
+        "text"
+      ],
+      "title": "SourceText",
+      "type": "object"
+    }
+  },
+  "$id": "https://diversity-lingua.local/schemas/benchmark/1.0.0",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "benchmark_id": {
+      "maxLength": 160,
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:~|\\-]*$",
+      "title": "Benchmark Id",
+      "type": "string"
+    },
+    "items": {
+      "items": {
+        "$ref": "#/$defs/BenchmarkItem"
+      },
+      "title": "Items",
+      "type": "array"
+    },
+    "meta": {
+      "$ref": "#/$defs/Meta"
+    },
+    "schema": {
+      "const": "diversity-lingua/benchmark",
+      "default": "diversity-lingua/benchmark",
+      "title": "Schema",
+      "type": "string"
+    },
+    "schema_version": {
+      "description": "Version majeure 1 requise",
+      "pattern": "^1\\.\\d+\\.\\d+$",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "scoring": {
+      "$ref": "#/$defs/Scoring",
+      "default": {
+        "metrics": [
+          "coverage",
+          "exact_match",
+          "chrf",
+          "preservation"
+        ],
+        "pass_threshold": null
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "meta",
+    "benchmark_id",
+    "items"
+  ],
+  "title": "Diversity Lingua — benchmark (contrat 1.0.0)",
+  "type": "object"
+}

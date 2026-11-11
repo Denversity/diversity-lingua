@@ -1,0 +1,1200 @@
+{
+  "file": "/mnt/data/safinum_audit/adapted/safinum_translation_memory_v1.json",
+  "doc_type": "translation-memory",
+  "accepted": true,
+  "dry_run": true,
+  "mode": "strict",
+  "import_id": null,
+  "dataset_version": "1.0.0",
+  "language": "ff",
+  "counts": {
+    "items_in_file": 234,
+    "items_valid": 234
+  },
+  "status_counts": {
+    "approved": 234
+  },
+  "added": [
+    {
+      "kind": "translation-memory",
+      "id": "PH-0001-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0001-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0002-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0002-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0003-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0003-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0004-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0004-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0005-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0005-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0006-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0006-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0007-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0007-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0008-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0008-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0009-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0009-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0010-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0010-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0011-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0011-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0012-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0012-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0013-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0013-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0014-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0014-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0015-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0015-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0016-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0016-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0017-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0017-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0018-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0018-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0019-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0019-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0020-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0020-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0021-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0021-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0022-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0022-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0023-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0023-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0024-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0024-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0025-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0025-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0026-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0026-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0027-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0027-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0028-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0028-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0029-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0029-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0030-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0030-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0031-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0031-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0032-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0032-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0033-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0033-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0034-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0034-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0035-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0035-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0036-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0036-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0037-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0037-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0038-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0038-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0039-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0039-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0040-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0040-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0041-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0041-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0042-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0042-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0043-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0043-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0044-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0044-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0045-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0045-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0046-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0046-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0047-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0047-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0048-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0048-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0049-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0049-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0050-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0050-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0051-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0051-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0052-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0052-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0053-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0053-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0054-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0054-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0055-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0055-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0056-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0056-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0057-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0057-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0058-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0058-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0059-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0059-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0060-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0060-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0061-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0061-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0062-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0062-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0063-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0063-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0064-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0064-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0065-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0065-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0066-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0066-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0067-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0067-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0068-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0068-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0069-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0069-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0070-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0070-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0071-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0071-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0072-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0072-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0073-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0073-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0074-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0074-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0075-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0075-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0076-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0076-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0077-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0077-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0078-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0078-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0079-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0079-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0080-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0080-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0081-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0081-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0082-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0082-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0083-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0083-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0084-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0084-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0085-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0085-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0086-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0086-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0087-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0087-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0088-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0088-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0089-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0089-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0090-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0090-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0091-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0091-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0092-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0092-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0093-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0093-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0094-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0094-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0095-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0095-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0096-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0096-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0097-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0097-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0098-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0098-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0099-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0099-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0100-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0100-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0101-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0101-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0102-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0102-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0103-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0103-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0104-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0104-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0105-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0105-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0106-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0106-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0107-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0107-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0108-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0108-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0109-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0109-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0110-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0110-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0111-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0111-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0112-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0112-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0113-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0113-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0114-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0114-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0115-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0115-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0116-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0116-en",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0117-fr",
+      "code": "new_item"
+    },
+    {
+      "kind": "translation-memory",
+      "id": "PH-0117-en",
+      "code": "new_item"
+    }
+  ],
+  "updated": [],
+  "unchanged": 0,
+  "protected": [],
+  "conflicts": [],
+  "skipped": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "written_files": [
+    "memory/ff.json"
+  ]
+}

@@ -1,0 +1,31 @@
+/* Mise en page du panneau injecté. Isolé dans un Shadow DOM : aucune règle ne sort, aucune règle de la page n'entre. */
+:host { all: initial; }
+.layer { position: fixed; inset: 0; pointer-events: none; z-index: 2147483647; font-family: var(--dl-font); }
+.layer > * { pointer-events: auto; }
+.launcher { position: fixed; bottom: 16px; right: 16px; display: inline-flex; align-items: center; gap: var(--dl-s-2); max-width: min(320px, calc(100vw - 32px)); min-height: var(--dl-hit);
+  padding: 0 var(--dl-s-4) 0 var(--dl-s-3); border: 0; border-radius: var(--dl-r-pill); background: var(--dl-ink-900); color: var(--dl-paper-50);
+  font: 600 var(--dl-fs-sm)/1.2 var(--dl-font); cursor: pointer; box-shadow: var(--dl-shadow-md); transition: transform var(--dl-t-fast), box-shadow var(--dl-t-fast); }
+.launcher:hover { box-shadow: var(--dl-shadow-lg); }
+.launcher:focus-visible { outline: 3px solid #fff; outline-offset: 2px; box-shadow: 0 0 0 5px var(--dl-focus); }
+.launcher .lbl { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.launcher .dot { width: 9px; height: 9px; border-radius: 50%; flex: none; background: var(--dl-ink-300); }
+.launcher .dot.is-verified { background: #5fd394; } .launcher .dot.is-auto { background: #f0b43c; } .launcher .dot.is-error { background: #ff8b8b; } .launcher .dot.is-progress { background: #f0b43c; animation: dlpulse 1.1s infinite; }
+@keyframes dlpulse { 50% { opacity: .35; } }
+@media (prefers-reduced-motion: reduce) { .launcher .dot.is-progress { animation: none; } }
+.panel, .card { position: fixed; width: 340px; max-width: calc(100vw - 24px); max-height: min(72vh, 600px); overflow: auto; background: var(--dl-paper-50); color: var(--dl-ink-900);
+  border: 1px solid var(--dl-paper-200); border-radius: var(--dl-r-lg); box-shadow: var(--dl-shadow-lg); padding: var(--dl-s-4); }
+.panel { bottom: 72px; right: 16px; display: grid; gap: var(--dl-s-3); }
+.card:not([hidden]) ~ .bubble { display: none; }
+.panel[hidden], .card[hidden], .bubble[hidden] { display: none; }
+.phead, .dl-xhead { display: flex; align-items: center; gap: var(--dl-s-2); cursor: grab; touch-action: none; user-select: none; }
+.phead.is-dragging, .dl-xhead.is-dragging { cursor: grabbing; }
+.phead strong { flex: 1; font-size: var(--dl-fs-lg); }
+.panel h2 { margin: 0; font-size: var(--dl-fs-lg); line-height: var(--dl-lh-tight); }
+.panel .msg { margin: 4px 0 0; font-size: var(--dl-fs-sm); color: var(--dl-ink-700); }
+.panel .row { display: flex; gap: var(--dl-s-2); flex-wrap: wrap; }
+.bubble { position: fixed; display: inline-flex; align-items: center; gap: 6px; min-height: 36px; padding: 0 var(--dl-s-3); border: 0; border-radius: var(--dl-r-pill);
+  background: var(--dl-jade-600); color: #fff; font: 600 var(--dl-fs-sm)/1 var(--dl-font); cursor: pointer; box-shadow: var(--dl-shadow-md); }
+.bubble:hover { background: var(--dl-jade-700); }
+.bubble:focus-visible { outline: 3px solid #fff; outline-offset: 2px; box-shadow: 0 0 0 5px var(--dl-focus); }
+.bubble .dl-icon { width: 16px; height: 16px; }
+.card:focus, .card:focus-visible { outline: none; } /* focus programmatique du conteneur (lecteurs d'écran) : pas de cadre ; les contrôles internes gardent leur anneau */

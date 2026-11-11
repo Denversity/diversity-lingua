@@ -1,0 +1,406 @@
+{
+ "rows": [
+  {
+   "étape": "FR · solde",
+   "phase": "partial",
+   "langue détectée": "fr",
+   "visibles": 81,
+   "traduits": 21,
+   "non traduits": 60,
+   "nombres altérés": 0,
+   "ruptures": 0
+  },
+  {
+   "étape": "FR · historique",
+   "phase": "partial",
+   "langue détectée": "fr",
+   "visibles": 81,
+   "traduits": 21,
+   "non traduits": 60,
+   "nombres altérés": 0,
+   "ruptures": 0
+  },
+  {
+   "étape": "FR · envoi",
+   "phase": "partial",
+   "langue détectée": "fr",
+   "visibles": 81,
+   "traduits": 21,
+   "non traduits": 60,
+   "nombres altérés": 0,
+   "ruptures": 0
+  },
+  {
+   "étape": "FR · paiement",
+   "phase": "partial",
+   "langue détectée": "fr",
+   "visibles": 81,
+   "traduits": 21,
+   "non traduits": 60,
+   "nombres altérés": 0,
+   "ruptures": 0
+  },
+  {
+   "étape": "FR · réception",
+   "phase": "partial",
+   "langue détectée": "fr",
+   "visibles": 81,
+   "traduits": 21,
+   "non traduits": 60,
+   "nombres altérés": 0,
+   "ruptures": 0
+  },
+  {
+   "étape": "FR · notifications",
+   "phase": "partial",
+   "langue détectée": "fr",
+   "visibles": 81,
+   "traduits": 21,
+   "non traduits": 60,
+   "nombres altérés": 0,
+   "ruptures": 0
+  },
+  {
+   "étape": "EN · balance",
+   "phase": "partial",
+   "langue détectée": "en",
+   "visibles": 81,
+   "traduits": 17,
+   "non traduits": 64,
+   "nombres altérés": 0,
+   "ruptures": 0
+  },
+  {
+   "étape": "EN · history",
+   "phase": "partial",
+   "langue détectée": "en",
+   "visibles": 81,
+   "traduits": 17,
+   "non traduits": 64,
+   "nombres altérés": 0,
+   "ruptures": 0
+  },
+  {
+   "étape": "EN · send",
+   "phase": "partial",
+   "langue détectée": "en",
+   "visibles": 81,
+   "traduits": 17,
+   "non traduits": 64,
+   "nombres altérés": 0,
+   "ruptures": 0
+  },
+  {
+   "étape": "EN · pay",
+   "phase": "partial",
+   "langue détectée": "en",
+   "visibles": 81,
+   "traduits": 17,
+   "non traduits": 64,
+   "nombres altérés": 0,
+   "ruptures": 0
+  },
+  {
+   "étape": "EN · receive",
+   "phase": "partial",
+   "langue détectée": "en",
+   "visibles": 81,
+   "traduits": 17,
+   "non traduits": 64,
+   "nombres altérés": 0,
+   "ruptures": 0
+  },
+  {
+   "étape": "EN · notifications",
+   "phase": "partial",
+   "langue détectée": "en",
+   "visibles": 81,
+   "traduits": 17,
+   "non traduits": 64,
+   "nombres altérés": 0,
+   "ruptures": 0
+  }
+ ],
+ "nonTraduits": [
+  [
+   "Réussie",
+   36
+  ],
+  [
+   "Successful",
+   36
+  ],
+  [
+   "Notifications",
+   24
+  ],
+  [
+   "Date",
+   24
+  ],
+  [
+   "Description",
+   24
+  ],
+  [
+   "+20 000 FCFA",
+   24
+  ],
+  [
+   "−7 500 FCFA",
+   24
+  ],
+  [
+   "+50 000 FCFA",
+   24
+  ],
+  [
+   "Payer un marchand",
+   18
+  ],
+  [
+   "Pay a merchant",
+   18
+  ],
+  [
+   "MoMo Démo",
+   12
+  ],
+  [
+   "FR",
+   12
+  ],
+  [
+   "EN",
+   12
+  ],
+  [
+   "125 000 FCFA",
+   12
+  ],
+  [
+   "Compte N° 0001-2345-6789",
+   12
+  ],
+  [
+   "Réception de Aminata (670 55 55 55)",
+   12
+  ],
+  [
+   "Paiement marchand : Boutique Les Palmiers",
+   12
+  ],
+  [
+   "Dépôt chez un agent",
+   12
+  ],
+  [
+   "Montant à envoyer (FCFA)",
+   12
+  ],
+  [
+   "100 FCFA",
+   12
+  ],
+  [
+   "5 100 FCFA",
+   12
+  ],
+  [
+   "0 FCFA",
+   12
+  ],
+  [
+   "12 500 FCFA",
+   12
+  ],
+  [
+   "TX-2026-000954",
+   12
+  ],
+  [
+   "TX-2026-000917",
+   12
+  ],
+  [
+   "TX-2026-000901",
+   12
+  ],
+  [
+   "Received from Aminata (670 55 55 55)",
+   12
+  ],
+  [
+   "Merchant payment: Boutique Les Palmiers",
+   12
+  ],
+  [
+   "Deposit at an agent",
+   12
+  ],
+  [
+   "Amount to send (FCFA)",
+   12
+  ],
+  [
+   "Total to be debited:",
+   12
+  ],
+  [
+   "PIN code",
+   12
+  ],
+  [
+   "APPLICATION DE DÉMONSTRATION.",
+   6
+  ],
+  [
+   "Données fictives — ceci n'est pas un vrai service financier.",
+   6
+  ],
+  [
+   "Tableau de bord",
+   6
+  ],
+  [
+   "Historique",
+   6
+  ],
+  [
+   "Bonjour, bienvenue sur votre compte",
+   6
+  ],
+  [
+   "Envoyez de l'argent à un proche en quelques secondes.",
+   6
+  ],
+  [
+   "Payez vos achats sans espèces.",
+   6
+  ],
+  [
+   "Consultez votre numéro et vos réceptions.",
+   6
+  ],
+  [
+   "Dernières transactions",
+   6
+  ],
+  [
+   "Numéro du bénéficiaire",
+   6
+  ],
+  [
+   "Scénarios de test : le numéro 670 00 00 01 simule un échec après débit ; 670 00 00 02 simule un échec réseau sans débit.",
+   6
+  ],
+  [
+   "Code PIN de démonstration : 1234. Ne partagez jamais votre vrai code PIN.",
+   6
+  ],
+  [
+   "Donnez votre numéro à la personne qui souhaite vous envoyer de l'argent.",
+   6
+  ],
+  [
+   "Votre numéro :",
+   6
+  ],
+  [
+   "Simuler une réception",
+   6
+  ],
+  [
+   "Marchand",
+   6
+  ],
+  [
+   "Payer maintenant",
+   6
+  ],
+  [
+   "Bienvenue ! Ne communiquez jamais votre code PIN ou votre code de vérification.",
+   6
+  ],
+  [
+   "MoMo Démo — projet de démonstration TEAM DIVERSITY · SAFINUM Innovate Challenge 2026",
+   6
+  ],
+  [
+   "DEMONSTRATION APPLICATION.",
+   6
+  ],
+  [
+   "Fictitious data — this is not a real financial service.",
+   6
+  ],
+  [
+   "Dashboard",
+   6
+  ],
+  [
+   "History",
+   6
+  ],
+  [
+   "Hello, welcome to your account",
+   6
+  ],
+  [
+   "Send money to a relative in seconds.",
+   6
+  ],
+  [
+   "Pay for purchases without cash.",
+   6
+  ],
+  [
+   "See your number and incoming payments.",
+   6
+  ],
+  [
+   "Latest transactions",
+   6
+  ],
+  [
+   "Recipient number",
+   6
+  ],
+  [
+   "Test scenarios: number 670 00 00 01 simulates a failure after debit; 670 00 00 02 simulates a network failure with no debit.",
+   6
+  ],
+  [
+   "Demo PIN code: 1234. Never share your real PIN code.",
+   6
+  ],
+  [
+   "Give your number to the person who wants to send you money.",
+   6
+  ],
+  [
+   "Your number:",
+   6
+  ],
+  [
+   "Simulate an incoming payment",
+   6
+  ],
+  [
+   "Merchant",
+   6
+  ],
+  [
+   "Pay now",
+   6
+  ],
+  [
+   "Welcome! Never share your PIN code or verification code.",
+   6
+  ],
+  [
+   "MoMo Demo — TEAM DIVERSITY demonstration project · SAFINUM Innovate Challenge 2026",
+   6
+  ]
+ ]
+}

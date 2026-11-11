@@ -1,0 +1,73 @@
+{
+  "schema": "diversity-lingua/corpus",
+  "schema_version": "1.0.0",
+  "meta": {
+    "language": "xx-test",
+    "variety": "none",
+    "dataset_version": "fixture-1",
+    "fixture": true,
+    "provenance": {
+      "method": "technical_fixture",
+      "notes": "FIXTURE TECHNIQUE fictive — aucune valeur linguistique"
+    }
+  },
+  "corpus_id": "technical-fixture",
+  "items": [
+    {
+      "item_id": "fx.0001",
+      "source": {
+        "lang": "fr",
+        "text": "Envoyer de l'argent"
+      },
+      "contexts": [
+        "button"
+      ],
+      "reference": {
+        "text": "[TEST] ui.envoyer_de_l_argent",
+        "status": "approved"
+      }
+    },
+    {
+      "item_id": "fx.0002",
+      "source": {
+        "lang": "en",
+        "text": "Send money"
+      },
+      "contexts": [
+        "button"
+      ],
+      "reference": {
+        "text": "[TEST] ui.envoyer_de_l_argent",
+        "status": "approved"
+      }
+    },
+    {
+      "item_id": "fx.0003",
+      "source": {
+        "lang": "fr",
+        "text": "Vous avez reçu {{P0}}"
+      },
+      "contexts": [
+        "paragraph"
+      ],
+      "reference": {
+        "text": null,
+        "status": "pending_validation"
+      }
+    },
+    {
+      "item_id": "fx.0004",
+      "source": {
+        "lang": "fr",
+        "text": "Confirmer"
+      },
+      "contexts": [
+        "button"
+      ],
+      "reference": {
+        "text": "[TEST] ui.confirmer",
+        "status": "approved"
+      }
+    }
+  ]
+}

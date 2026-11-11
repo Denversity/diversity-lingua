@@ -1,0 +1,54 @@
+{
+  "schema": "diversity-lingua/translation-memory",
+  "schema_version": "1.0.0",
+  "meta": {
+    "language": "ff",
+    "variety": "adamawa",
+    "source_languages": [
+      "fr",
+      "en"
+    ],
+    "dataset_version": "AAAA.MM.N",
+    "fixture": false,
+    "provenance": {
+      "author": "Nom du responsable linguistique",
+      "organization": "Organisation",
+      "method": "native_speaker",
+      "date": "AAAA-MM-JJ"
+    }
+  },
+  "segments": [
+    {
+      "segment_id": "tm.0001",
+      "concept_id": "fin.balance.available",
+      "source": {
+        "lang": "fr",
+        "text": "Votre solde est de {{P0}}"
+      },
+      "contexts": [
+        "paragraph",
+        "balance"
+      ],
+      "targets": [
+        {
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation"
+        }
+      ]
+    },
+    {
+      "segment_id": "tm.0002",
+      "source": {
+        "lang": "en",
+        "text": "You received {{P0}} from {{P1}}"
+      },
+      "targets": [
+        {
+          "preferred": null,
+          "status": "pending_validation"
+        }
+      ]
+    }
+  ]
+}

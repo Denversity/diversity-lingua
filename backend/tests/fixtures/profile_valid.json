@@ -1,0 +1,35 @@
+{
+  "schema": "diversity-lingua/language-profile",
+  "schema_version": "1.0.0",
+  "meta": {
+    "language": "ff",
+    "variety": "adamawa",
+    "source_languages": [
+      "fr",
+      "en"
+    ],
+    "dataset_version": "fx-1",
+    "fixture": true,
+    "provenance": {
+      "organization": "FIXTURE TECHNIQUE",
+      "method": "technical_fixture",
+      "notes": "Données fictives : aucune valeur linguistique"
+    }
+  },
+  "language": {
+    "code": "ff",
+    "name": "Fulfulde",
+    "native_name": "Fulfulde",
+    "variety": "adamawa",
+    "iso639_3": "fub",
+    "script": "Latn",
+    "orthography": {
+      "description": "FIXTURE : description fictive",
+      "alphabet": [],
+      "special_characters": [],
+      "rules": []
+    },
+    "availability": "partial",
+    "machine_translation": "allowed"
+  }
+}

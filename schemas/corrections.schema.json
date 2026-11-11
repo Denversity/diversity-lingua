@@ -1,0 +1,452 @@
+{
+  "$defs": {
+    "Correction": {
+      "additionalProperties": false,
+      "properties": {
+        "accepted": {
+          "default": [],
+          "items": {
+            "maxLength": 2000,
+            "minLength": 1,
+            "type": "string"
+          },
+          "title": "Accepted",
+          "type": "array"
+        },
+        "category": {
+          "default": "other",
+          "enum": [
+            "spelling",
+            "orthography",
+            "semantic",
+            "register",
+            "terminology",
+            "other"
+          ],
+          "title": "Category",
+          "type": "string"
+        },
+        "corrected": {
+          "maxLength": 2000,
+          "minLength": 1,
+          "title": "Corrected",
+          "type": "string"
+        },
+        "correction_id": {
+          "maxLength": 160,
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:~|\\-]*$",
+          "title": "Correction Id",
+          "type": "string"
+        },
+        "decided_at": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Decided At"
+        },
+        "decided_by": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Decided By"
+        },
+        "previous": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Previous"
+        },
+        "provenance": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Provenance"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "reason": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reason"
+        },
+        "reported_by": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reported By"
+        },
+        "source": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/SourceText"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "status": {
+          "default": "proposed",
+          "enum": [
+            "proposed",
+            "accepted",
+            "rejected",
+            "applied"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "target_ref": {
+          "$ref": "#/$defs/TargetRef"
+        }
+      },
+      "required": [
+        "correction_id",
+        "target_ref",
+        "corrected"
+      ],
+      "title": "Correction",
+      "type": "object"
+    },
+    "Meta": {
+      "additionalProperties": false,
+      "properties": {
+        "created_at": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Created At"
+        },
+        "dataset_version": {
+          "description": "ex. 2026.11.0",
+          "maxLength": 40,
+          "minLength": 1,
+          "title": "Dataset Version",
+          "type": "string"
+        },
+        "fixture": {
+          "default": false,
+          "description": "True = données techniques fictives, refusées en production",
+          "title": "Fixture",
+          "type": "boolean"
+        },
+        "language": {
+          "description": "Langue cible (ff)",
+          "pattern": "^[a-z]{2,3}(?:-[a-z0-9]+)?$",
+          "title": "Language",
+          "type": "string"
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Notes"
+        },
+        "provenance": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Provenance"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "source_languages": {
+          "default": [
+            "fr",
+            "en"
+          ],
+          "items": {
+            "enum": [
+              "fr",
+              "en"
+            ],
+            "type": "string"
+          },
+          "title": "Source Languages",
+          "type": "array"
+        },
+        "variety": {
+          "description": "adamawa pour ff",
+          "minLength": 1,
+          "title": "Variety",
+          "type": "string"
+        }
+      },
+      "required": [
+        "language",
+        "variety",
+        "dataset_version"
+      ],
+      "title": "Meta",
+      "type": "object"
+    },
+    "Provenance": {
+      "additionalProperties": false,
+      "properties": {
+        "author": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Author"
+        },
+        "date": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "ISO 8601 (AAAA-MM-JJ)",
+          "title": "Date"
+        },
+        "license": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "License"
+        },
+        "method": {
+          "anyOf": [
+            {
+              "enum": [
+                "native_speaker",
+                "panel",
+                "community_review",
+                "import",
+                "technical_fixture"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Method"
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Notes"
+        },
+        "organization": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Organization"
+        },
+        "source_document": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Document"
+        }
+      },
+      "title": "Provenance",
+      "type": "object"
+    },
+    "SourceText": {
+      "additionalProperties": false,
+      "properties": {
+        "lang": {
+          "enum": [
+            "fr",
+            "en"
+          ],
+          "title": "Lang",
+          "type": "string"
+        },
+        "text": {
+          "maxLength": 2000,
+          "minLength": 1,
+          "title": "Text",
+          "type": "string"
+        }
+      },
+      "required": [
+        "lang",
+        "text"
+      ],
+      "title": "SourceText",
+      "type": "object"
+    },
+    "TargetRef": {
+      "additionalProperties": false,
+      "properties": {
+        "concept_id": {
+          "anyOf": [
+            {
+              "maxLength": 120,
+              "pattern": "^[a-z][a-z0-9_]*(?:[.\\-][a-z0-9_]+)*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Concept Id"
+        },
+        "kind": {
+          "enum": [
+            "glossary",
+            "memory"
+          ],
+          "title": "Kind",
+          "type": "string"
+        },
+        "segment_id": {
+          "anyOf": [
+            {
+              "maxLength": 160,
+              "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:~|\\-]*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Segment Id"
+        },
+        "target_id": {
+          "anyOf": [
+            {
+              "maxLength": 160,
+              "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:~|\\-]*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Target Id"
+        }
+      },
+      "required": [
+        "kind"
+      ],
+      "title": "TargetRef",
+      "type": "object"
+    }
+  },
+  "$id": "https://diversity-lingua.local/schemas/corrections/1.0.0",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "corrections": {
+      "items": {
+        "$ref": "#/$defs/Correction"
+      },
+      "title": "Corrections",
+      "type": "array"
+    },
+    "meta": {
+      "$ref": "#/$defs/Meta"
+    },
+    "schema": {
+      "const": "diversity-lingua/corrections",
+      "default": "diversity-lingua/corrections",
+      "title": "Schema",
+      "type": "string"
+    },
+    "schema_version": {
+      "description": "Version majeure 1 requise",
+      "pattern": "^1\\.\\d+\\.\\d+$",
+      "title": "Schema Version",
+      "type": "string"
+    }
+  },
+  "required": [
+    "schema_version",
+    "meta",
+    "corrections"
+  ],
+  "title": "Diversity Lingua — corrections (contrat 1.0.0)",
+  "type": "object"
+}

@@ -1,0 +1,10 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><title>Composants web</title>
+<style>body{margin:0;padding:20px;font:15px/1.4 Arial,sans-serif;background:#f4f4f0}h1{font-size:22px}</style></head><body>
+<h1>Mes comptes</h1><p>Consultez le solde et l'historique de vos comptes.</p><div id="host"></div>
+<script>
+class BalanceCard extends HTMLElement{constructor(){super();const r=this.attachShadow({mode:"open"});
+ r.innerHTML='<style>:host{display:block;width:300px;background:#fff;border-radius:12px;padding:14px;margin:10px 0;box-shadow:0 1px 3px #0003}h2{margin:0 0 6px;font-size:15px}button{width:140px;height:38px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;border-radius:8px;border:1px solid #234;background:#fff;font:600 14px Arial}</style><h2>Solde disponible</h2><div>50 000 FCFA</div><button>Voir le détail</button>'}}
+customElements.define("balance-card",BalanceCard);
+document.getElementById("host").append(document.createElement("balance-card"));
+window.__addCard=()=>{const c=document.createElement("balance-card");document.getElementById("host").append(c);const p=document.createElement("p");p.textContent="Ce compte est un compte d'épargne.";c.shadowRoot.append(p)};
+</script></body></html>

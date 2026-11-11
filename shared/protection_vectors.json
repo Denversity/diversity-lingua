@@ -1,0 +1,310 @@
+[
+ {
+  "input": "Vous avez envoyé 5 000 FCFA au 677 12 34 56.",
+  "masked": "Vous avez envoyé {{P0}} au {{P1}}.",
+  "tokens": [
+   [
+    "{{P0}}",
+    "5 000 FCFA",
+    "amount"
+   ],
+   [
+    "{{P1}}",
+    "677 12 34 56",
+    "phone"
+   ]
+  ]
+ },
+ {
+  "input": "Frais : 1,5 % — réf. TX-2026-000123 le 12/10/2026 à 14h30",
+  "masked": "Frais : {{P0}} — réf. {{P1}} le {{P2}} à {{P3}}",
+  "tokens": [
+   [
+    "{{P0}}",
+    "1,5 %",
+    "number"
+   ],
+   [
+    "{{P1}}",
+    "TX-2026-000123",
+    "identifier"
+   ],
+   [
+    "{{P2}}",
+    "12/10/2026",
+    "number"
+   ],
+   [
+    "{{P3}}",
+    "14h30",
+    "number"
+   ]
+  ]
+ },
+ {
+  "input": "Votre code OTP est 483920",
+  "masked": "Votre code OTP est {{P0}}",
+  "tokens": [
+   [
+    "{{P0}}",
+    "483920",
+    "secret"
+   ]
+  ]
+ },
+ {
+  "input": "PIN: 1234",
+  "masked": "PIN: {{P0}}",
+  "tokens": [
+   [
+    "{{P0}}",
+    "1234",
+    "secret"
+   ]
+  ]
+ },
+ {
+  "input": "Mot de passe : abc123XYZ",
+  "masked": "Mot de passe : {{P0}}",
+  "tokens": [
+   [
+    "{{P0}}",
+    "abc123XYZ",
+    "secret"
+   ]
+  ]
+ },
+ {
+  "input": "Solde disponible : 1 250 000 F",
+  "masked": "Solde disponible : {{P0}}",
+  "tokens": [
+   [
+    "{{P0}}",
+    "1 250 000 F",
+    "amount"
+   ]
+  ]
+ },
+ {
+  "input": "Contact : aide@example.cm ou https://example.cm/aide?x=1",
+  "masked": "Contact : {{P0}} ou {{P1}}",
+  "tokens": [
+   [
+    "{{P0}}",
+    "aide@example.cm",
+    "email"
+   ],
+   [
+    "{{P1}}",
+    "https://example.cm/aide?x=1",
+    "url"
+   ]
+  ]
+ },
+ {
+  "input": "Reçu {{P0}} de {{P1}}, total 300 XAF",
+  "masked": "Reçu {{P0}} de {{P1}}, total {{P2}}",
+  "tokens": [
+   [
+    "{{P2}}",
+    "300 XAF",
+    "amount"
+   ]
+  ]
+ },
+ {
+  "input": "Vous avez 3 transactions en attente",
+  "masked": "Vous avez {{P0}} transactions en attente",
+  "tokens": [
+   [
+    "{{P0}}",
+    "3",
+    "number"
+   ]
+  ]
+ },
+ {
+  "input": "Envoyer de l'argent",
+  "masked": "Envoyer de l'argent",
+  "tokens": []
+ },
+ {
+  "input": "Retrait de 600 000 000 F",
+  "masked": "Retrait de {{P0}}",
+  "tokens": [
+   [
+    "{{P0}}",
+    "600 000 000 F",
+    "amount"
+   ]
+  ]
+ },
+ {
+  "input": "Appelez le +237 677 123 456",
+  "masked": "Appelez le {{P0}}",
+  "tokens": [
+   [
+    "{{P0}}",
+    "+237 677 123 456",
+    "phone"
+   ]
+  ]
+ },
+ {
+  "input": "Total: $25 / €10 / 15 USD",
+  "masked": "Total: {{P0}} / {{P1}} / {{P2}}",
+  "tokens": [
+   [
+    "{{P0}}",
+    "$25",
+    "amount"
+   ],
+   [
+    "{{P1}}",
+    "€10",
+    "amount"
+   ],
+   [
+    "{{P2}}",
+    "15 USD",
+    "amount"
+   ]
+  ]
+ },
+ {
+  "input": "Compte 000123456789 débité de 2 500 FCFA",
+  "masked": "Compte {{P0}} débité de {{P1}}",
+  "tokens": [
+   [
+    "{{P0}}",
+    "000123456789",
+    "identifier"
+   ],
+   [
+    "{{P1}}",
+    "2 500 FCFA",
+    "amount"
+   ]
+  ]
+ },
+ {
+  "input": "Frais de 100 F",
+  "masked": "Frais de {{P0}}",
+  "tokens": [
+   [
+    "{{P0}}",
+    "100 F",
+    "amount"
+   ]
+  ]
+ },
+ {
+  "input": "Confirmer",
+  "masked": "Confirmer",
+  "tokens": []
+ },
+ {
+  "input": "12 500",
+  "masked": "{{P0}}",
+  "tokens": [
+   [
+    "{{P0}}",
+    "12 500",
+    "number"
+   ]
+  ]
+ },
+ {
+  "input": "Taux : 2.5% par mois",
+  "masked": "Taux : {{P0}} par mois",
+  "tokens": [
+   [
+    "{{P0}}",
+    "2.5%",
+    "number"
+   ]
+  ]
+ },
+ {
+  "input": "Frais 5 Frais",
+  "masked": "Frais {{P0}} Frais",
+  "tokens": [
+   [
+    "{{P0}}",
+    "5",
+    "number"
+   ]
+  ]
+ },
+ {
+  "input": "XAF 10 000 reçus",
+  "masked": "{{P0}} reçus",
+  "tokens": [
+   [
+    "{{P0}}",
+    "XAF 10 000",
+    "amount"
+   ]
+  ]
+ },
+ {
+  "input": "Proposition de l'utilisateur 5000 FCFA",
+  "masked": "Proposition de l'utilisateur {{P0}}",
+  "tokens": [
+   [
+    "{{P0}}",
+    "5000 FCFA",
+    "amount"
+   ]
+  ]
+ },
+ {
+  "input": "Erreur 404 : page introuvable",
+  "masked": "Erreur {{P0}} : page introuvable",
+  "tokens": [
+   [
+    "{{P0}}",
+    "404",
+    "number"
+   ]
+  ]
+ },
+ {
+  "input": "Visiteur 12 et 3 EUR de frais",
+  "masked": "Visiteur {{P0}} et {{P1}} de frais",
+  "tokens": [
+   [
+    "{{P0}}",
+    "12",
+    "number"
+   ],
+   [
+    "{{P1}}",
+    "3 EUR",
+    "amount"
+   ]
+  ]
+ },
+ {
+  "input": "Montant : EUR 25 reçus",
+  "masked": "Montant : {{P0}} reçus",
+  "tokens": [
+   [
+    "{{P0}}",
+    "EUR 25",
+    "amount"
+   ]
+  ]
+ },
+ {
+  "input": "Paiement de USD 40 effectué",
+  "masked": "Paiement de {{P0}} effectué",
+  "tokens": [
+   [
+    "{{P0}}",
+    "USD 40",
+    "amount"
+   ]
+  ]
+ }
+]

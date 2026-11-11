@@ -1,0 +1,626 @@
+{
+  "$defs": {
+    "Concept": {
+      "additionalProperties": false,
+      "properties": {
+        "concept_id": {
+          "maxLength": 120,
+          "pattern": "^[a-z][a-z0-9_]*(?:[.\\-][a-z0-9_]+)*$",
+          "title": "Concept Id",
+          "type": "string"
+        },
+        "contexts": {
+          "default": [],
+          "description": "Contextes métier du concept (button, transfer, fees…)",
+          "items": {
+            "type": "string"
+          },
+          "title": "Contexts",
+          "type": "array"
+        },
+        "definition": {
+          "anyOf": [
+            {
+              "additionalProperties": {
+                "type": "string"
+              },
+              "propertyNames": {
+                "enum": [
+                  "fr",
+                  "en"
+                ]
+              },
+              "type": "object"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Definition"
+        },
+        "domain": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Domain"
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Notes"
+        },
+        "provenance": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Provenance"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "sources": {
+          "additionalProperties": {
+            "$ref": "#/$defs/SourceForms"
+          },
+          "minProperties": 1,
+          "propertyNames": {
+            "enum": [
+              "fr",
+              "en"
+            ]
+          },
+          "title": "Sources",
+          "type": "object"
+        },
+        "tags": {
+          "default": [],
+          "items": {
+            "type": "string"
+          },
+          "title": "Tags",
+          "type": "array"
+        },
+        "targets": {
+          "default": [],
+          "items": {
+            "$ref": "#/$defs/Target"
+          },
+          "title": "Targets",
+          "type": "array"
+        },
+        "version": {
+          "default": 1,
+          "minimum": 1,
+          "title": "Version",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "concept_id",
+        "sources"
+      ],
+      "title": "Concept",
+      "type": "object"
+    },
+    "HistoryItem": {
+      "additionalProperties": false,
+      "description": "Version antérieure conservée (jamais supprimée) lors d'une mise à jour.",
+      "properties": {
+        "accepted": {
+          "default": [],
+          "items": {
+            "type": "string"
+          },
+          "title": "Accepted",
+          "type": "array"
+        },
+        "preferred": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Preferred"
+        },
+        "replaced_at": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Replaced At"
+        },
+        "replaced_by": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Import ou action ayant remplacé cette version",
+          "title": "Replaced By"
+        },
+        "status": {
+          "enum": [
+            "pending_validation",
+            "approved",
+            "rejected",
+            "deprecated"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "validation": {
+          "$ref": "#/$defs/Validation",
+          "default": {
+            "comment": null,
+            "method": null,
+            "validated_at": null,
+            "validator_id": null
+          }
+        },
+        "version": {
+          "minimum": 1,
+          "title": "Version",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "version",
+        "status"
+      ],
+      "title": "HistoryItem",
+      "type": "object"
+    },
+    "Meta": {
+      "additionalProperties": false,
+      "properties": {
+        "created_at": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Created At"
+        },
+        "dataset_version": {
+          "description": "ex. 2026.11.0",
+          "maxLength": 40,
+          "minLength": 1,
+          "title": "Dataset Version",
+          "type": "string"
+        },
+        "fixture": {
+          "default": false,
+          "description": "True = données techniques fictives, refusées en production",
+          "title": "Fixture",
+          "type": "boolean"
+        },
+        "language": {
+          "description": "Langue cible (ff)",
+          "pattern": "^[a-z]{2,3}(?:-[a-z0-9]+)?$",
+          "title": "Language",
+          "type": "string"
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Notes"
+        },
+        "provenance": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Provenance"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "source_languages": {
+          "default": [
+            "fr",
+            "en"
+          ],
+          "items": {
+            "enum": [
+              "fr",
+              "en"
+            ],
+            "type": "string"
+          },
+          "title": "Source Languages",
+          "type": "array"
+        },
+        "variety": {
+          "description": "adamawa pour ff",
+          "minLength": 1,
+          "title": "Variety",
+          "type": "string"
+        }
+      },
+      "required": [
+        "language",
+        "variety",
+        "dataset_version"
+      ],
+      "title": "Meta",
+      "type": "object"
+    },
+    "Provenance": {
+      "additionalProperties": false,
+      "properties": {
+        "author": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Author"
+        },
+        "date": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "ISO 8601 (AAAA-MM-JJ)",
+          "title": "Date"
+        },
+        "license": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "License"
+        },
+        "method": {
+          "anyOf": [
+            {
+              "enum": [
+                "native_speaker",
+                "panel",
+                "community_review",
+                "import",
+                "technical_fixture"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Method"
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Notes"
+        },
+        "organization": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Organization"
+        },
+        "source_document": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Document"
+        }
+      },
+      "title": "Provenance",
+      "type": "object"
+    },
+    "SourceForms": {
+      "additionalProperties": false,
+      "properties": {
+        "accepted": {
+          "default": [],
+          "items": {
+            "maxLength": 2000,
+            "minLength": 1,
+            "type": "string"
+          },
+          "title": "Accepted",
+          "type": "array"
+        },
+        "preferred": {
+          "maxLength": 2000,
+          "minLength": 1,
+          "title": "Preferred",
+          "type": "string"
+        }
+      },
+      "required": [
+        "preferred"
+      ],
+      "title": "SourceForms",
+      "type": "object"
+    },
+    "Target": {
+      "additionalProperties": false,
+      "description": "Traduction cible (ff/adamawa) — éventuellement propre à des contextes métier.",
+      "properties": {
+        "accepted": {
+          "default": [],
+          "description": "Variantes acceptées",
+          "items": {
+            "maxLength": 2000,
+            "minLength": 1,
+            "type": "string"
+          },
+          "title": "Accepted",
+          "type": "array"
+        },
+        "contexts": {
+          "default": [],
+          "description": "Vide = valable dans tous les contextes",
+          "items": {
+            "type": "string"
+          },
+          "title": "Contexts",
+          "type": "array"
+        },
+        "history": {
+          "default": [],
+          "items": {
+            "$ref": "#/$defs/HistoryItem"
+          },
+          "title": "History",
+          "type": "array"
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Notes"
+        },
+        "preferred": {
+          "anyOf": [
+            {
+              "maxLength": 2000,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Forme recommandée ; null = pas encore fournie",
+          "title": "Preferred"
+        },
+        "provenance": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Provenance"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "status": {
+          "default": "pending_validation",
+          "enum": [
+            "pending_validation",
+            "approved",
+            "rejected",
+            "deprecated"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "target_id": {
+          "anyOf": [
+            {
+              "maxLength": 160,
+              "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:~|\\-]*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Si absent, attribué à l'import : <concept_id>~tN",
+          "title": "Target Id"
+        },
+        "validation": {
+          "$ref": "#/$defs/Validation",
+          "default": {
+            "comment": null,
+            "method": null,
+            "validated_at": null,
+            "validator_id": null
+          }
+        },
+        "version": {
+          "default": 1,
+          "minimum": 1,
+          "title": "Version",
+          "type": "integer"
+        }
+      },
+      "title": "Target",
+      "type": "object"
+    },
+    "Validation": {
+      "additionalProperties": false,
+      "properties": {
+        "comment": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Comment"
+        },
+        "method": {
+          "anyOf": [
+            {
+              "enum": [
+                "native_speaker",
+                "panel",
+                "community_review",
+                "import",
+                "technical_fixture"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Method"
+        },
+        "validated_at": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "ISO 8601",
+          "title": "Validated At"
+        },
+        "validator_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Validator Id"
+        }
+      },
+      "title": "Validation",
+      "type": "object"
+    }
+  },
+  "$id": "https://diversity-lingua.local/schemas/glossary/1.0.0",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "concepts": {
+      "items": {
+        "$ref": "#/$defs/Concept"
+      },
+      "title": "Concepts",
+      "type": "array"
+    },
+    "meta": {
+      "$ref": "#/$defs/Meta"
+    },
+    "schema": {
+      "const": "diversity-lingua/glossary",
+      "default": "diversity-lingua/glossary",
+      "title": "Schema",
+      "type": "string"
+    },
+    "schema_version": {
+      "description": "Version majeure 1 requise",
+      "pattern": "^1\\.\\d+\\.\\d+$",
+      "title": "Schema Version",
+      "type": "string"
+    }
+  },
+  "required": [
+    "schema_version",
+    "meta",
+    "concepts"
+  ],
+  "title": "Diversity Lingua — glossary (contrat 1.0.0)",
+  "type": "object"
+}

@@ -1,0 +1,1425 @@
+{
+  "schema": "diversity-lingua/glossary",
+  "schema_version": "1.0.0",
+  "meta": {
+    "language": "ff",
+    "variety": "adamawa",
+    "source_languages": [
+      "fr",
+      "en"
+    ],
+    "dataset_version": "0.2.0-template",
+    "fixture": false,
+    "provenance": {
+      "organization": "TEAM DIVERSITY (équipe technique)",
+      "method": "import",
+      "notes": "Gabarit : termes sources uniquement. Aucune traduction fournie par l'équipe technique."
+    },
+    "notes": "À remplacer/compléter par le glossaire du responsable linguistique (voir README.md)."
+  },
+  "concepts": [
+    {
+      "concept_id": "balance",
+      "domain": "mobile_money",
+      "contexts": [
+        "balance"
+      ],
+      "definition": {
+        "fr": "Le solde est l'argent qu'il vous reste sur votre compte et que vous pouvez utiliser maintenant.",
+        "en": "The balance is the money left in your account that you can use right now."
+      },
+      "sources": {
+        "fr": {
+          "preferred": "solde",
+          "accepted": [
+            "solde disponible"
+          ]
+        },
+        "en": {
+          "preferred": "balance",
+          "accepted": [
+            "available balance"
+          ]
+        }
+      },
+      "targets": [
+        {
+          "target_id": "balance~t1",
+          "contexts": [],
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation"
+        }
+      ]
+    },
+    {
+      "concept_id": "transfer",
+      "domain": "mobile_money",
+      "contexts": [
+        "transfer"
+      ],
+      "definition": {
+        "fr": "Un transfert, c'est envoyer de l'argent de votre compte vers le compte ou le numéro d'une autre personne.",
+        "en": "A transfer means sending money from your account to another person's account or number."
+      },
+      "sources": {
+        "fr": {
+          "preferred": "transfert d'argent",
+          "accepted": [
+            "envoi d'argent",
+            "transfert"
+          ]
+        },
+        "en": {
+          "preferred": "money transfer",
+          "accepted": [
+            "send money",
+            "transfer"
+          ]
+        }
+      },
+      "targets": [
+        {
+          "target_id": "transfer~t1",
+          "contexts": [],
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation"
+        }
+      ]
+    },
+    {
+      "concept_id": "fees",
+      "domain": "mobile_money",
+      "contexts": [
+        "fees"
+      ],
+      "definition": {
+        "fr": "Les frais sont la somme que le service garde pour faire l'opération. Ils s'ajoutent souvent au montant que vous envoyez.",
+        "en": "Fees are the amount the service keeps for carrying out the operation. They are often added to the amount you send."
+      },
+      "sources": {
+        "fr": {
+          "preferred": "frais",
+          "accepted": [
+            "frais de transaction",
+            "commission"
+          ]
+        },
+        "en": {
+          "preferred": "fees",
+          "accepted": [
+            "transaction fee",
+            "commission"
+          ]
+        }
+      },
+      "targets": [
+        {
+          "target_id": "fees~t1",
+          "contexts": [],
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation"
+        }
+      ]
+    },
+    {
+      "concept_id": "recipient",
+      "domain": "mobile_money",
+      "contexts": [
+        "transfer"
+      ],
+      "definition": {
+        "fr": "Le destinataire est la personne qui doit recevoir l'argent.",
+        "en": "The recipient is the person who is supposed to receive the money."
+      },
+      "sources": {
+        "fr": {
+          "preferred": "destinataire",
+          "accepted": [
+            "bénéficiaire"
+          ]
+        },
+        "en": {
+          "preferred": "recipient",
+          "accepted": [
+            "beneficiary"
+          ]
+        }
+      },
+      "targets": [
+        {
+          "target_id": "recipient~t1",
+          "contexts": [],
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation"
+        }
+      ]
+    },
+    {
+      "concept_id": "sender",
+      "domain": "mobile_money",
+      "contexts": [
+        "receive"
+      ],
+      "definition": {
+        "fr": "L'expéditeur est la personne qui envoie l'argent.",
+        "en": "The sender is the person who sends the money."
+      },
+      "sources": {
+        "fr": {
+          "preferred": "expéditeur",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "sender",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "sender~t1",
+          "contexts": [],
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation"
+        }
+      ]
+    },
+    {
+      "concept_id": "pin",
+      "domain": "mobile_money",
+      "contexts": [
+        "security"
+      ],
+      "definition": {
+        "fr": "Le code PIN est votre code secret personnel. Ne le dites jamais à personne, même à un agent ou à un employé du service.",
+        "en": "Your PIN is your personal secret code. Never tell it to anyone, not even an agent or a service employee."
+      },
+      "sources": {
+        "fr": {
+          "preferred": "code pin",
+          "accepted": [
+            "code secret",
+            "pin"
+          ]
+        },
+        "en": {
+          "preferred": "pin",
+          "accepted": [
+            "pin code",
+            "secret code"
+          ]
+        }
+      },
+      "targets": [
+        {
+          "target_id": "pin~t1",
+          "contexts": [],
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation"
+        }
+      ]
+    },
+    {
+      "concept_id": "otp",
+      "domain": "mobile_money",
+      "contexts": [
+        "security"
+      ],
+      "definition": {
+        "fr": "L'OTP est un code qui ne marche qu'une seule fois pour confirmer que c'est bien vous. Ne le partagez jamais.",
+        "en": "An OTP is a code that works only once to confirm that it is really you. Never share it."
+      },
+      "sources": {
+        "fr": {
+          "preferred": "code de vérification",
+          "accepted": [
+            "code otp",
+            "otp"
+          ]
+        },
+        "en": {
+          "preferred": "verification code",
+          "accepted": [
+            "otp",
+            "one-time password"
+          ]
+        }
+      },
+      "targets": [
+        {
+          "target_id": "otp~t1",
+          "contexts": [],
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation"
+        }
+      ]
+    },
+    {
+      "concept_id": "transaction",
+      "domain": "mobile_money",
+      "contexts": [
+        "history"
+      ],
+      "definition": {
+        "fr": "Une transaction est une opération d'argent : envoi, réception, paiement, dépôt ou retrait.",
+        "en": "A transaction is any money operation: sending, receiving, paying, depositing or withdrawing."
+      },
+      "sources": {
+        "fr": {
+          "preferred": "transaction",
+          "accepted": [
+            "opération"
+          ]
+        },
+        "en": {
+          "preferred": "transaction",
+          "accepted": [
+            "operation"
+          ]
+        }
+      },
+      "targets": [
+        {
+          "target_id": "transaction~t1",
+          "contexts": [],
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation"
+        }
+      ]
+    },
+    {
+      "concept_id": "failed_transaction",
+      "domain": "mobile_money",
+      "contexts": [
+        "error"
+      ],
+      "definition": {
+        "fr": "Une transaction échouée veut dire que l'opération n'a pas été terminée. Vérifiez votre solde et votre historique avant de recommencer, pour éviter de payer deux fois.",
+        "en": "A failed transaction means the operation was not completed. Check your balance and history before trying again, to avoid paying twice."
+      },
+      "sources": {
+        "fr": {
+          "preferred": "transaction échouée",
+          "accepted": [
+            "échec de la transaction",
+            "opération échouée"
+          ]
+        },
+        "en": {
+          "preferred": "failed transaction",
+          "accepted": [
+            "transaction failed"
+          ]
+        }
+      },
+      "targets": [
+        {
+          "target_id": "failed_transaction~t1",
+          "contexts": [],
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation"
+        }
+      ]
+    },
+    {
+      "concept_id": "insufficient_balance",
+      "domain": "mobile_money",
+      "contexts": [
+        "error",
+        "balance"
+      ],
+      "definition": {
+        "fr": "Solde insuffisant veut dire qu'il n'y a pas assez d'argent sur le compte pour faire cette opération et payer les frais.",
+        "en": "Insufficient balance means there is not enough money in the account to make this operation and pay the fees."
+      },
+      "sources": {
+        "fr": {
+          "preferred": "solde insuffisant",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "insufficient balance",
+          "accepted": [
+            "insufficient funds"
+          ]
+        }
+      },
+      "targets": [
+        {
+          "target_id": "insufficient_balance~t1",
+          "contexts": [],
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation"
+        }
+      ]
+    },
+    {
+      "concept_id": "deposit",
+      "domain": "mobile_money",
+      "contexts": [
+        "deposit"
+      ],
+      "definition": {
+        "fr": "Un dépôt, c'est mettre de l'argent sur votre compte, par exemple chez un agent.",
+        "en": "A deposit means putting money into your account, for example at an agent."
+      },
+      "sources": {
+        "fr": {
+          "preferred": "dépôt",
+          "accepted": [
+            "dépôt d'argent"
+          ]
+        },
+        "en": {
+          "preferred": "deposit",
+          "accepted": [
+            "cash in"
+          ]
+        }
+      },
+      "targets": [
+        {
+          "target_id": "deposit~t1",
+          "contexts": [],
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation"
+        }
+      ]
+    },
+    {
+      "concept_id": "withdrawal",
+      "domain": "mobile_money",
+      "contexts": [
+        "withdrawal"
+      ],
+      "definition": {
+        "fr": "Un retrait, c'est reprendre de l'argent de votre compte pour le recevoir en espèces.",
+        "en": "A withdrawal means taking money out of your account to receive it in cash."
+      },
+      "sources": {
+        "fr": {
+          "preferred": "retrait",
+          "accepted": [
+            "retrait d'argent"
+          ]
+        },
+        "en": {
+          "preferred": "withdrawal",
+          "accepted": [
+            "cash out"
+          ]
+        }
+      },
+      "targets": [
+        {
+          "target_id": "withdrawal~t1",
+          "contexts": [],
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation"
+        }
+      ]
+    },
+    {
+      "concept_id": "merchant_payment",
+      "domain": "mobile_money",
+      "contexts": [
+        "payment"
+      ],
+      "definition": {
+        "fr": "Le paiement marchand sert à payer un commerçant directement avec votre compte, sans espèces.",
+        "en": "A merchant payment is used to pay a shopkeeper directly from your account, without cash."
+      },
+      "sources": {
+        "fr": {
+          "preferred": "paiement marchand",
+          "accepted": [
+            "payer un marchand"
+          ]
+        },
+        "en": {
+          "preferred": "merchant payment",
+          "accepted": [
+            "pay a merchant"
+          ]
+        }
+      },
+      "targets": [
+        {
+          "target_id": "merchant_payment~t1",
+          "contexts": [],
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation"
+        }
+      ]
+    },
+    {
+      "concept_id": "agent",
+      "domain": "mobile_money",
+      "contexts": [
+        "deposit",
+        "withdrawal"
+      ],
+      "definition": {
+        "fr": "Un agent est une personne ou une boutique autorisée par le service pour faire des dépôts et des retraits.",
+        "en": "An agent is a person or shop authorised by the service to handle deposits and withdrawals."
+      },
+      "sources": {
+        "fr": {
+          "preferred": "agent",
+          "accepted": [
+            "point de service"
+          ]
+        },
+        "en": {
+          "preferred": "agent",
+          "accepted": [
+            "service point"
+          ]
+        }
+      },
+      "targets": [
+        {
+          "target_id": "agent~t1",
+          "contexts": [],
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation"
+        }
+      ]
+    },
+    {
+      "concept_id": "account",
+      "domain": "mobile_money",
+      "contexts": [
+        "balance"
+      ],
+      "definition": {
+        "fr": "Le compte est l'endroit où votre argent est gardé et suivi par le service.",
+        "en": "The account is where your money is kept and tracked by the service."
+      },
+      "sources": {
+        "fr": {
+          "preferred": "compte",
+          "accepted": [
+            "numéro de compte"
+          ]
+        },
+        "en": {
+          "preferred": "account",
+          "accepted": [
+            "account number"
+          ]
+        }
+      },
+      "targets": [
+        {
+          "target_id": "account~t1",
+          "contexts": [],
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation"
+        }
+      ]
+    },
+    {
+      "concept_id": "reference",
+      "domain": "mobile_money",
+      "contexts": [
+        "history"
+      ],
+      "definition": {
+        "fr": "La référence est le numéro unique d'une opération. Gardez-le pour retrouver l'opération ou pour une réclamation.",
+        "en": "The reference is the unique number of an operation. Keep it to find the operation or to make a complaint."
+      },
+      "sources": {
+        "fr": {
+          "preferred": "référence",
+          "accepted": [
+            "numéro de référence",
+            "identifiant de transaction"
+          ]
+        },
+        "en": {
+          "preferred": "reference",
+          "accepted": [
+            "reference number",
+            "transaction id"
+          ]
+        }
+      },
+      "targets": [
+        {
+          "target_id": "reference~t1",
+          "contexts": [],
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation"
+        }
+      ]
+    },
+    {
+      "concept_id": "limit",
+      "domain": "mobile_money",
+      "contexts": [
+        "transfer"
+      ],
+      "definition": {
+        "fr": "Le plafond est le montant maximum que vous pouvez envoyer ou retirer sur une période, par exemple par jour.",
+        "en": "The limit is the maximum amount you can send or withdraw over a period, for example per day."
+      },
+      "sources": {
+        "fr": {
+          "preferred": "plafond",
+          "accepted": [
+            "limite journalière",
+            "limite"
+          ]
+        },
+        "en": {
+          "preferred": "limit",
+          "accepted": [
+            "daily limit"
+          ]
+        }
+      },
+      "targets": [
+        {
+          "target_id": "limit~t1",
+          "contexts": [],
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation"
+        }
+      ]
+    },
+    {
+      "concept_id": "exchange_rate",
+      "domain": "mobile_money",
+      "contexts": [
+        "transfer"
+      ],
+      "definition": {
+        "fr": "Le taux de change dit combien vaut une monnaie par rapport à une autre quand on change de l'argent.",
+        "en": "The exchange rate tells how much one currency is worth compared with another when money is converted."
+      },
+      "sources": {
+        "fr": {
+          "preferred": "taux de change",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "exchange rate",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "exchange_rate~t1",
+          "contexts": [],
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation"
+        }
+      ]
+    },
+    {
+      "concept_id": "interest",
+      "domain": "mobile_money",
+      "contexts": [
+        "loan"
+      ],
+      "definition": {
+        "fr": "L'intérêt est la somme qu'on paie en plus pour un crédit, ou qu'on gagne en plus sur une épargne.",
+        "en": "Interest is the extra amount paid on a loan, or earned on savings."
+      },
+      "sources": {
+        "fr": {
+          "preferred": "intérêt",
+          "accepted": [
+            "intérêts",
+            "taux d'intérêt"
+          ]
+        },
+        "en": {
+          "preferred": "interest",
+          "accepted": [
+            "interest rate"
+          ]
+        }
+      },
+      "targets": [
+        {
+          "target_id": "interest~t1",
+          "contexts": [],
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation"
+        }
+      ]
+    },
+    {
+      "concept_id": "loan",
+      "domain": "mobile_money",
+      "contexts": [
+        "loan"
+      ],
+      "definition": {
+        "fr": "Un crédit est de l'argent prêté que vous devez rendre plus tard, avec des frais ou des intérêts.",
+        "en": "A loan is money lent to you that you must pay back later, with fees or interest."
+      },
+      "sources": {
+        "fr": {
+          "preferred": "crédit",
+          "accepted": [
+            "prêt",
+            "microcrédit"
+          ]
+        },
+        "en": {
+          "preferred": "loan",
+          "accepted": [
+            "credit",
+            "microloan"
+          ]
+        }
+      },
+      "targets": [
+        {
+          "target_id": "loan~t1",
+          "contexts": [],
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation"
+        }
+      ]
+    },
+    {
+      "concept_id": "repayment",
+      "domain": "mobile_money",
+      "contexts": [
+        "loan"
+      ],
+      "definition": {
+        "fr": "Le remboursement est l'argent que vous rendez pour un crédit, à des dates fixées.",
+        "en": "Repayment is the money you give back for a loan, on set dates."
+      },
+      "sources": {
+        "fr": {
+          "preferred": "remboursement",
+          "accepted": [
+            "échéance"
+          ]
+        },
+        "en": {
+          "preferred": "repayment",
+          "accepted": [
+            "due date",
+            "instalment"
+          ]
+        }
+      },
+      "targets": [
+        {
+          "target_id": "repayment~t1",
+          "contexts": [],
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation"
+        }
+      ]
+    },
+    {
+      "concept_id": "savings",
+      "domain": "mobile_money",
+      "contexts": [
+        "loan"
+      ],
+      "definition": {
+        "fr": "L'épargne est l'argent que vous mettez de côté pour plus tard.",
+        "en": "Savings is money you set aside for later."
+      },
+      "sources": {
+        "fr": {
+          "preferred": "épargne",
+          "accepted": [
+            "compte d'épargne"
+          ]
+        },
+        "en": {
+          "preferred": "savings",
+          "accepted": [
+            "savings account"
+          ]
+        }
+      },
+      "targets": [
+        {
+          "target_id": "savings~t1",
+          "contexts": [],
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation"
+        }
+      ]
+    },
+    {
+      "concept_id": "confirmation",
+      "domain": "mobile_money",
+      "contexts": [
+        "transfer"
+      ],
+      "definition": {
+        "fr": "Confirmer veut dire « oui, je suis d'accord » : après cela, l'opération part et il peut être difficile de l'annuler.",
+        "en": "Confirming means saying \"yes, I agree\": after that the operation goes through and may be hard to cancel."
+      },
+      "sources": {
+        "fr": {
+          "preferred": "confirmation",
+          "accepted": [
+            "confirmer"
+          ]
+        },
+        "en": {
+          "preferred": "confirmation",
+          "accepted": [
+            "confirm"
+          ]
+        }
+      },
+      "targets": [
+        {
+          "target_id": "confirmation~t1",
+          "contexts": [],
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation"
+        }
+      ]
+    },
+    {
+      "concept_id": "pending",
+      "domain": "mobile_money",
+      "contexts": [
+        "history"
+      ],
+      "definition": {
+        "fr": "En attente veut dire que l'opération n'est pas encore terminée. Attendez avant de recommencer.",
+        "en": "Pending means the operation is not finished yet. Wait before trying again."
+      },
+      "sources": {
+        "fr": {
+          "preferred": "en attente",
+          "accepted": [
+            "opération en cours"
+          ]
+        },
+        "en": {
+          "preferred": "pending",
+          "accepted": [
+            "in progress"
+          ]
+        }
+      },
+      "targets": [
+        {
+          "target_id": "pending~t1",
+          "contexts": [],
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation"
+        }
+      ]
+    },
+    {
+      "concept_id": "reversal",
+      "domain": "mobile_money",
+      "contexts": [
+        "error"
+      ],
+      "definition": {
+        "fr": "Quand une opération échoue, l'argent débité peut vous être rendu automatiquement : c'est une annulation ou un remboursement.",
+        "en": "When an operation fails, the money taken from you can be returned automatically: this is a reversal or refund."
+      },
+      "sources": {
+        "fr": {
+          "preferred": "annulation",
+          "accepted": [
+            "remboursement automatique",
+            "remboursée"
+          ]
+        },
+        "en": {
+          "preferred": "reversal",
+          "accepted": [
+            "refund",
+            "refunded"
+          ]
+        }
+      },
+      "targets": [
+        {
+          "target_id": "reversal~t1",
+          "contexts": [],
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation"
+        }
+      ]
+    },
+    {
+      "concept_id": "scam_warning",
+      "domain": "mobile_money",
+      "contexts": [
+        "security"
+      ],
+      "definition": {
+        "fr": "Une arnaque, c'est quand quelqu'un vous trompe pour prendre votre argent ou votre code secret. Le service ne vous demandera jamais votre PIN.",
+        "en": "A scam is when someone tricks you to take your money or secret code. The service will never ask for your PIN."
+      },
+      "sources": {
+        "fr": {
+          "preferred": "arnaque",
+          "accepted": [
+            "fraude"
+          ]
+        },
+        "en": {
+          "preferred": "scam",
+          "accepted": [
+            "fraud"
+          ]
+        }
+      },
+      "targets": [
+        {
+          "target_id": "scam_warning~t1",
+          "contexts": [],
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation"
+        }
+      ]
+    },
+    {
+      "concept_id": "notification",
+      "domain": "mobile_money",
+      "contexts": [
+        "history"
+      ],
+      "definition": {
+        "fr": "Une notification est un message qui vous informe d'une opération sur votre compte.",
+        "en": "A notification is a message that informs you of an operation on your account."
+      },
+      "sources": {
+        "fr": {
+          "preferred": "notification",
+          "accepted": [
+            "alerte"
+          ]
+        },
+        "en": {
+          "preferred": "notification",
+          "accepted": [
+            "alert"
+          ]
+        }
+      },
+      "targets": [
+        {
+          "target_id": "notification~t1",
+          "contexts": [],
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation"
+        }
+      ]
+    },
+    {
+      "concept_id": "ui.recevoir_de_l_argent",
+      "domain": "mobile_money",
+      "contexts": [
+        "button",
+        "receive"
+      ],
+      "sources": {
+        "fr": {
+          "preferred": "Recevoir de l'argent",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "Receive money",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "ui.recevoir_de_l_argent~t1",
+          "contexts": [],
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation"
+        }
+      ]
+    },
+    {
+      "concept_id": "ui.tableau_de_bord",
+      "domain": "mobile_money",
+      "contexts": [
+        "menu",
+        "heading"
+      ],
+      "sources": {
+        "fr": {
+          "preferred": "Tableau de bord",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "Dashboard",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "ui.tableau_de_bord~t1",
+          "contexts": [],
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation"
+        }
+      ]
+    },
+    {
+      "concept_id": "ui.historique",
+      "domain": "mobile_money",
+      "contexts": [
+        "menu",
+        "heading",
+        "history"
+      ],
+      "sources": {
+        "fr": {
+          "preferred": "Historique",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "History",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "ui.historique~t1",
+          "contexts": [],
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation"
+        }
+      ]
+    },
+    {
+      "concept_id": "ui.notifications",
+      "domain": "mobile_money",
+      "contexts": [
+        "menu",
+        "heading"
+      ],
+      "sources": {
+        "fr": {
+          "preferred": "Notifications",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "Notifications",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "ui.notifications~t1",
+          "contexts": [],
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation"
+        }
+      ]
+    },
+    {
+      "concept_id": "ui.montant",
+      "domain": "mobile_money",
+      "contexts": [
+        "label"
+      ],
+      "sources": {
+        "fr": {
+          "preferred": "Montant",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "Amount",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "ui.montant~t1",
+          "contexts": [],
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation"
+        }
+      ]
+    },
+    {
+      "concept_id": "ui.numero_du_destinataire",
+      "domain": "mobile_money",
+      "contexts": [
+        "label",
+        "transfer"
+      ],
+      "sources": {
+        "fr": {
+          "preferred": "Numéro du destinataire",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "Recipient number",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "ui.numero_du_destinataire~t1",
+          "contexts": [],
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation"
+        }
+      ]
+    },
+    {
+      "concept_id": "ui.annuler",
+      "domain": "mobile_money",
+      "contexts": [
+        "button"
+      ],
+      "sources": {
+        "fr": {
+          "preferred": "Annuler",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "Cancel",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "ui.annuler~t1",
+          "contexts": [],
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation"
+        }
+      ]
+    },
+    {
+      "concept_id": "ui.retour",
+      "domain": "mobile_money",
+      "contexts": [
+        "button"
+      ],
+      "sources": {
+        "fr": {
+          "preferred": "Retour",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "Back",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "ui.retour~t1",
+          "contexts": [],
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation"
+        }
+      ]
+    },
+    {
+      "concept_id": "ui.valider",
+      "domain": "mobile_money",
+      "contexts": [
+        "button"
+      ],
+      "sources": {
+        "fr": {
+          "preferred": "Valider",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "Submit",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "ui.valider~t1",
+          "contexts": [],
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation"
+        }
+      ]
+    },
+    {
+      "concept_id": "ui.total_a_debiter",
+      "domain": "mobile_money",
+      "contexts": [
+        "label",
+        "fees"
+      ],
+      "sources": {
+        "fr": {
+          "preferred": "Total à débiter",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "Total to be debited",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "ui.total_a_debiter~t1",
+          "contexts": [],
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation"
+        }
+      ]
+    },
+    {
+      "concept_id": "ui.transaction_reussie",
+      "domain": "mobile_money",
+      "contexts": [
+        "notification"
+      ],
+      "sources": {
+        "fr": {
+          "preferred": "Transaction réussie",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "Transaction successful",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "ui.transaction_reussie~t1",
+          "contexts": [],
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation"
+        }
+      ]
+    },
+    {
+      "concept_id": "ui.reessayer",
+      "domain": "mobile_money",
+      "contexts": [
+        "button"
+      ],
+      "sources": {
+        "fr": {
+          "preferred": "Réessayer",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "Try again",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "ui.reessayer~t1",
+          "contexts": [],
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation"
+        }
+      ]
+    },
+    {
+      "concept_id": "ui.deconnexion",
+      "domain": "mobile_money",
+      "contexts": [
+        "menu"
+      ],
+      "sources": {
+        "fr": {
+          "preferred": "Déconnexion",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "Log out",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "ui.deconnexion~t1",
+          "contexts": [],
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation"
+        }
+      ]
+    },
+    {
+      "concept_id": "ui.aide",
+      "domain": "mobile_money",
+      "contexts": [
+        "menu"
+      ],
+      "sources": {
+        "fr": {
+          "preferred": "Aide",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "Help",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "ui.aide~t1",
+          "contexts": [],
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation"
+        }
+      ]
+    },
+    {
+      "concept_id": "ui.date",
+      "domain": "mobile_money",
+      "contexts": [
+        "table_header"
+      ],
+      "sources": {
+        "fr": {
+          "preferred": "Date",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "Date",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "ui.date~t1",
+          "contexts": [],
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation"
+        }
+      ]
+    },
+    {
+      "concept_id": "ui.statut",
+      "domain": "mobile_money",
+      "contexts": [
+        "table_header"
+      ],
+      "sources": {
+        "fr": {
+          "preferred": "Statut",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "Status",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "ui.statut~t1",
+          "contexts": [],
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation"
+        }
+      ]
+    },
+    {
+      "concept_id": "ui.reussie",
+      "domain": "mobile_money",
+      "contexts": [
+        "table_cell"
+      ],
+      "sources": {
+        "fr": {
+          "preferred": "Réussie",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "Successful",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "ui.reussie~t1",
+          "contexts": [],
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation"
+        }
+      ]
+    },
+    {
+      "concept_id": "ui.echouee",
+      "domain": "mobile_money",
+      "contexts": [
+        "table_cell"
+      ],
+      "sources": {
+        "fr": {
+          "preferred": "Échouée",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "Failed",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "ui.echouee~t1",
+          "contexts": [],
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+/* Diversity Lingua — jetons de design (source unique : popup, options ET panneaux injectés en Shadow DOM).
+   Ces variables ne sont JAMAIS appliquées aux pages visitées. */
+:root, :host {
+  /* Encre (texte, surfaces sombres) */
+  --dl-ink-950: #08171f; --dl-ink-900: #0b1f2a; --dl-ink-700: #1c3b49; --dl-ink-500: #476474; --dl-ink-400: #5f7787;
+  --dl-ink-300: #9db0bb; --dl-ink-200: #cbd6dc;
+  /* Papier (fonds) */
+  --dl-paper-0: #ffffff; --dl-paper-50: #fbfaf6; --dl-paper-100: #f4f1e8; --dl-paper-200: #e7e2d3; --dl-paper-300: #d5cebb;
+  /* Accent unique : jade */
+  --dl-jade-700: #0a5a4c; --dl-jade-600: #0e6b5c; --dl-jade-500: #158a75; --dl-jade-100: #d6eee7; --dl-jade-50: #eaf6f2;
+  /* Couleurs fonctionnelles (sémantiques — jamais décoratives) */
+  --dl-verified-fg: #146b3f; --dl-verified-bg: #dcf2e4; --dl-verified-line: #2f9a63;
+  --dl-auto-fg: #7a4f00; --dl-auto-bg: #fbebc8; --dl-auto-line: #c98a12;
+  --dl-unavail-fg: #3e4c57; --dl-unavail-bg: #e5e9ec; --dl-unavail-line: #8a99a5;
+  --dl-kept-fg: #1f4d7a; --dl-kept-bg: #deeaf7; --dl-kept-line: #5b8fc4;
+  --dl-error-fg: #9e2229; --dl-error-bg: #fbe3e3; --dl-error-line: #d45a5f;
+  --dl-focus: #0b6bcb;
+  /* Typographie : pile système (rendu vérifié sur ɓ ɗ ŋ ɲ ƴ ; repli par glyphe assuré par le système) */
+  --dl-font: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", "Helvetica Neue", Arial, sans-serif;
+  --dl-fs-xs: 12px; --dl-fs-sm: 13px; --dl-fs-md: 14px; --dl-fs-lg: 16px; --dl-fs-xl: 19px; --dl-fs-2xl: 24px;
+  --dl-lh-tight: 1.25; --dl-lh-body: 1.5;
+  /* Espacements (échelle de 4 px) */
+  --dl-s-1: 4px; --dl-s-2: 8px; --dl-s-3: 12px; --dl-s-4: 16px; --dl-s-5: 20px; --dl-s-6: 24px; --dl-s-8: 32px;
+  /* Rayons, ombres */
+  --dl-r-sm: 6px; --dl-r-md: 10px; --dl-r-lg: 14px; --dl-r-pill: 999px;
+  --dl-shadow-sm: 0 1px 2px rgba(11, 31, 42, .10);
+  --dl-shadow-md: 0 4px 14px rgba(11, 31, 42, .14), 0 1px 3px rgba(11, 31, 42, .10);
+  --dl-shadow-lg: 0 14px 40px rgba(11, 31, 42, .22), 0 2px 6px rgba(11, 31, 42, .12);
+  /* Interaction */
+  --dl-hit: 44px; --dl-t-fast: 120ms; --dl-t-med: 200ms;
+}
+@media (prefers-reduced-motion: reduce) { :root, :host { --dl-t-fast: 0.01ms; --dl-t-med: 0.01ms; } }

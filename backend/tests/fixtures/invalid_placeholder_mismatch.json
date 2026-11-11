@@ -1,0 +1,126 @@
+{
+  "schema": "diversity-lingua/glossary",
+  "schema_version": "1.0.0",
+  "meta": {
+    "language": "ff",
+    "variety": "adamawa",
+    "source_languages": [
+      "fr",
+      "en"
+    ],
+    "dataset_version": "fx-1",
+    "fixture": true,
+    "provenance": {
+      "organization": "FIXTURE TECHNIQUE",
+      "method": "technical_fixture",
+      "notes": "Données fictives : aucune valeur linguistique"
+    }
+  },
+  "concepts": [
+    {
+      "concept_id": "fx.alpha",
+      "contexts": [
+        "button"
+      ],
+      "sources": {
+        "fr": {
+          "preferred": "Alpha fictif",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "Fictitious alpha",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "contexts": [],
+          "preferred": "[FIXTURE] {{P0}}",
+          "accepted": [
+            "[FIXTURE] alpha-bis"
+          ],
+          "status": "approved",
+          "version": 1,
+          "target_id": "fx.alpha~t1",
+          "validation": {
+            "validator_id": "fixture-validator",
+            "validated_at": "2026-01-01T00:00:00+00:00",
+            "method": "technical_fixture"
+          }
+        }
+      ]
+    },
+    {
+      "concept_id": "fx.beta",
+      "contexts": [],
+      "sources": {
+        "fr": {
+          "preferred": "Bêta fictif",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "Fictitious beta",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "contexts": [],
+          "preferred": null,
+          "accepted": [],
+          "status": "pending_validation",
+          "version": 1,
+          "target_id": "fx.beta~t1"
+        }
+      ]
+    },
+    {
+      "concept_id": "fx.gamma",
+      "contexts": [],
+      "sources": {
+        "fr": {
+          "preferred": "Gamma fictif",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "Fictitious gamma",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "contexts": [],
+          "preferred": "[FIXTURE] gamma-en-attente",
+          "accepted": [],
+          "status": "pending_validation",
+          "version": 1,
+          "target_id": "fx.gamma~t1"
+        }
+      ]
+    },
+    {
+      "concept_id": "fx.delta",
+      "contexts": [],
+      "sources": {
+        "fr": {
+          "preferred": "Delta fictif",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "Fictitious delta",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "contexts": [],
+          "preferred": "[FIXTURE] delta-rejeté",
+          "accepted": [],
+          "status": "rejected",
+          "version": 1,
+          "target_id": "fx.delta~t1"
+        }
+      ]
+    }
+  ]
+}

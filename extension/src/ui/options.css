@@ -1,0 +1,12 @@
+body.options { margin: 0; background: var(--dl-paper-50); }
+.opt { max-width: 600px; margin: 0 auto; padding: var(--dl-s-6) var(--dl-s-4) var(--dl-s-8); display: grid; gap: var(--dl-s-4); }
+.opt h1 { margin: 0; font-size: var(--dl-fs-2xl); letter-spacing: -.01em; }
+.opt h2 { margin: 0 0 var(--dl-s-3); font-size: var(--dl-fs-lg); }
+.opt .lead { margin: 4px 0 0; color: var(--dl-ink-500); }
+.opt label.lbl { display: block; margin: var(--dl-s-3) 0 var(--dl-s-1); font-weight: 600; font-size: var(--dl-fs-sm); }
+.opt .help { margin: var(--dl-s-1) 0 0; font-size: var(--dl-fs-xs); color: var(--dl-ink-500); }
+.opt .check { display: flex; align-items: center; gap: var(--dl-s-3); min-height: var(--dl-hit); }
+.opt .check input { width: 20px; height: 20px; accent-color: var(--dl-jade-600); flex: none; }
+.opt .actions { display: flex; gap: var(--dl-s-2); flex-wrap: wrap; margin-top: var(--dl-s-4); }
+#msg { margin-top: var(--dl-s-3); font-weight: 600; }
+.ok { color: var(--dl-verified-fg); } .ko { color: var(--dl-error-fg); }

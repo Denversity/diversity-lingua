@@ -1,0 +1,9 @@
+# NOTE : non exécuté dans l'environnement de développement (pas de Docker disponible) — à valider sur votre machine.
+services:
+  api:
+    build: { context: ., dockerfile: backend/Dockerfile }
+    env_file: [.env]
+    ports: ["8000:8000"]
+    # data/ est ÉCRIT par l'importateur et la validation (versionné, sauvegardé dans state/) : volumes persistants pour les deux
+    volumes: ["dl_state:/app/state", "dl_data:/app/data"]
+volumes: { dl_state: {}, dl_data: {} }

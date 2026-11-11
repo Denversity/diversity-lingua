@@ -1,0 +1,394 @@
+{
+  "$defs": {
+    "CorpusItem": {
+      "additionalProperties": false,
+      "properties": {
+        "concept_ids": {
+          "default": [],
+          "items": {
+            "maxLength": 120,
+            "pattern": "^[a-z][a-z0-9_]*(?:[.\\-][a-z0-9_]+)*$",
+            "type": "string"
+          },
+          "title": "Concept Ids",
+          "type": "array"
+        },
+        "contexts": {
+          "default": [],
+          "items": {
+            "type": "string"
+          },
+          "title": "Contexts",
+          "type": "array"
+        },
+        "item_id": {
+          "maxLength": 160,
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:~|\\-]*$",
+          "title": "Item Id",
+          "type": "string"
+        },
+        "language_register": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Language Register"
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Notes"
+        },
+        "provenance": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Provenance"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "reference": {
+          "$ref": "#/$defs/Reference",
+          "default": {
+            "accepted": [],
+            "status": "pending_validation",
+            "text": null
+          }
+        },
+        "source": {
+          "$ref": "#/$defs/SourceText"
+        },
+        "split": {
+          "anyOf": [
+            {
+              "enum": [
+                "train",
+                "dev",
+                "test"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Split"
+        }
+      },
+      "required": [
+        "item_id",
+        "source"
+      ],
+      "title": "CorpusItem",
+      "type": "object"
+    },
+    "Meta": {
+      "additionalProperties": false,
+      "properties": {
+        "created_at": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Created At"
+        },
+        "dataset_version": {
+          "description": "ex. 2026.11.0",
+          "maxLength": 40,
+          "minLength": 1,
+          "title": "Dataset Version",
+          "type": "string"
+        },
+        "fixture": {
+          "default": false,
+          "description": "True = données techniques fictives, refusées en production",
+          "title": "Fixture",
+          "type": "boolean"
+        },
+        "language": {
+          "description": "Langue cible (ff)",
+          "pattern": "^[a-z]{2,3}(?:-[a-z0-9]+)?$",
+          "title": "Language",
+          "type": "string"
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Notes"
+        },
+        "provenance": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Provenance"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "source_languages": {
+          "default": [
+            "fr",
+            "en"
+          ],
+          "items": {
+            "enum": [
+              "fr",
+              "en"
+            ],
+            "type": "string"
+          },
+          "title": "Source Languages",
+          "type": "array"
+        },
+        "variety": {
+          "description": "adamawa pour ff",
+          "minLength": 1,
+          "title": "Variety",
+          "type": "string"
+        }
+      },
+      "required": [
+        "language",
+        "variety",
+        "dataset_version"
+      ],
+      "title": "Meta",
+      "type": "object"
+    },
+    "Provenance": {
+      "additionalProperties": false,
+      "properties": {
+        "author": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Author"
+        },
+        "date": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "ISO 8601 (AAAA-MM-JJ)",
+          "title": "Date"
+        },
+        "license": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "License"
+        },
+        "method": {
+          "anyOf": [
+            {
+              "enum": [
+                "native_speaker",
+                "panel",
+                "community_review",
+                "import",
+                "technical_fixture"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Method"
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Notes"
+        },
+        "organization": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Organization"
+        },
+        "source_document": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Document"
+        }
+      },
+      "title": "Provenance",
+      "type": "object"
+    },
+    "Reference": {
+      "additionalProperties": false,
+      "properties": {
+        "accepted": {
+          "default": [],
+          "items": {
+            "maxLength": 2000,
+            "minLength": 1,
+            "type": "string"
+          },
+          "title": "Accepted",
+          "type": "array"
+        },
+        "status": {
+          "default": "pending_validation",
+          "enum": [
+            "pending_validation",
+            "approved",
+            "rejected",
+            "deprecated"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "text": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Text"
+        }
+      },
+      "title": "Reference",
+      "type": "object"
+    },
+    "SourceText": {
+      "additionalProperties": false,
+      "properties": {
+        "lang": {
+          "enum": [
+            "fr",
+            "en"
+          ],
+          "title": "Lang",
+          "type": "string"
+        },
+        "text": {
+          "maxLength": 2000,
+          "minLength": 1,
+          "title": "Text",
+          "type": "string"
+        }
+      },
+      "required": [
+        "lang",
+        "text"
+      ],
+      "title": "SourceText",
+      "type": "object"
+    }
+  },
+  "$id": "https://diversity-lingua.local/schemas/corpus/1.0.0",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "corpus_id": {
+      "maxLength": 160,
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:~|\\-]*$",
+      "title": "Corpus Id",
+      "type": "string"
+    },
+    "items": {
+      "items": {
+        "$ref": "#/$defs/CorpusItem"
+      },
+      "title": "Items",
+      "type": "array"
+    },
+    "meta": {
+      "$ref": "#/$defs/Meta"
+    },
+    "schema": {
+      "const": "diversity-lingua/corpus",
+      "default": "diversity-lingua/corpus",
+      "title": "Schema",
+      "type": "string"
+    },
+    "schema_version": {
+      "description": "Version majeure 1 requise",
+      "pattern": "^1\\.\\d+\\.\\d+$",
+      "title": "Schema Version",
+      "type": "string"
+    }
+  },
+  "required": [
+    "schema_version",
+    "meta",
+    "corpus_id",
+    "items"
+  ],
+  "title": "Diversity Lingua — corpus (contrat 1.0.0)",
+  "type": "object"
+}

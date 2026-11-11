@@ -1,0 +1,496 @@
+{
+  "$defs": {
+    "LanguageProfile": {
+      "additionalProperties": false,
+      "properties": {
+        "availability": {
+          "default": "awaiting_validation",
+          "enum": [
+            "awaiting_validation",
+            "partial",
+            "available",
+            "disabled"
+          ],
+          "title": "Availability",
+          "type": "string"
+        },
+        "code": {
+          "pattern": "^[a-z]{2,3}(?:-[a-z0-9]+)?$",
+          "title": "Code",
+          "type": "string"
+        },
+        "iso639_3": {
+          "anyOf": [
+            {
+              "pattern": "^[a-z]{3}$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Iso639 3"
+        },
+        "language_register": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Language Register"
+        },
+        "machine_translation": {
+          "default": "allowed",
+          "enum": [
+            "allowed",
+            "disabled"
+          ],
+          "title": "Machine Translation",
+          "type": "string"
+        },
+        "name": {
+          "maxLength": 2000,
+          "minLength": 1,
+          "title": "Name",
+          "type": "string"
+        },
+        "native_name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Native Name"
+        },
+        "nllb_code": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Nllb Code"
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Notes"
+        },
+        "number_format": {
+          "$ref": "#/$defs/NumberFormat",
+          "default": {
+            "currency_position": null,
+            "decimal_separator": null,
+            "thousands_separator": null
+          }
+        },
+        "orthography": {
+          "$ref": "#/$defs/Orthography",
+          "default": {
+            "alphabet": [],
+            "description": null,
+            "rules": [],
+            "special_characters": []
+          }
+        },
+        "script": {
+          "default": "Latn",
+          "title": "Script",
+          "type": "string"
+        },
+        "style_guide": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/StyleGuideRef"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "variety": {
+          "minLength": 1,
+          "title": "Variety",
+          "type": "string"
+        }
+      },
+      "required": [
+        "code",
+        "name",
+        "variety"
+      ],
+      "title": "LanguageProfile",
+      "type": "object"
+    },
+    "Meta": {
+      "additionalProperties": false,
+      "properties": {
+        "created_at": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Created At"
+        },
+        "dataset_version": {
+          "description": "ex. 2026.11.0",
+          "maxLength": 40,
+          "minLength": 1,
+          "title": "Dataset Version",
+          "type": "string"
+        },
+        "fixture": {
+          "default": false,
+          "description": "True = données techniques fictives, refusées en production",
+          "title": "Fixture",
+          "type": "boolean"
+        },
+        "language": {
+          "description": "Langue cible (ff)",
+          "pattern": "^[a-z]{2,3}(?:-[a-z0-9]+)?$",
+          "title": "Language",
+          "type": "string"
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Notes"
+        },
+        "provenance": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Provenance"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "source_languages": {
+          "default": [
+            "fr",
+            "en"
+          ],
+          "items": {
+            "enum": [
+              "fr",
+              "en"
+            ],
+            "type": "string"
+          },
+          "title": "Source Languages",
+          "type": "array"
+        },
+        "variety": {
+          "description": "adamawa pour ff",
+          "minLength": 1,
+          "title": "Variety",
+          "type": "string"
+        }
+      },
+      "required": [
+        "language",
+        "variety",
+        "dataset_version"
+      ],
+      "title": "Meta",
+      "type": "object"
+    },
+    "NumberFormat": {
+      "additionalProperties": false,
+      "properties": {
+        "currency_position": {
+          "anyOf": [
+            {
+              "enum": [
+                "before",
+                "after"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Currency Position"
+        },
+        "decimal_separator": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Decimal Separator"
+        },
+        "thousands_separator": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Thousands Separator"
+        }
+      },
+      "title": "NumberFormat",
+      "type": "object"
+    },
+    "Orthography": {
+      "additionalProperties": false,
+      "properties": {
+        "alphabet": {
+          "default": [],
+          "items": {
+            "type": "string"
+          },
+          "title": "Alphabet",
+          "type": "array"
+        },
+        "description": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Description"
+        },
+        "rules": {
+          "default": [],
+          "items": {
+            "type": "string"
+          },
+          "title": "Rules",
+          "type": "array"
+        },
+        "special_characters": {
+          "default": [],
+          "items": {
+            "type": "string"
+          },
+          "title": "Special Characters",
+          "type": "array"
+        }
+      },
+      "title": "Orthography",
+      "type": "object"
+    },
+    "Provenance": {
+      "additionalProperties": false,
+      "properties": {
+        "author": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Author"
+        },
+        "date": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "ISO 8601 (AAAA-MM-JJ)",
+          "title": "Date"
+        },
+        "license": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "License"
+        },
+        "method": {
+          "anyOf": [
+            {
+              "enum": [
+                "native_speaker",
+                "panel",
+                "community_review",
+                "import",
+                "technical_fixture"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Method"
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Notes"
+        },
+        "organization": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Organization"
+        },
+        "source_document": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Document"
+        }
+      },
+      "title": "Provenance",
+      "type": "object"
+    },
+    "StyleGuideRef": {
+      "additionalProperties": false,
+      "properties": {
+        "document_path": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Chemin du guide (ex. data/referentiel/style_guide/ff.md)",
+          "title": "Document Path"
+        },
+        "title": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Title"
+        },
+        "version": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Version"
+        }
+      },
+      "title": "StyleGuideRef",
+      "type": "object"
+    }
+  },
+  "$id": "https://diversity-lingua.local/schemas/language-profile/1.0.0",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "language": {
+      "$ref": "#/$defs/LanguageProfile"
+    },
+    "meta": {
+      "$ref": "#/$defs/Meta"
+    },
+    "schema": {
+      "const": "diversity-lingua/language-profile",
+      "default": "diversity-lingua/language-profile",
+      "title": "Schema",
+      "type": "string"
+    },
+    "schema_version": {
+      "description": "Version majeure 1 requise",
+      "pattern": "^1\\.\\d+\\.\\d+$",
+      "title": "Schema Version",
+      "type": "string"
+    }
+  },
+  "required": [
+    "schema_version",
+    "meta",
+    "language"
+  ],
+  "title": "Diversity Lingua — language-profile (contrat 1.0.0)",
+  "type": "object"
+}

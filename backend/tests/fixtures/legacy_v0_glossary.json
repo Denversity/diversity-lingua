@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "language": "ff",
+  "version": "0.1.0",
+  "entries": [
+    {
+      "id": "ff-fr-0001",
+      "concept_id": "fx.legacy",
+      "source_lang": "fr",
+      "source_text": "Ancien terme",
+      "translation": "[FIXTURE] ancien",
+      "contexts": [],
+      "status": "validated",
+      "validation": {
+        "validator_id": null,
+        "validated_at": null,
+        "method": null
+      },
+      "version": 1
+    },
+    {
+      "id": "ff-fr-0002",
+      "concept_id": "fx.legacy2",
+      "source_lang": "fr",
+      "source_text": "Autre ancien terme",
+      "translation": "[FIXTURE] autre",
+      "contexts": [],
+      "status": "validated",
+      "validation": {
+        "validator_id": "fixture-validator",
+        "validated_at": "2026-01-01T00:00:00+00:00",
+        "method": "technical_fixture"
+      },
+      "version": 1
+    },
+    {
+      "id": "ff-en-0003",
+      "concept_id": "fx.legacy2",
+      "source_lang": "en",
+      "source_text": "Other old term",
+      "translation": "[FIXTURE] autre",
+      "contexts": [],
+      "status": "validated",
+      "validation": {
+        "validator_id": "fixture-validator",
+        "validated_at": "2026-01-01T00:00:00+00:00",
+        "method": "technical_fixture"
+      },
+      "version": 1
+    }
+  ]
+}

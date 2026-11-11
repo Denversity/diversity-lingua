@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MoMo Démo — Application de démonstration</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<div class="demo-banner" role="note"><b data-i18n="banner_t"></b> <span data-i18n="banner"></span></div>
+<header class="top">
+  <div class="brand"><span class="logo">M</span><span>MoMo Démo</span></div>
+  <nav aria-label="Navigation"><button data-view="dash" class="nav on" data-i18n="nav_dash"></button><button data-view="send" class="nav" data-i18n="nav_send"></button><button data-view="receive" class="nav" data-i18n="nav_receive"></button><button data-view="pay" class="nav" data-i18n="nav_pay"></button><button data-view="history" class="nav" data-i18n="nav_history"></button><button data-view="notifs" class="nav" data-i18n="nav_notifs"></button></nav>
+  <div class="lang"><button id="l-fr" class="chip on">FR</button><button id="l-en" class="chip">EN</button></div>
+</header>
+<main>
+<section id="v-dash" class="view on">
+  <h1 data-i18n="dash_h"></h1>
+  <div class="card balance"><span data-i18n="bal_label"></span><strong id="bal"></strong><small id="acct"></small></div>
+  <div class="grid"><button class="card action" data-go="send"><b data-i18n="nav_send"></b><span data-i18n="act_send"></span></button>
+  <button class="card action" data-go="pay"><b data-i18n="nav_pay"></b><span data-i18n="act_pay"></span></button>
+  <button class="card action" data-go="receive"><b data-i18n="nav_receive"></b><span data-i18n="act_receive"></span></button></div>
+  <h2 data-i18n="recent"></h2><div class="card"><table><thead><tr><th data-i18n="th_date"></th><th data-i18n="th_desc"></th><th data-i18n="th_amount"></th><th data-i18n="th_status"></th></tr></thead><tbody id="recent"></tbody></table></div>
+</section>
+<section id="v-send" class="view">
+  <h1 data-i18n="send_h"></h1>
+  <div class="card form">
+    <label for="s-to" data-i18n="f_to"></label><input id="s-to" inputmode="tel" placeholder="Numéro du bénéficiaire" value="670 12 34 56">
+    <label for="s-amt" data-i18n="f_amount"></label><input id="s-amt" inputmode="numeric" value="5000">
+    <div class="fees"><span data-i18n="fee_label"></span> <b id="s-fee"></b> · <span data-i18n="total_label"></span> <b id="s-total"></b></div>
+    <p class="hint" data-i18n="scen_hint"></p>
+    <label for="s-pin" data-i18n="f_pin"></label><input id="s-pin" type="password" inputmode="numeric" maxlength="4" autocomplete="off" placeholder="Code PIN">
+    <p class="hint" data-i18n="pin_hint"></p>
+    <div id="s-msg" role="alert" class="msg" hidden></div>
+    <div class="btns"><button id="s-go" class="primary" data-i18n="confirm"></button><button class="ghost" data-go="dash" data-i18n="cancel"></button></div>
+  </div>
+</section>
+<section id="v-receive" class="view"><h1 data-i18n="recv_h"></h1>
+  <div class="card"><p data-i18n="recv_p"></p><p><b data-i18n="your_number"></b> <span id="my-num">677 00 00 01</span></p><button id="sim-recv" class="primary" data-i18n="sim_recv"></button></div></section>
+<section id="v-pay" class="view"><h1 data-i18n="pay_h"></h1>
+  <div class="card form"><label for="p-m" data-i18n="f_merchant"></label>
+    <select id="p-m"><option value="Boutique Les Palmiers">Boutique Les Palmiers — N° marchand 401234</option><option value="Pharmacie Centrale">Pharmacie Centrale — N° marchand 402345</option></select>
+    <label for="p-amt" data-i18n="f_amount"></label><input id="p-amt" inputmode="numeric" value="12500">
+    <div class="fees"><span data-i18n="fee_label"></span> <b id="p-fee"></b> · <span data-i18n="total_label"></span> <b id="p-total"></b></div>
+    <label for="p-pin" data-i18n="f_pin"></label><input id="p-pin" type="password" inputmode="numeric" maxlength="4" autocomplete="off" placeholder="Code PIN">
+    <div id="p-msg" role="alert" class="msg" hidden></div>
+    <div class="btns"><button id="p-go" class="primary" data-i18n="pay_btn"></button></div></div></section>
+<section id="v-history" class="view"><h1 data-i18n="hist_h"></h1><div class="card"><table><thead><tr><th data-i18n="th_date"></th><th data-i18n="th_desc"></th><th data-i18n="th_ref"></th><th data-i18n="th_amount"></th><th data-i18n="th_status"></th></tr></thead><tbody id="hist"></tbody></table></div></section>
+<section id="v-notifs" class="view"><h1 data-i18n="notif_h"></h1><div id="notifs" class="card"></div></section>
+</main>
+<div id="toasts" aria-live="polite"></div>
+<footer data-i18n="footer"></footer>
+<script src="app.js"></script></body></html>

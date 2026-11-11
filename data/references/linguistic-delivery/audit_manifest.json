@@ -1,0 +1,48 @@
+{
+  "source_glossary_entries": 150,
+  "output_glossary_concepts": 147,
+  "source_phrase_entries": 117,
+  "output_memory_segments": 234,
+  "glossary_duplicate_source_pairs": [
+    {
+      "fr": "shared_en",
+      "en": "merchant payment",
+      "target_ids": [
+        "FIN-0036",
+        "FIN-0122"
+      ],
+      "targets": [
+        "yoɓude to njuulaajo",
+        "Njoɓdi to njuulaajo"
+      ]
+    },
+    {
+      "fr": "shared_en",
+      "en": "transaction",
+      "target_ids": [
+        "FIN-0045",
+        "FIN-0143"
+      ],
+      "targets": [
+        "gollal ceede",
+        "Gollal"
+      ]
+    },
+    {
+      "fr": "récapitulatif",
+      "en": "summary",
+      "target_ids": [
+        "FIN-0116",
+        "FIN-0139"
+      ],
+      "targets": [
+        "Mboortol golle",
+        "Teeltol"
+      ]
+    }
+  ],
+  "placeholder_checks": {
+    "phrases": 117,
+    "all_source_target_placeholders_match": true
+  }
+}

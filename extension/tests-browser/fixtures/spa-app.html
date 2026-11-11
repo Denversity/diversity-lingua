@@ -1,0 +1,23 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><title>Appli SPA</title>
+<style>body{margin:0;font:15px/1.4 system-ui,sans-serif;background:#f6f7fb;color:#222}header{display:flex;gap:6px;align-items:center;padding:0 16px;height:52px;background:#fff;border-bottom:1px solid #dde}
+header a{padding:8px 12px;border-radius:6px;color:#223;text-decoration:none;white-space:nowrap;cursor:pointer}header a.on{background:#e6ecff;font-weight:600}
+#root{padding:16px;max-width:860px}.row{display:flex;justify-content:space-between;gap:12px;padding:10px 12px;background:#fff;border-radius:8px;margin-bottom:8px}
+.toast{position:fixed;top:64px;right:16px;background:#12304a;color:#fff;padding:10px 14px;border-radius:8px;max-width:260px}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.4);display:grid;place-items:center}.modal>div{background:#fff;border-radius:12px;padding:20px;width:340px}
+button{height:40px;padding:0 14px;border-radius:8px;border:1px solid #556;background:#fff;font:600 14px system-ui}</style></head><body>
+<header><a data-r="/home" class="on">Accueil</a><a data-r="/transfer">Envoyer de l'argent</a><a data-r="/history">Historique</a><span id="clock" style="margin-left:auto;color:#667">Dernière mise à jour : 12:00:00</span></header>
+<div id="root"><p>Chargement de vos informations…</p></div>
+<script>
+const views={
+ "/home":()=>`<h1>Bonjour, bienvenue</h1><div class="row"><span>Solde disponible</span><b>125 000 FCFA</b></div><div class="row"><span>Notifications non lues</span><b>3</b></div><button id="open">Voir les conditions</button>`,
+ "/transfer":()=>`<h1>Envoyer de l'argent</h1><div class="row"><span>Numéro du bénéficiaire</span><input placeholder="Numéro du bénéficiaire"></div><div class="row"><span>Frais de transaction</span><b>100 FCFA</b></div><button>Confirmer l'envoi</button>`,
+ "/history":()=>`<h1>Historique des opérations</h1>`+[1,2,3].map(i=>`<div class="row"><span>Paiement marchand numéro ${i}</span><b>${i*2500} FCFA</b></div>`).join("")};
+function render(){const p=location.pathname.replace(/^.*\/(?=[^/]*$)/,"/").split("?")[0];const r=new URLSearchParams(location.search).get("r")||"/home";
+ document.getElementById("root").innerHTML=views[r]();document.querySelectorAll("header a").forEach(a=>a.classList.toggle("on",a.dataset.r===r));
+ const o=document.getElementById("open");if(o)o.onclick=()=>{const m=document.createElement("div");m.className="modal";m.innerHTML='<div role="dialog"><h2>Conditions</h2><p>Les frais sont indiqués avant chaque confirmation.</p><button id="close">Fermer</button></div>';document.body.appendChild(m);m.querySelector("#close").onclick=()=>m.remove()}}
+document.querySelectorAll("header a").forEach(a=>a.onclick=()=>{history.pushState({},"","?r="+a.dataset.r);render()});
+window.addEventListener("popstate",render);
+setTimeout(render,300);
+let n=0;window.__ticks=0;setInterval(()=>{n++;window.__ticks=n;const t=document.getElementById("clock");t.firstChild.nodeValue="Dernière mise à jour : 12:00:"+String(n%60).padStart(2,"0")},700);
+window.__toast=(msg)=>{const t=document.createElement("div");t.className="toast";t.textContent=msg;document.body.appendChild(t);setTimeout(()=>t.remove(),4000)};
+</script></body></html>

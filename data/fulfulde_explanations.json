@@ -1,0 +1,1339 @@
+{
+  "schema_version": 1,
+  "source": "02_Glossaire_Financier-2.json",
+  "language": "ff",
+  "entries": [
+    {
+      "id": "FIN-0001",
+      "francais": "argent",
+      "anglais": "money",
+      "periphrase_descriptive": "huutorteedum ngam soodugo (kaalis)",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0002",
+      "francais": "franc CFA (FCFA)",
+      "anglais": "CFA franc (XAF)",
+      "periphrase_descriptive": "sifa ceede leydi",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0003",
+      "francais": "devise",
+      "anglais": "currency",
+      "periphrase_descriptive": "ceede leydi woɗndu",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0004",
+      "francais": "taux de change",
+      "anglais": "exchange rate",
+      "periphrase_descriptive": "jaaju ngal ceede waylototee",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0005",
+      "francais": "banque",
+      "anglais": "bank",
+      "periphrase_descriptive": "suudu moftirdu e newingol ceede",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0006",
+      "francais": "agence bancaire",
+      "anglais": "bank branch",
+      "periphrase_descriptive": "wuro banki ɗo neɗɗo naatata",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0007",
+      "francais": "compte",
+      "anglais": "account",
+      "periphrase_descriptive": "limgal windugol ceede neɗɗo",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0008",
+      "francais": "compte courant",
+      "anglais": "current account",
+      "periphrase_descriptive": "limngal ceede huutorteeɗum kala nyannde",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0009",
+      "francais": "compte d'épargne",
+      "anglais": "savings account",
+      "periphrase_descriptive": "limngal ceede moftaaɗe ngam yeeso",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0010",
+      "francais": "solde",
+      "anglais": "balance",
+      "periphrase_descriptive": "ceede luttiiɗe nder limgal",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0011",
+      "francais": "dépôt",
+      "anglais": "deposit",
+      "periphrase_descriptive": "watdugo ceede nder konto",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0012",
+      "francais": "retrait",
+      "anglais": "withdrawal",
+      "periphrase_descriptive": "hooɓtugo ceede dow limgal",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0013",
+      "francais": "virement",
+      "anglais": "bank transfer",
+      "periphrase_descriptive": "ewtungol ceede diga konto yahdu woɗndu",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0014",
+      "francais": "relevé de compte",
+      "anglais": "account statement",
+      "periphrase_descriptive": "derewol holloori golle ceede konto",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0015",
+      "francais": "carte bancaire",
+      "anglais": "bank card",
+      "periphrase_descriptive": "karta huutorteenga ngam hoosugo ceede",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0016",
+      "francais": "guichet automatique",
+      "anglais": "ATM",
+      "periphrase_descriptive": "jinngel ngel ceede ittetee",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0017",
+      "francais": "chèque",
+      "anglais": "cheque",
+      "periphrase_descriptive": "talkuru winduundu ngam yoɓde ceede",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0018",
+      "francais": "client",
+      "anglais": "customer",
+      "periphrase_descriptive": "neɗɗo huutorooɗo kuugal banki",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0019",
+      "francais": "titulaire du compte",
+      "anglais": "account holder",
+      "periphrase_descriptive": "neɗɗo marɗo limgal ceede ngal",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0020",
+      "francais": "numéro de compte",
+      "anglais": "account number",
+      "periphrase_descriptive": "lamba winduundu ndu konto mari",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0021",
+      "francais": "épargne",
+      "anglais": "savings",
+      "periphrase_descriptive": "moɓɓugol ceede ngam musiba",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0022",
+      "francais": "ouvrir un compte",
+      "anglais": "open an account",
+      "periphrase_descriptive": "maɓɓitude limngal kesum",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0023",
+      "francais": "fermer un compte",
+      "anglais": "close an account",
+      "periphrase_descriptive": "maɓɓugol limngal ngal gasrii",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0024",
+      "francais": "conseiller clientèle",
+      "anglais": "customer advisor",
+      "periphrase_descriptive": "neɗɗo wallitoowo ɓe banki",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0025",
+      "francais": "Mobile Money",
+      "anglais": "Mobile Money",
+      "periphrase_descriptive": "ceede e dow telefon",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0026",
+      "francais": "portefeuille mobile",
+      "anglais": "mobile wallet",
+      "periphrase_descriptive": "nokkuure moftirdu ceede nder telefon",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0028",
+      "francais": "dépôt d'espèces chez un agent",
+      "anglais": "cash-in",
+      "periphrase_descriptive": "hakkilanaago agent ngam watdugo ceede",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0029",
+      "francais": "retrait d'espèces chez un agent",
+      "anglais": "cash-out",
+      "periphrase_descriptive": "hoosugol ceede to agent kon",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0030",
+      "francais": "envoyer de l'argent",
+      "anglais": "send money",
+      "periphrase_descriptive": "huutorteedum ngam soodugo (kaalis)",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0031",
+      "francais": "recevoir de l'argent",
+      "anglais": "receive money",
+      "periphrase_descriptive": "huutorteedum ngam soodugo (kaalis)",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0032",
+      "francais": "transfert d'argent",
+      "anglais": "money transfer",
+      "periphrase_descriptive": "huutorteedum ngam soodugo (kaalis)",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0033",
+      "francais": "crédit téléphonique",
+      "anglais": "airtime",
+      "periphrase_descriptive": "kuuraa e baawɗo haaldugo e telefon",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0034",
+      "francais": "forfait internet",
+      "anglais": "data bundle",
+      "periphrase_descriptive": "ceede huutorteeɗum ngam naatugo e enternet",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0035",
+      "francais": "paiement de facture",
+      "anglais": "bill payment",
+      "periphrase_descriptive": "njoɓdi kuuraa walla ndiyam",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0036",
+      "francais": "paiement chez un commerçant",
+      "anglais": "merchant payment",
+      "periphrase_descriptive": "njoɓdi ceede to jeyɗo dukan",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0037",
+      "francais": "code marchand",
+      "anglais": "merchant code",
+      "periphrase_descriptive": "lamba dukanijo ɗo njoɓetee",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0038",
+      "francais": "numéro de téléphone",
+      "anglais": "phone number",
+      "periphrase_descriptive": "lamba huutorteeɗum dow telefon",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0039",
+      "francais": "bénéficiaire",
+      "anglais": "recipient",
+      "periphrase_descriptive": "neɗɗo mo ceede njahata",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0040",
+      "francais": "expéditeur",
+      "anglais": "sender",
+      "periphrase_descriptive": "neɗɗo neliɗo ceede ɗee",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0041",
+      "francais": "code USSD",
+      "anglais": "USSD code",
+      "periphrase_descriptive": "caggal lambawol ngol tartee ceede",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0042",
+      "francais": "limite par transaction",
+      "anglais": "per-transaction limit",
+      "periphrase_descriptive": "haɗde ceede ɓurɗe yaawde nder gooto",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0043",
+      "francais": "plafond journalier",
+      "anglais": "daily limit",
+      "periphrase_descriptive": "keerol ceede ɗe neɗɗo waawi huutorgol nder nyannde",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0044",
+      "francais": "solde du portefeuille",
+      "anglais": "wallet balance",
+      "periphrase_descriptive": "nokkuure moftirdu ceede nder telefon",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0045",
+      "francais": "transaction",
+      "anglais": "transaction",
+      "periphrase_descriptive": "fiilaango kuugal ceede waɗaango",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0046",
+      "francais": "montant",
+      "anglais": "amount",
+      "periphrase_descriptive": "duuɗal ceede ɗe njiɗɗa",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0047",
+      "francais": "référence de transaction",
+      "anglais": "transaction reference",
+      "periphrase_descriptive": "lamba annditirdu gollal waɗaangol",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0048",
+      "francais": "date et heure",
+      "anglais": "date and time",
+      "periphrase_descriptive": "nyalooma e wakkati kuugal ngal waɗi",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0049",
+      "francais": "reçu",
+      "anglais": "receipt",
+      "periphrase_descriptive": "derewol holloori njoɓdi celluundi",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0050",
+      "francais": "confirmation",
+      "anglais": "confirmation",
+      "periphrase_descriptive": "tinndingol wonnde gollal ngal sellaama",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0051",
+      "francais": "annulation",
+      "anglais": "cancellation",
+      "periphrase_descriptive": "dartingol gollal ngal fotaani",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0052",
+      "francais": "transaction réussie",
+      "anglais": "successful transaction",
+      "periphrase_descriptive": "kuugal ngal timmii no feewi",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0053",
+      "francais": "transaction échouée",
+      "anglais": "failed transaction",
+      "periphrase_descriptive": "kuugal ngal timmaani",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0054",
+      "francais": "transaction en attente",
+      "anglais": "pending transaction",
+      "periphrase_descriptive": "kuugal ngal ɗon sabbo wakkati",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0055",
+      "francais": "remboursement (annulation d'un paiement)",
+      "anglais": "refund",
+      "periphrase_descriptive": "ruttugol ceede neɗɗo fahin",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0056",
+      "francais": "paiement",
+      "anglais": "payment",
+      "periphrase_descriptive": "yoɓgol ceede ngam huunde",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0057",
+      "francais": "achat",
+      "anglais": "purchase",
+      "periphrase_descriptive": "hoosugol huunde e njoɓdi ceede",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0058",
+      "francais": "vente",
+      "anglais": "sale",
+      "periphrase_descriptive": "hokkugol huunde ngam heɓde ceede",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0059",
+      "francais": "historique des transactions",
+      "anglais": "transaction history",
+      "periphrase_descriptive": "taariiki kuugal ceede ɓennuungal",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0060",
+      "francais": "débit",
+      "anglais": "debit",
+      "periphrase_descriptive": "ceede ɗe njalti nder konto",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0061",
+      "francais": "crédit (d'un compte)",
+      "anglais": "credit (to an account)",
+      "periphrase_descriptive": "ceede ɗe naati nder konto",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0062",
+      "francais": "acheter",
+      "anglais": "to buy",
+      "periphrase_descriptive": "hoosude huunde e ceede",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0063",
+      "francais": "vendre",
+      "anglais": "to sell",
+      "periphrase_descriptive": "hokkude huunde ngam ceede",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0064",
+      "francais": "payer",
+      "anglais": "to pay",
+      "periphrase_descriptive": "hokkugol ceede ngam njoɓdi",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0065",
+      "francais": "recevoir",
+      "anglais": "to receive",
+      "periphrase_descriptive": "jaɓɓaade ceede nelaaɗe",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0066",
+      "francais": "envoyer",
+      "anglais": "to send",
+      "periphrase_descriptive": "tikkugol ceede yahdu to neɗɗo woɗɗudo",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0067",
+      "francais": "retirer",
+      "anglais": "to withdraw",
+      "periphrase_descriptive": "hoosugol huunde dow nokku",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0068",
+      "francais": "déposer",
+      "anglais": "to deposit",
+      "periphrase_descriptive": "watdugo huunde nder nokku",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0069",
+      "francais": "frais",
+      "anglais": "fees",
+      "periphrase_descriptive": "ceede ɓeydaari ɗe banki hoosata",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0070",
+      "francais": "frais de transaction",
+      "anglais": "transaction fee",
+      "periphrase_descriptive": "ceede kuugal ngam neldgol ceede",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0071",
+      "francais": "frais de retrait",
+      "anglais": "withdrawal fee",
+      "periphrase_descriptive": "ceede kuugal ngam hoosugol ceede",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0072",
+      "francais": "frais de tenue de compte",
+      "anglais": "account maintenance fee",
+      "periphrase_descriptive": "ceede lebbiire ngam marugol konto",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0073",
+      "francais": "commission",
+      "anglais": "commission",
+      "periphrase_descriptive": "ceede teewre gollal agent",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0074",
+      "francais": "taxe",
+      "anglais": "tax",
+      "periphrase_descriptive": "njoɓdi leydi nde laamu ɗaɓɓata",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0075",
+      "francais": "gratuit",
+      "anglais": "free of charge",
+      "periphrase_descriptive": "walaa njoɓdi ko foti",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0076",
+      "francais": "total à payer",
+      "anglais": "total to pay",
+      "periphrase_descriptive": "kamtal ceede fuu ɗe njoɓetee",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0077",
+      "francais": "montant net",
+      "anglais": "net amount",
+      "periphrase_descriptive": "ceede keddiide caggal ittol ceede kuugal",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0078",
+      "francais": "tarif",
+      "anglais": "fee schedule",
+      "periphrase_descriptive": "duuɗal njoɓdi kuugal",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0079",
+      "francais": "pénalité de retard",
+      "anglais": "late fee",
+      "periphrase_descriptive": "ceede kasoo ngam leetagol njoɓdi",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0080",
+      "francais": "prêt",
+      "anglais": "loan",
+      "periphrase_descriptive": "ceede ɗe neɗɗo hokkata to neɗɗo yeeso yoɓata",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0081",
+      "francais": "emprunt",
+      "anglais": "borrowing",
+      "periphrase_descriptive": "ceede ɗe neɗɗo hoosi ngam yoɓde yeeso",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0082",
+      "francais": "emprunteur",
+      "anglais": "borrower",
+      "periphrase_descriptive": "neɗɗo mo hoosi nyamaande",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0083",
+      "francais": "prêteur",
+      "anglais": "lender",
+      "periphrase_descriptive": "neɗɗo mo hokki nyamaande",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0084",
+      "francais": "intérêt",
+      "anglais": "interest",
+      "periphrase_descriptive": "besdaari ceede ɗe yoɓetee dow nyamaande",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0085",
+      "francais": "taux d'intérêt",
+      "anglais": "interest rate",
+      "periphrase_descriptive": "keerol ribaa dow nyamaande",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0086",
+      "francais": "échéance",
+      "anglais": "due date",
+      "periphrase_descriptive": "waktu ɓulloowo ngam yoɓtugo nyamaande",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0087",
+      "francais": "remboursement (d'un prêt)",
+      "anglais": "loan repayment",
+      "periphrase_descriptive": "ruttugol ceede neɗɗo fahin",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0088",
+      "francais": "mensualité",
+      "anglais": "monthly instalment",
+      "periphrase_descriptive": "njoɓdi lewru fuu ngam nyamaande",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0089",
+      "francais": "dette",
+      "anglais": "debt",
+      "periphrase_descriptive": "ceede ɗe neɗɗo mari feewde to woɗɗudo",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0090",
+      "francais": "retard de paiement",
+      "anglais": "late payment",
+      "periphrase_descriptive": "waktu ɓennuungo yeeso yoɓdi",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0091",
+      "francais": "garantie",
+      "anglais": "collateral",
+      "periphrase_descriptive": "huunde nde neɗɗo resata ngam nyamaande",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0092",
+      "francais": "garant",
+      "anglais": "guarantor",
+      "periphrase_descriptive": "neɗɗo ballitoowo nyamaande neɗɗo",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0093",
+      "francais": "durée du prêt",
+      "anglais": "loan term",
+      "periphrase_descriptive": "waktu mo nyamaande mari feewde yoɓol",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0094",
+      "francais": "demande de prêt",
+      "anglais": "loan application",
+      "periphrase_descriptive": "toragol ceede nyamaande to banki",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0095",
+      "francais": "microcrédit",
+      "anglais": "microcredit",
+      "periphrase_descriptive": "ceede nyamaande pamarɗe ngam ndema walla njulaagu",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0096",
+      "francais": "découvert",
+      "anglais": "overdraft",
+      "periphrase_descriptive": "ceede ɗe banki hokkati neɗɗo to konto ma welaa ceede",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0097",
+      "francais": "tontine",
+      "anglais": "tontine (rotating savings group)",
+      "periphrase_descriptive": "moɓgal ceede hakkunde yimɓe gariiri",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0098",
+      "francais": "code PIN",
+      "anglais": "PIN",
+      "periphrase_descriptive": "lambawol suuɗiingol ngam maɓɓitugo konto",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0099",
+      "francais": "mot de passe",
+      "anglais": "password",
+      "periphrase_descriptive": "konngol suuɗiingol ngam nastugo",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0100",
+      "francais": "code de confirmation à usage unique",
+      "anglais": "one-time password (OTP)",
+      "periphrase_descriptive": "lamba haraama ngam tabintingol gollal",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0101",
+      "francais": "vérification d'identité",
+      "anglais": "identity verification",
+      "periphrase_descriptive": "holloori wonnde an woni moy",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0102",
+      "francais": "pièce d'identité",
+      "anglais": "ID document",
+      "periphrase_descriptive": "derewol laamu ngol innde ma windi",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0103",
+      "francais": "fraude",
+      "anglais": "fraud",
+      "periphrase_descriptive": "jamba ngam huutorgol ceede neɗɗo",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0104",
+      "francais": "arnaque",
+      "anglais": "scam",
+      "periphrase_descriptive": "fenaande mawnde ngam hoosugol ceede",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0105",
+      "francais": "compte bloqué",
+      "anglais": "blocked account",
+      "periphrase_descriptive": "konto mo neɗɗo waawataa nastugo",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0106",
+      "francais": "carte SIM perdue ou volée",
+      "anglais": "lost or stolen SIM card",
+      "periphrase_descriptive": "kaarte telefon majjuɗo walla yuɓɓinaaɗo",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0107",
+      "francais": "signaler un problème",
+      "anglais": "report a problem",
+      "periphrase_descriptive": "holliroogo banki wonnde ko bonii",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0108",
+      "francais": "service client",
+      "anglais": "customer service",
+      "periphrase_descriptive": "nokkuure ɗo gollanɗo wallitata yimɓe",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0109",
+      "francais": "notification",
+      "anglais": "notification",
+      "periphrase_descriptive": "kabaaru kijo nelaaɗo to telefon",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0110",
+      "francais": "session expirée",
+      "anglais": "session expired",
+      "periphrase_descriptive": "waktu huutorogol timmii, naatu fahin",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0111",
+      "francais": "connexion",
+      "anglais": "log in",
+      "periphrase_descriptive": "nastugol nder konto walla enternet",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0112",
+      "francais": "déconnexion",
+      "anglais": "log out",
+      "periphrase_descriptive": "wurtugol nder konto walla enternet",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0113",
+      "francais": "Protocole de test",
+      "anglais": "Test protocol",
+      "periphrase_descriptive": "Laabi e sartiiji ɗi ndaargal tokkata.",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0114",
+      "francais": "Retour au hackathon",
+      "anglais": "Back to hackathon",
+      "periphrase_descriptive": "Wurtaade ɗoo ngam ruttugo to suudu pottidal.",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0115",
+      "francais": "Banque en ligne",
+      "anglais": "Online banking",
+      "periphrase_descriptive": "Suudu banki ndu a nastata e telefon walla kompiyuta ma.",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0116",
+      "francais": "Récapitulatif",
+      "anglais": "Summary",
+      "periphrase_descriptive": "Ndaargal kabaaru fuu haa laaɓa de gollal timma.",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0117",
+      "francais": "VOTRE COMPTE",
+      "anglais": "YOUR ACCOUNT",
+      "periphrase_descriptive": "Limgal ceede ngal an a mari.",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0118",
+      "francais": "SOLDE DISPONIBLE",
+      "anglais": "AVAILABLE BALANCE",
+      "periphrase_descriptive": "Kamtal ceede ɗe a waawi huutorgol jonta.",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0119",
+      "francais": "Effectuer un transfert",
+      "anglais": "Make a transfer",
+      "periphrase_descriptive": "Hokkugo yamiroore ngam neldol ceede.",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0120",
+      "francais": "Consulter les frais",
+      "anglais": "View fees",
+      "periphrase_descriptive": "Yeewugo ceede ɓeydaari ɗe banki hoosata.",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0121",
+      "francais": "TRANSACTIONS RÉCENTES",
+      "anglais": "RECENT TRANSACTIONS",
+      "periphrase_descriptive": "Golle ceede ɗe a waɗi ɓooyaayi.",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0122",
+      "francais": "Paiement marchand",
+      "anglais": "Merchant payment",
+      "periphrase_descriptive": "Ceede ɗe a yoɓi to dukanijo.",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0123",
+      "francais": "Salaire reçu",
+      "anglais": "Salary received",
+      "periphrase_descriptive": "Ceede gollil ma ɗe nasta nder konto.",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0124",
+      "francais": "Transfert reçu",
+      "anglais": "Transfer received",
+      "periphrase_descriptive": "Ceede ɗe neɗɗo woɗɗudo nelduma.",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0125",
+      "francais": "Facture électricité",
+      "anglais": "Electricity bill",
+      "periphrase_descriptive": "Njoɓdi kuran nde a foti yoɓugo.",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0126",
+      "francais": "Sécurité",
+      "anglais": "Security",
+      "periphrase_descriptive": "Waɗugo gundoowal ngam taa neɗɗo hoosa ceede ma.",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0127",
+      "francais": "Connexion sécurisée",
+      "anglais": "Secure connection",
+      "periphrase_descriptive": "Nastol e enternet ɗo gundoowal ma reenataake.",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0128",
+      "francais": "FRAIS DE TRANSFERT",
+      "anglais": "TRANSFER FEES",
+      "periphrase_descriptive": "Ceede ɗe banki itata ngam kuugal neldol ceede.",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0129",
+      "francais": "TYPE D'OPÉRATION",
+      "anglais": "OPERATION TYPE",
+      "periphrase_descriptive": "Sifa kuugal ceede ngal njiɗɗa waɗugo.",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0130",
+      "francais": "Compte Safinum",
+      "anglais": "Safinum account",
+      "periphrase_descriptive": "Limgal ceede dow banki Safinum.",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0131",
+      "francais": "MONTANT À ENVOYER",
+      "anglais": "AMOUNT TO SEND",
+      "periphrase_descriptive": "Duuɗal ceede ɗe njiɗɗa liltugo.",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0132",
+      "francais": "Total à débiter",
+      "anglais": "Total to debit",
+      "periphrase_descriptive": "Kawtal ceede e ceede kuugal ɗe njaltata nder konto ma.",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0133",
+      "francais": "Solde après opération",
+      "anglais": "Balance after transfer",
+      "periphrase_descriptive": "Ceede ɗe luttata caggal nde gollal timmi.",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0134",
+      "francais": "NOM DU BÉNÉFICIAIRE",
+      "anglais": "BENEFICIARY NAME",
+      "periphrase_descriptive": "Innde neɗɗo mo ceede njahata to mum.",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0135",
+      "francais": "MOTIF DU TRANSFERT",
+      "anglais": "TRANSFER REASON",
+      "periphrase_descriptive": "Huunde nde waɗi a ɗon nelda ceede ɗee.",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0136",
+      "francais": "Paiement de services",
+      "anglais": "Service payment",
+      "periphrase_descriptive": "Njoɓdi ngam gollal ngal neɗɗo waɗani ma.",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0137",
+      "francais": "NOTE (OPTIONNEL)",
+      "anglais": "NOTE (OPTIONAL)",
+      "periphrase_descriptive": "Konngol ɓeydaari to a yiɗi windugo (naa tilay).",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0138",
+      "francais": "Alerte de sécurité",
+      "anglais": "Security warning",
+      "periphrase_descriptive": "Kaɓaru jogaagol ngam hollugo wonnde masibo ɗon.",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0139",
+      "francais": "RÉCAPITULATIF",
+      "anglais": "SUMMARY",
+      "periphrase_descriptive": "kawtal walla cifol golle fosuɗe",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0140",
+      "francais": "Total débité",
+      "anglais": "Total debited",
+      "periphrase_descriptive": "Kamtal ceede fuu ɗe njalti nder konto.",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0141",
+      "francais": "Téléphone",
+      "anglais": "Phone",
+      "periphrase_descriptive": "Kuuraa walla masin kumpital.",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0142",
+      "francais": "Référence",
+      "anglais": "Reference",
+      "periphrase_descriptive": "Lamba laɓɓingol gollal ngal waɗa.",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0143",
+      "francais": "Opération",
+      "anglais": "Operation",
+      "periphrase_descriptive": "Kuugal ceede ngal a waɗi jonta.",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0144",
+      "francais": "Modifier",
+      "anglais": "Edit",
+      "periphrase_descriptive": "Ruttugo caggal ngam waylutugo kabaaru.",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0145",
+      "francais": "Confirmer le transfert",
+      "anglais": "Confirm transfer",
+      "periphrase_descriptive": "Jaɓugo e hokkugo yamiroore neldol ceede.",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0146",
+      "francais": "Transfert effectué",
+      "anglais": "Transfer completed",
+      "periphrase_descriptive": "Gollal neldol ceede ma yottima no feewi.",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0147",
+      "francais": "Statut",
+      "anglais": "Status",
+      "periphrase_descriptive": "Holloori wonnde gollal ngal ɗon e laawol naa timmii.",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0148",
+      "francais": "Succès",
+      "anglais": "Success",
+      "periphrase_descriptive": "Kuugal ngal gasii, walaa fitina.",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0149",
+      "francais": "Nouveau transfert",
+      "anglais": "New transfer",
+      "periphrase_descriptive": "Puɗɗagol gollal kesal ngam neldol ceede fahin.",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    }
+  ]
+}

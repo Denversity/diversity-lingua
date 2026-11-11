@@ -1,0 +1,36 @@
+{
+  "schema": "diversity-lingua/corrections",
+  "schema_version": "1.0.0",
+  "meta": {
+    "language": "ff",
+    "variety": "adamawa",
+    "source_languages": [
+      "fr",
+      "en"
+    ],
+    "dataset_version": "AAAA.MM.N",
+    "fixture": false,
+    "provenance": {
+      "author": "Nom du responsable linguistique",
+      "organization": "Organisation",
+      "method": "native_speaker",
+      "date": "AAAA-MM-JJ"
+    }
+  },
+  "corrections": [
+    {
+      "correction_id": "r.0001",
+      "target_ref": {
+        "kind": "glossary",
+        "concept_id": "fin.balance.available",
+        "target_id": "fin.balance.available~t1"
+      },
+      "previous": null,
+      "corrected": "REMPLACER-PAR-LA-FORME-CORRIGÉE",
+      "category": "terminology",
+      "reason": "Exemple : décrire la raison de la correction",
+      "reported_by": "Nom",
+      "status": "proposed"
+    }
+  ]
+}

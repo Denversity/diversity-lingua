@@ -1,0 +1,800 @@
+{
+  "schema": "diversity-lingua/glossary",
+  "schema_version": "1.0.0",
+  "meta": {
+    "language": "xx-test",
+    "variety": "none",
+    "dataset_version": "fixture-1",
+    "fixture": true,
+    "provenance": {
+      "method": "technical_fixture",
+      "notes": "FIXTURE TECHNIQUE — pseudo-localisation, aucune valeur linguistique."
+    }
+  },
+  "concepts": [
+    {
+      "concept_id": "ui.envoyer_de_l_argent",
+      "contexts": [],
+      "sources": {
+        "fr": {
+          "preferred": "Envoyer de l'argent",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "Send money",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "ui.envoyer_de_l_argent~t1",
+          "contexts": [],
+          "preferred": "[TEST] ui.envoyer_de_l_argent",
+          "accepted": [],
+          "status": "approved",
+          "validation": {
+            "validator_id": "technical-fixture",
+            "validated_at": "2026-01-01T00:00:00+00:00",
+            "method": "technical_fixture"
+          }
+        }
+      ]
+    },
+    {
+      "concept_id": "ui.recevoir_de_l_argent",
+      "contexts": [],
+      "sources": {
+        "fr": {
+          "preferred": "Recevoir de l'argent",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "Receive money",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "ui.recevoir_de_l_argent~t1",
+          "contexts": [],
+          "preferred": "[TEST] ui.recevoir_de_l_argent",
+          "accepted": [],
+          "status": "approved",
+          "validation": {
+            "validator_id": "technical-fixture",
+            "validated_at": "2026-01-01T00:00:00+00:00",
+            "method": "technical_fixture"
+          }
+        }
+      ]
+    },
+    {
+      "concept_id": "ui.payer_un_marchand",
+      "contexts": [],
+      "sources": {
+        "fr": {
+          "preferred": "Payer un marchand",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "Pay a merchant",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "ui.payer_un_marchand~t1",
+          "contexts": [],
+          "preferred": "[TEST] ui.payer_un_marchand",
+          "accepted": [],
+          "status": "approved",
+          "validation": {
+            "validator_id": "technical-fixture",
+            "validated_at": "2026-01-01T00:00:00+00:00",
+            "method": "technical_fixture"
+          }
+        }
+      ]
+    },
+    {
+      "concept_id": "ui.tableau_de_bord",
+      "contexts": [],
+      "sources": {
+        "fr": {
+          "preferred": "Tableau de bord",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "Dashboard",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "ui.tableau_de_bord~t1",
+          "contexts": [],
+          "preferred": "[TEST] ui.tableau_de_bord",
+          "accepted": [],
+          "status": "approved",
+          "validation": {
+            "validator_id": "technical-fixture",
+            "validated_at": "2026-01-01T00:00:00+00:00",
+            "method": "technical_fixture"
+          }
+        }
+      ]
+    },
+    {
+      "concept_id": "ui.historique",
+      "contexts": [],
+      "sources": {
+        "fr": {
+          "preferred": "Historique",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "History",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "ui.historique~t1",
+          "contexts": [],
+          "preferred": "[TEST] ui.historique",
+          "accepted": [],
+          "status": "approved",
+          "validation": {
+            "validator_id": "technical-fixture",
+            "validated_at": "2026-01-01T00:00:00+00:00",
+            "method": "technical_fixture"
+          }
+        }
+      ]
+    },
+    {
+      "concept_id": "ui.notifications",
+      "contexts": [],
+      "sources": {
+        "fr": {
+          "preferred": "Notifications",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "Notifications",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "ui.notifications~t1",
+          "contexts": [],
+          "preferred": "[TEST] ui.notifications",
+          "accepted": [],
+          "status": "approved",
+          "validation": {
+            "validator_id": "technical-fixture",
+            "validated_at": "2026-01-01T00:00:00+00:00",
+            "method": "technical_fixture"
+          }
+        }
+      ]
+    },
+    {
+      "concept_id": "ui.solde_disponible",
+      "contexts": [],
+      "sources": {
+        "fr": {
+          "preferred": "Solde disponible",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "Available balance",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "ui.solde_disponible~t1",
+          "contexts": [],
+          "preferred": "[TEST] ui.solde_disponible",
+          "accepted": [],
+          "status": "approved",
+          "validation": {
+            "validator_id": "technical-fixture",
+            "validated_at": "2026-01-01T00:00:00+00:00",
+            "method": "technical_fixture"
+          }
+        }
+      ]
+    },
+    {
+      "concept_id": "ui.montant",
+      "contexts": [],
+      "sources": {
+        "fr": {
+          "preferred": "Montant",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "Amount",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "ui.montant~t1",
+          "contexts": [],
+          "preferred": "[TEST] ui.montant",
+          "accepted": [],
+          "status": "approved",
+          "validation": {
+            "validator_id": "technical-fixture",
+            "validated_at": "2026-01-01T00:00:00+00:00",
+            "method": "technical_fixture"
+          }
+        }
+      ]
+    },
+    {
+      "concept_id": "ui.numero_du_destinataire",
+      "contexts": [],
+      "sources": {
+        "fr": {
+          "preferred": "Numéro du destinataire",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "Recipient number",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "ui.numero_du_destinataire~t1",
+          "contexts": [],
+          "preferred": "[TEST] ui.numero_du_destinataire",
+          "accepted": [],
+          "status": "approved",
+          "validation": {
+            "validator_id": "technical-fixture",
+            "validated_at": "2026-01-01T00:00:00+00:00",
+            "method": "technical_fixture"
+          }
+        }
+      ]
+    },
+    {
+      "concept_id": "ui.code_pin",
+      "contexts": [],
+      "sources": {
+        "fr": {
+          "preferred": "Code PIN",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "PIN code",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "ui.code_pin~t1",
+          "contexts": [],
+          "preferred": "[TEST] ui.code_pin",
+          "accepted": [],
+          "status": "approved",
+          "validation": {
+            "validator_id": "technical-fixture",
+            "validated_at": "2026-01-01T00:00:00+00:00",
+            "method": "technical_fixture"
+          }
+        }
+      ]
+    },
+    {
+      "concept_id": "ui.confirmer",
+      "contexts": [],
+      "sources": {
+        "fr": {
+          "preferred": "Confirmer",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "Confirm",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "ui.confirmer~t1",
+          "contexts": [],
+          "preferred": "[TEST] ui.confirmer",
+          "accepted": [],
+          "status": "approved",
+          "validation": {
+            "validator_id": "technical-fixture",
+            "validated_at": "2026-01-01T00:00:00+00:00",
+            "method": "technical_fixture"
+          }
+        }
+      ]
+    },
+    {
+      "concept_id": "ui.annuler",
+      "contexts": [],
+      "sources": {
+        "fr": {
+          "preferred": "Annuler",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "Cancel",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "ui.annuler~t1",
+          "contexts": [],
+          "preferred": "[TEST] ui.annuler",
+          "accepted": [],
+          "status": "approved",
+          "validation": {
+            "validator_id": "technical-fixture",
+            "validated_at": "2026-01-01T00:00:00+00:00",
+            "method": "technical_fixture"
+          }
+        }
+      ]
+    },
+    {
+      "concept_id": "ui.retour",
+      "contexts": [],
+      "sources": {
+        "fr": {
+          "preferred": "Retour",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "Back",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "ui.retour~t1",
+          "contexts": [],
+          "preferred": "[TEST] ui.retour",
+          "accepted": [],
+          "status": "approved",
+          "validation": {
+            "validator_id": "technical-fixture",
+            "validated_at": "2026-01-01T00:00:00+00:00",
+            "method": "technical_fixture"
+          }
+        }
+      ]
+    },
+    {
+      "concept_id": "ui.valider",
+      "contexts": [],
+      "sources": {
+        "fr": {
+          "preferred": "Valider",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "Submit",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "ui.valider~t1",
+          "contexts": [],
+          "preferred": "[TEST] ui.valider",
+          "accepted": [],
+          "status": "approved",
+          "validation": {
+            "validator_id": "technical-fixture",
+            "validated_at": "2026-01-01T00:00:00+00:00",
+            "method": "technical_fixture"
+          }
+        }
+      ]
+    },
+    {
+      "concept_id": "ui.frais_de_transaction",
+      "contexts": [],
+      "sources": {
+        "fr": {
+          "preferred": "Frais de transaction",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "Transaction fee",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "ui.frais_de_transaction~t1",
+          "contexts": [],
+          "preferred": "[TEST] ui.frais_de_transaction",
+          "accepted": [],
+          "status": "approved",
+          "validation": {
+            "validator_id": "technical-fixture",
+            "validated_at": "2026-01-01T00:00:00+00:00",
+            "method": "technical_fixture"
+          }
+        }
+      ]
+    },
+    {
+      "concept_id": "ui.total_a_debiter",
+      "contexts": [],
+      "sources": {
+        "fr": {
+          "preferred": "Total à débiter",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "Total to be debited",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "ui.total_a_debiter~t1",
+          "contexts": [],
+          "preferred": "[TEST] ui.total_a_debiter",
+          "accepted": [],
+          "status": "approved",
+          "validation": {
+            "validator_id": "technical-fixture",
+            "validated_at": "2026-01-01T00:00:00+00:00",
+            "method": "technical_fixture"
+          }
+        }
+      ]
+    },
+    {
+      "concept_id": "ui.transaction_reussie",
+      "contexts": [],
+      "sources": {
+        "fr": {
+          "preferred": "Transaction réussie",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "Transaction successful",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "ui.transaction_reussie~t1",
+          "contexts": [],
+          "preferred": "[TEST] ui.transaction_reussie",
+          "accepted": [],
+          "status": "approved",
+          "validation": {
+            "validator_id": "technical-fixture",
+            "validated_at": "2026-01-01T00:00:00+00:00",
+            "method": "technical_fixture"
+          }
+        }
+      ]
+    },
+    {
+      "concept_id": "ui.transaction_echouee",
+      "contexts": [],
+      "sources": {
+        "fr": {
+          "preferred": "Transaction échouée",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "Transaction failed",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "ui.transaction_echouee~t1",
+          "contexts": [],
+          "preferred": "[TEST] ui.transaction_echouee",
+          "accepted": [],
+          "status": "approved",
+          "validation": {
+            "validator_id": "technical-fixture",
+            "validated_at": "2026-01-01T00:00:00+00:00",
+            "method": "technical_fixture"
+          }
+        }
+      ]
+    },
+    {
+      "concept_id": "ui.solde_insuffisant",
+      "contexts": [],
+      "sources": {
+        "fr": {
+          "preferred": "Solde insuffisant",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "Insufficient balance",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "ui.solde_insuffisant~t1",
+          "contexts": [],
+          "preferred": "[TEST] ui.solde_insuffisant",
+          "accepted": [],
+          "status": "approved",
+          "validation": {
+            "validator_id": "technical-fixture",
+            "validated_at": "2026-01-01T00:00:00+00:00",
+            "method": "technical_fixture"
+          }
+        }
+      ]
+    },
+    {
+      "concept_id": "ui.reessayer",
+      "contexts": [],
+      "sources": {
+        "fr": {
+          "preferred": "Réessayer",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "Try again",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "ui.reessayer~t1",
+          "contexts": [],
+          "preferred": "[TEST] ui.reessayer",
+          "accepted": [],
+          "status": "approved",
+          "validation": {
+            "validator_id": "technical-fixture",
+            "validated_at": "2026-01-01T00:00:00+00:00",
+            "method": "technical_fixture"
+          }
+        }
+      ]
+    },
+    {
+      "concept_id": "ui.deconnexion",
+      "contexts": [],
+      "sources": {
+        "fr": {
+          "preferred": "Déconnexion",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "Log out",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "ui.deconnexion~t1",
+          "contexts": [],
+          "preferred": "[TEST] ui.deconnexion",
+          "accepted": [],
+          "status": "approved",
+          "validation": {
+            "validator_id": "technical-fixture",
+            "validated_at": "2026-01-01T00:00:00+00:00",
+            "method": "technical_fixture"
+          }
+        }
+      ]
+    },
+    {
+      "concept_id": "ui.aide",
+      "contexts": [],
+      "sources": {
+        "fr": {
+          "preferred": "Aide",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "Help",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "ui.aide~t1",
+          "contexts": [],
+          "preferred": "[TEST] ui.aide",
+          "accepted": [],
+          "status": "approved",
+          "validation": {
+            "validator_id": "technical-fixture",
+            "validated_at": "2026-01-01T00:00:00+00:00",
+            "method": "technical_fixture"
+          }
+        }
+      ]
+    },
+    {
+      "concept_id": "ui.date",
+      "contexts": [],
+      "sources": {
+        "fr": {
+          "preferred": "Date",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "Date",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "ui.date~t1",
+          "contexts": [],
+          "preferred": "[TEST] ui.date",
+          "accepted": [],
+          "status": "approved",
+          "validation": {
+            "validator_id": "technical-fixture",
+            "validated_at": "2026-01-01T00:00:00+00:00",
+            "method": "technical_fixture"
+          }
+        }
+      ]
+    },
+    {
+      "concept_id": "ui.statut",
+      "contexts": [],
+      "sources": {
+        "fr": {
+          "preferred": "Statut",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "Status",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "ui.statut~t1",
+          "contexts": [],
+          "preferred": "[TEST] ui.statut",
+          "accepted": [],
+          "status": "approved",
+          "validation": {
+            "validator_id": "technical-fixture",
+            "validated_at": "2026-01-01T00:00:00+00:00",
+            "method": "technical_fixture"
+          }
+        }
+      ]
+    },
+    {
+      "concept_id": "ui.reference",
+      "contexts": [],
+      "sources": {
+        "fr": {
+          "preferred": "Référence",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "Reference",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "ui.reference~t1",
+          "contexts": [],
+          "preferred": "[TEST] ui.reference",
+          "accepted": [],
+          "status": "approved",
+          "validation": {
+            "validator_id": "technical-fixture",
+            "validated_at": "2026-01-01T00:00:00+00:00",
+            "method": "technical_fixture"
+          }
+        }
+      ]
+    },
+    {
+      "concept_id": "ui.reussie",
+      "contexts": [],
+      "sources": {
+        "fr": {
+          "preferred": "Réussie",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "Successful",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "ui.reussie~t1",
+          "contexts": [],
+          "preferred": "[TEST] ui.reussie",
+          "accepted": [],
+          "status": "approved",
+          "validation": {
+            "validator_id": "technical-fixture",
+            "validated_at": "2026-01-01T00:00:00+00:00",
+            "method": "technical_fixture"
+          }
+        }
+      ]
+    },
+    {
+      "concept_id": "ui.echouee",
+      "contexts": [],
+      "sources": {
+        "fr": {
+          "preferred": "Échouée",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "Failed",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "ui.echouee~t1",
+          "contexts": [],
+          "preferred": "[TEST] ui.echouee",
+          "accepted": [],
+          "status": "approved",
+          "validation": {
+            "validator_id": "technical-fixture",
+            "validated_at": "2026-01-01T00:00:00+00:00",
+            "method": "technical_fixture"
+          }
+        }
+      ]
+    },
+    {
+      "concept_id": "ui.en_attente",
+      "contexts": [],
+      "sources": {
+        "fr": {
+          "preferred": "En attente",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "Pending",
+          "accepted": []
+        }
+      },
+      "targets": [
+        {
+          "target_id": "ui.en_attente~t1",
+          "contexts": [],
+          "preferred": "[TEST] ui.en_attente",
+          "accepted": [],
+          "status": "approved",
+          "validation": {
+            "validator_id": "technical-fixture",
+            "validated_at": "2026-01-01T00:00:00+00:00",
+            "method": "technical_fixture"
+          }
+        }
+      ]
+    }
+  ]
+}

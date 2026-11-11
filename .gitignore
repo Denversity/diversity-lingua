@@ -1,0 +1,11 @@
+.env
+*.env.local
+__pycache__/
+.pytest_cache/
+.venv/
+node_modules/
+extension/test-results/
+extension/dist/
+backend/state/
+*.pem
+*.key
