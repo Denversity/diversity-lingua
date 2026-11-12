@@ -74,8 +74,15 @@ export class TranslationManager {
         }
         const prefixHit = await this.glossary.lookupPrefix(s.text, source, target);
         if (prefixHit) {
-          out.set(s.id, { id: s.id, translation: prefixHit.translation, status: "validated", origin: "local-glossary", provider: null,
+          const expanded = await this.glossary.translateInlineTerms(prefixHit.translation, source, target);
+          out.set(s.id, { id: s.id, translation: expanded?.translation ?? prefixHit.translation, status: "validated", origin: "local-glossary", provider: null,
             test_data: !!prefixHit.entry.test_data, entry_id: prefixHit.entry.id, notes: prefixHit.entry.test_data ? ["test_data"] : [] });
+          continue;
+        }
+        const inlineHit = await this.glossary.translateInlineTerms(s.text, source, target);
+        if (inlineHit) {
+          out.set(s.id, { id: s.id, translation: inlineHit.translation, status: "validated", origin: "local-glossary", provider: null,
+            test_data: !!inlineHit.entry.test_data, entry_id: inlineHit.entry.id, notes: inlineHit.entry.test_data ? ["test_data"] : [] });
           continue;
         }
       }

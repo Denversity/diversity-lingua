@@ -44,6 +44,26 @@ def test_explain_uses_validated_fulfulde_periphrase(tmp_path):
         assert r["translation"]["entry_id"] == entry["id"]
 
 
+def test_explain_uses_supplemental_min_max_periphrases(tmp_path):
+    from fastapi.testclient import TestClient
+    from app.core.config import REPO_ROOT, Settings
+    from app.main import create_app
+
+    settings = Settings(
+        _env_file=None,
+        data_dir=REPO_ROOT / "data",
+        state_dir=tmp_path / "state",
+        provider_order="memory,glossary",
+    )
+    client = TestClient(create_app(settings))
+    for term, expected in (("min.", "tolno ceede ɓurɗo fanɗude"),
+                           ("max.", "tolno ceede ɓurɗo mawnude")):
+        r = explain(client, term, lang="fr", target="ff")
+        assert r["found"]
+        assert r["translation"]["translation"] == expected
+        assert r["translation"]["translation_status"] == "approved"
+
+
 def test_explain_term_translation_uses_approved_resources_only_by_default(client):
     r = explain(client, "Envoyer de l'argent", target="xx-test")
     assert r["term_translation"]["translation_status"] == "approved" and r["term_translation"]["test_data"] is True

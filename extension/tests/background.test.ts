@@ -94,6 +94,29 @@ describe("TranslationManager", () => {
     const out = await mgr.translate("fr", "t", [seg("1", "Solde :")]);
     expect(out[0]).toMatchObject({ status: "validated", origin: "local-glossary", translation: "BAL" }); expect(calls).toHaveLength(0);
   });
+  it("traduit fee dans une phrase anglaise, ainsi que min/max, hors ligne", async () => {
+    const gl = new GlossaryClient(async () => ({ language: "ff", version: "1", entries: [
+      { id: "fees", source_lang: "fr", source_text: "frais", translation: "ceede ɓeydaari", test_data: false },
+      { id: "fee", source_lang: "en", source_text: "fee", translation: "ceede ɓeydaari", test_data: false },
+      { id: "fees", source_lang: "en", source_text: "Fees", translation: "ceede ɓeydaari", test_data: false },
+      { id: "minimum", source_lang: "en", source_text: "min.", translation: "ko famɗi", test_data: false },
+      { id: "maximum", source_lang: "en", source_text: "max.", translation: "ko ɓuri mawnude", test_data: false },
+    ] }));
+    const { calls, mgr } = build((ids) => resp(ids), {}, gl);
+    const out = await mgr.translate("en", "ff", [
+      seg("1", "2% fee (min. {{P0}}, max. {{P1}})"),
+      seg("2", "Fees"),
+      seg("3", "coffee"),
+    ]);
+
+    expect(out[0]).toMatchObject({
+      status: "validated",
+      translation: "2% ceede ɓeydaari (ko famɗi {{P0}}, ko ɓuri mawnude {{P1}})",
+    });
+    expect(out[1]).toMatchObject({ status: "validated", translation: "ceede ɓeydaari" });
+    expect(out[2].status).toBe("machine_unvalidated");
+    expect(calls).toHaveLength(1);
+  });
   it("retrouve un libellé court dans sa langue exacte quand la page est détectée dans l'autre langue", async () => {
     const gl = new GlossaryClient(async () => ({ language: "t", version: "1", entries: [
       { id: "g1", source_lang: "en", source_text: "Account number :", translation: "Lamba konto :", test_data: false },

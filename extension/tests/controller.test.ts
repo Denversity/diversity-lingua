@@ -59,6 +59,17 @@ describe("PageTranslator — parcours complet", () => {
       .toEqual(expect.arrayContaining([["fr", "Bonjour, Mariam"], ["en", "Hello, Mariam"]]));
   });
 
+  it("détecte une ligne de frais en anglais même sur une page déclarée en français", async () => {
+    document.documentElement.setAttribute("lang", "fr");
+    document.body.innerHTML = "<p>2% fee (min. 200 FCFA, max. 5,000 FCFA)</p>";
+    const fake = fakeBackend();
+    const { tr } = makeTranslator(fake);
+    await tr.activate("xx-test");
+
+    expect(fake.calls.flatMap((call) => call.type === "dl/translate" ? call.segments.map((s) => [call.source, s.text]) : []))
+      .toContainEqual(["en", expect.stringContaining("fee")]);
+  });
+
   it("une traduction qui perd un jeton est rejetée côté client (montant jamais altéré)", async () => {
     const { tr } = makeTranslator(fakeBackend({ mutate: (_id, text) => text.replace(/\{\{P\d+\}\}/g, "") }));
     await tr.activate("xx-test");

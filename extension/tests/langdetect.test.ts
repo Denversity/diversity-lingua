@@ -14,7 +14,7 @@ describe("détection de langue par segment (libellés financiers courts)", () =>
     expect(seg("Cancel").source).toBe("none");
     expect(seg("Annuler").source).toBe("none");
   });
-  it.each([["Frais", "fr"], ["Bénéficiaire", "fr"], ["Numéro de compte", "fr"], ["Fees", "en"], ["Beneficiary", "en"], ["Account number", "en"]] as const)(
+  it.each([["Frais", "fr"], ["Bénéficiaire", "fr"], ["Numéro de compte", "fr"], ["Fees", "en"], ["fee", "en"], ["Beneficiary", "en"], ["Account number", "en"]] as const)(
     "terme financier sélectionné « %s » → %s",
     (term, lang) => expect(detectLanguage(term, null, 1, 1)).toMatchObject({ lang, source: "text" }),
   );

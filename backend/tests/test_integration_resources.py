@@ -98,7 +98,7 @@ def test_referentiel_endpoint_reports_loaded_resources(api):
     d = api.get("/api/v1/referentiel").json()
     assert d["glossary"]["load_errors"] == [] and d["memory"]["load_errors"] == []
     assert d["glossary"]["versions"]["ff"] == "1.0.0" and d["memory"]["versions"]["ff"] == "1.0.0"
-    assert d["glossary"]["targets_by_status"]["ff"]["approved"] == 147
+    assert d["glossary"]["targets_by_status"]["ff"]["approved"] == 149
     assert d["glossary"]["targets_by_status"]["ff"]["pending_validation"] >= 3
     assert d["memory"]["targets_by_status"]["ff"] == {"approved": 234}
 
@@ -129,20 +129,28 @@ def test_exact_search_in_glossary_fr_and_en(api):
 
 
 def test_fees_other_bank_and_account_number_are_available_in_both_source_languages(api):
-    fees_fr = tr(api, ["Frais"], "fr")[0]
-    fees_en = tr(api, ["Fee", "Fees"], "en")
+    fees_fr = tr(api, ["Frais", "frais"], "fr")
+    fees_en = tr(api, ["Fee", "fee", "Fees"], "en")
     bank_fr = tr(api, ["Autre banque"], "fr")[0]
     bank_en = tr(api, ["Other bank"], "en")[0]
     account_fr = tr(api, ["Numéro de compte"], "fr")[0]
     account_en = tr(api, ["Account number"], "en")[0]
 
-    assert fees_fr["translation_status"] == "approved"
-    assert fees_en[0]["translation"] == fees_en[1]["translation"] == fees_fr["translation"]
+    assert all(r["translation_status"] == "approved" for r in fees_fr)
+    assert len({r["translation"] for r in fees_fr + fees_en}) == 1
     assert all(r["translation_status"] == "approved" for r in fees_en)
     assert bank_fr["translation"] == bank_en["translation"] == "Banki feere"
     assert bank_fr["translation_status"] == bank_en["translation_status"] == "approved"
     assert all(r["translation"] for r in (account_fr, account_en))
     assert account_fr["translation_status"] == account_en["translation_status"] == "approved"
+
+
+def test_min_and_max_glossary_entries_from_supplemental_workbook(api):
+    results_fr = tr(api, ["min.", "max."], "fr")
+    results_en = tr(api, ["min.", "max."], "en")
+    assert [r["translation"] for r in results_fr] == ["ko famɗi", "ko ɓuri mawnude"]
+    assert [r["translation"] for r in results_en] == ["ko famɗi", "ko ɓuri mawnude"]
+    assert all(r["translation_status"] == "approved" for r in results_fr + results_en)
 
 
 def test_source_languages_are_not_mixed(api):
@@ -342,4 +350,4 @@ def test_export_for_extension_contains_only_approved(api):
     d = api.get("/api/v1/glossary/export", params={"target": "ff"}).json()
     pend = {_target(_concept(SRC_GLOSSARY, cid), pending)["preferred"] for cid, _, pending in CONFLICTS}
     assert d["entries"] and not ({e["translation"] for e in d["entries"]} & pend)
-    assert len({e["concept_id"] for e in d["entries"]}) == 147
+    assert len({e["concept_id"] for e in d["entries"]}) == 149

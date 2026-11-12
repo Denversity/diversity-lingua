@@ -52,6 +52,15 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 La modification de stratégie ci-dessus ne concerne que la session PowerShell courante; elle ne change pas la stratégie permanente du système. Le script crée un environnement Python local et installe les dépendances du backend. **Il ne reconstruit pas l’extension** : le dossier précompilé `extension\dist` est inclus dans le projet et prêt à charger. Node.js n’est donc pas nécessaire pour une installation standard.
 
+Si PowerShell indique que `.\scripts\setup.ps1` est introuvable ou « n’est pas reconnu », vérifiez que le terminal se trouve bien à la racine du dossier extrait :
+
+```powershell
+Get-Location
+Test-Path .\scripts\setup.ps1
+```
+
+La seconde commande doit afficher `True`. Sinon, ouvrez le dossier du projet dans VS Code ou naviguez-y avec `Set-Location`. Autre option : depuis l’invite de commandes Windows (ou en double-cliquant sur le fichier), lancez `setup.cmd` à la racine du projet; ce lanceur appelle le script avec la politique d’exécution limitée au processus.
+
 Ne copiez pas le dossier `.venv` d’un ordinateur à un autre : les environnements virtuels Python sous Windows contiennent des chemins propres à la machine. Si le ZIP contient déjà `.venv`, supprimez ce dossier sur le PC de destination avant l’installation. Le script crée alors un environnement local neuf. Il n’est pas nécessaire d’activer l’environnement manuellement.
 
 Pour supprimer l’environnement copié à la racine du projet, depuis cette racine :
@@ -80,7 +89,7 @@ Dans Chrome :
 
 1. Ouvrez `chrome://extensions` et activez le **mode développeur**.
 2. Cliquez **Charger l’extension non empaquetée** et sélectionnez `extension\dist`.
-3. Ouvrez le site de demo Safinum Pay.
+3. Ouvrez `http://127.0.0.1:8000/demo/`, la démonstration fictive livrée avec le projet.
 4. Depuis l’icône Diversity Lingua, activez la traduction et choisissez **Fulfulde**. Pour vérifier le parcours de démonstration isolé, sélectionnez **Langue de test** en environnement de développement.
 
 L’API est disponible à `http://127.0.0.1:8000`; sa documentation interactive est sur `http://127.0.0.1:8000/docs`. Gardez la fenêtre du backend ouverte pendant la démonstration. Après une reconstruction de l’extension, cliquez sur **Recharger** dans `chrome://extensions`.
@@ -111,14 +120,14 @@ N’utilisez pas de vraies données de compte, de PIN, de bénéficiaire ou de t
 
 La langue cible configurée est `ff`, variété `adamawa`; les langues sources sont `fr` et `en`.
 
-- Le glossaire livré contient **146 concepts** structurés à partir de 149 formulations sources. Trois variantes ambiguës restent `pending_validation` et ne sont pas proposées comme traductions approuvées.
+- Le glossaire livré contient **146 concepts** structurés à partir de 149 formulations sources, auxquels s’ajoutent les entrées approuvées `min.` et `max.` du fichier complémentaire Excel. Trois variantes ambiguës restent `pending_validation` et ne sont pas proposées comme traductions approuvées.
 - La mémoire contient **234 segments approuvés**, représentant 117 phrases en français et en anglais, dont certaines comportent des variables.
-- **148 périphrases descriptives Fulfulde** sont disponibles pour le mode Comprendre.
+- **150 périphrases descriptives Fulfulde** sont disponibles pour le mode Comprendre, dont celles de `min.` et `max.`.
 - La traduction du projet pour `Retour` / `Back` est `ɓaawo`. Cette correction est conservée dans la mémoire active avec son historique; les livrables de référence d’origine restent intacts.
 - Le fichier actif du glossaire conserve également des entrées vides provenant du gabarit initial. Elles ne constituent pas des traductions et ne doivent pas être confondues avec les trois variantes réelles en attente.
 - La variété et les ressources viennent du travail linguistique livré. L’équipe technique n’a pas effectué une nouvelle validation par locuteur natif; l’orthographe et le code ISO 639-3 éventuel restent à confirmer par un spécialiste.
 
-Les données actives se trouvent sous `data/`. Les fichiers livrés en référence, conservés sans modification et utilisés par les tests de comparaison, sont dans [`data/references/linguistic-delivery/`](data/references/linguistic-delivery/). Les modèles JSON vides sont dans [`schemas/examples/`](schemas/examples/). Les schémas sont générés depuis les modèles Pydantic de `backend/app/referentiel/models.py`.
+Les données actives se trouvent sous `data/`. Les livrables linguistiques de référence, conservés sans modification et utilisés par les tests de comparaison, ainsi que le classeur complémentaire, sont dans [`data/references/linguistic-delivery/`](data/references/linguistic-delivery/). Les modèles JSON vides sont dans [`schemas/examples/`](schemas/examples/). Les schémas sont générés depuis les modèles Pydantic de `backend/app/referentiel/models.py`.
 
 ### Mettre à jour un livrable linguistique
 

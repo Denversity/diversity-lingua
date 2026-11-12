@@ -10533,6 +10533,120 @@
           "notes": "Banque diff?rente de celle utilis?e pour le compte."
         }
       ]
+    },
+    {
+      "concept_id": "fin_fin_0152",
+      "domain": "Frais",
+      "contexts": [],
+      "definition": null,
+      "sources": {
+        "fr": {
+          "preferred": "min.",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "min.",
+          "accepted": []
+        }
+      },
+      "tags": [
+        "frais"
+      ],
+      "provenance": {
+        "author": "Validation Linguiste / Expert",
+        "organization": "Team Diversity",
+        "source_document": "Classeur1-3.xlsx, Feuil1",
+        "method": "native_speaker",
+        "date": "2026-11-06",
+        "license": null,
+        "notes": "Traduction et périphrase descriptive reprises du fichier Excel fourni."
+      },
+      "version": 1,
+      "notes": null,
+      "targets": [
+        {
+          "target_id": "FIN-0152",
+          "contexts": [],
+          "preferred": "ko famɗi",
+          "accepted": [],
+          "status": "approved",
+          "validation": {
+            "validator_id": "Validation Linguiste / Expert",
+            "validated_at": "2026-11-06",
+            "method": "native_speaker",
+            "comment": null
+          },
+          "version": 1,
+          "history": [],
+          "provenance": {
+            "author": "Validation Linguiste / Expert",
+            "organization": "Team Diversity",
+            "source_document": "Classeur1-3.xlsx, Feuil1",
+            "method": "native_speaker",
+            "date": "2026-11-06",
+            "license": null,
+            "notes": "Traduction reprise du fichier Excel fourni."
+          },
+          "notes": null
+        }
+      ]
+    },
+    {
+      "concept_id": "fin_fin_0153",
+      "domain": "Frais",
+      "contexts": [],
+      "definition": null,
+      "sources": {
+        "fr": {
+          "preferred": "max.",
+          "accepted": []
+        },
+        "en": {
+          "preferred": "max.",
+          "accepted": []
+        }
+      },
+      "tags": [
+        "frais"
+      ],
+      "provenance": {
+        "author": "Validation Linguiste / Expert",
+        "organization": "Team Diversity",
+        "source_document": "Classeur1-3.xlsx, Feuil1",
+        "method": "native_speaker",
+        "date": "2026-11-06",
+        "license": null,
+        "notes": "Traduction et périphrase descriptive reprises du fichier Excel fourni."
+      },
+      "version": 1,
+      "notes": null,
+      "targets": [
+        {
+          "target_id": "FIN-0153",
+          "contexts": [],
+          "preferred": "ko ɓuri mawnude",
+          "accepted": [],
+          "status": "approved",
+          "validation": {
+            "validator_id": "Validation Linguiste / Expert",
+            "validated_at": "2026-11-06",
+            "method": "native_speaker",
+            "comment": null
+          },
+          "version": 1,
+          "history": [],
+          "provenance": {
+            "author": "Validation Linguiste / Expert",
+            "organization": "Team Diversity",
+            "source_document": "Classeur1-3.xlsx, Feuil1",
+            "method": "native_speaker",
+            "date": "2026-11-06",
+            "license": null,
+            "notes": "Traduction reprise du fichier Excel fourni."
+          },
+          "notes": null
+        }
+      ]
     }
   ]
 }

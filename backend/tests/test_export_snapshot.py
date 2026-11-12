@@ -48,6 +48,14 @@ def test_project_requested_back_translation_is_in_offline_snapshot():
     assert by_key[("en", "back")]["translation"] == "ɓaawo"
 
 
+def test_supplemental_terms_and_case_insensitive_fee_are_in_offline_snapshot():
+    by_key = {(e["source_lang"], normalize(e["source_text"])): e for e in snapshot()["entries"]}
+    fee = by_key[("en", "fee")]
+    assert fee["translation"] == by_key[("fr", "frais")]["translation"] == "ceede ɓeydaari"
+    assert by_key[("fr", "min")]["translation"] == by_key[("en", "min")]["translation"] == "ko famɗi"
+    assert by_key[("fr", "max")]["translation"] == by_key[("en", "max")]["translation"] == "ko ɓuri mawnude"
+
+
 def test_every_variable_free_memory_phrase_is_exported():
     keys = {(e["source_lang"], normalize(e["source_text"])) for e in snapshot()["entries"]}
     for s in SRC_MEMORY["segments"]:

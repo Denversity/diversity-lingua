@@ -4123,6 +4123,42 @@
    "contexts": [],
    "test_data": false,
    "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0152|fr|0",
+   "source_lang": "fr",
+   "source_text": "min.",
+   "translation": "ko famɗi",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0152|en|0",
+   "source_lang": "en",
+   "source_text": "min.",
+   "translation": "ko famɗi",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0153|fr|0",
+   "source_lang": "fr",
+   "source_text": "max.",
+   "translation": "ko ɓuri mawnude",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
+  },
+  {
+   "id": "ff:FIN-0153|en|0",
+   "source_lang": "en",
+   "source_text": "max.",
+   "translation": "ko ɓuri mawnude",
+   "contexts": [],
+   "test_data": false,
+   "origin": "glossary"
   }
  ]
 }

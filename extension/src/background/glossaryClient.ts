@@ -90,6 +90,53 @@ export class GlossaryClient {
     return placeholdersMatch(masked, translation) ? { translation, entry } : null;
   }
 
+  async translateInlineTerms(masked: string, source: string, target: string): Promise<{ translation: string; entry: GlossaryEntry } | null> {
+    const idx = await this.index(target);
+    const entries = (idx?.bySource.get(source) ?? []).filter((entry) => {
+      const term = entry.source_text.trim();
+      return /^\p{L}+(?:['’-]\p{L}+)*$/u.test(term) || /^\p{L}{1,4}\.$/u.test(term);
+    });
+    if (!entries.length) return null;
+
+    const matches: { start: number; end: number; entries: GlossaryEntry[] }[] = [];
+    for (const entry of entries) {
+      const term = entry.source_text.trim();
+      const pattern = new RegExp(`(?<![\\p{L}\\p{N}_])${escapeRegExp(term)}(?![\\p{L}\\p{N}_])`, "giu");
+      for (const match of masked.matchAll(pattern)) {
+        const start = match.index;
+        const end = start + match[0].length;
+        const same = matches.find((candidate) => candidate.start === start && candidate.end === end);
+        if (same) {
+          if (!same.entries.some((candidate) => candidate.translation === entry.translation)) same.entries.push(entry);
+        } else {
+          matches.push({ start, end, entries: [entry] });
+        }
+      }
+    }
+    if (!matches.length) return null;
+
+    matches.sort((a, b) => a.start - b.start || b.end - a.end);
+    let cursor = 0;
+    let changed = false;
+    let translation = "";
+    let firstEntry: GlossaryEntry | null = null;
+    for (const match of matches) {
+      if (match.start < cursor) continue;
+      translation += masked.slice(cursor, match.start);
+      if (new Set(match.entries.map((entry) => entry.translation)).size === 1) {
+        translation += match.entries[0].translation;
+        firstEntry ??= match.entries[0];
+        changed = true;
+      } else {
+        translation += masked.slice(match.start, match.end);
+      }
+      cursor = match.end;
+    }
+    translation += masked.slice(cursor);
+
+    return changed && firstEntry && placeholdersMatch(masked, translation) ? { translation, entry: firstEntry } : null;
+  }
+
   async lookupOtherSource(masked: string, source: string, target: string): Promise<{ translation: string; entry: GlossaryEntry } | null> {
     if (source !== "fr" && source !== "en") return null;
     const other = source === "fr" ? "en" : "fr";

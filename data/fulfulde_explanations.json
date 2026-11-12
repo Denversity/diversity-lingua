@@ -673,7 +673,7 @@
       "id": "FIN-0076",
       "francais": "total à payer",
       "anglais": "total to pay",
-      "periphrase_descriptive": "kamtal ceede fuu ɗe njoɓetee",
+      "periphrase_descriptive": "kawtal ceede fuu ɗe njoɓetee",
       "status": "approved",
       "validated_by": "Validation Linguiste / Expert",
       "validated_at": "2026-11-06"
@@ -1331,6 +1331,24 @@
       "francais": "Nouveau transfert",
       "anglais": "New transfer",
       "periphrase_descriptive": "Puɗɗagol gollal kesal ngam neldol ceede fahin.",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0152",
+      "francais": "min.",
+      "anglais": "min.",
+      "periphrase_descriptive": "tolno ceede ɓurɗo fanɗude",
+      "status": "approved",
+      "validated_by": "Validation Linguiste / Expert",
+      "validated_at": "2026-11-06"
+    },
+    {
+      "id": "FIN-0153",
+      "francais": "max.",
+      "anglais": "max.",
+      "periphrase_descriptive": "tolno ceede ɓurɗo mawnude",
       "status": "approved",
       "validated_by": "Validation Linguiste / Expert",
       "validated_at": "2026-11-06"
